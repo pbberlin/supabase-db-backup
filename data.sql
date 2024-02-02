@@ -884,6 +884,12 @@ COPY "auth"."audit_log_entries" ("instance_id", "id", "payload", "created_at", "
 00000000-0000-0000-0000-000000000000	ad2abd95-2b95-4cb6-a28b-0de896c23ed8	{"action":"token_revoked","actor_id":"3e6ce704-6f28-4889-83d4-d18866820793","actor_username":"user0004@turingmarkets.com","actor_via_sso":false,"log_type":"token"}	2024-01-31 15:35:54.910401+00	
 00000000-0000-0000-0000-000000000000	e905644a-8d14-4dbb-aab9-9cf0918b835b	{"action":"token_refreshed","actor_id":"3e6ce704-6f28-4889-83d4-d18866820793","actor_username":"user0004@turingmarkets.com","actor_via_sso":false,"log_type":"token"}	2024-01-31 16:53:56.92778+00	
 00000000-0000-0000-0000-000000000000	e85987ab-4635-4de4-84b7-83f9f70f17fd	{"action":"token_revoked","actor_id":"3e6ce704-6f28-4889-83d4-d18866820793","actor_username":"user0004@turingmarkets.com","actor_via_sso":false,"log_type":"token"}	2024-01-31 16:53:56.930306+00	
+00000000-0000-0000-0000-000000000000	9bb9c510-5326-47f0-8d8c-9e210b5b29d6	{"action":"token_refreshed","actor_id":"3e6ce704-6f28-4889-83d4-d18866820793","actor_username":"user0004@turingmarkets.com","actor_via_sso":false,"log_type":"token"}	2024-02-01 09:56:39.61879+00	
+00000000-0000-0000-0000-000000000000	87eb8a19-b909-4822-aeed-a76be9c354e9	{"action":"token_revoked","actor_id":"3e6ce704-6f28-4889-83d4-d18866820793","actor_username":"user0004@turingmarkets.com","actor_via_sso":false,"log_type":"token"}	2024-02-01 09:56:39.622467+00	
+00000000-0000-0000-0000-000000000000	dc200c17-1b1b-4868-8b43-81bb2600661c	{"action":"token_refreshed","actor_id":"3e6ce704-6f28-4889-83d4-d18866820793","actor_username":"user0004@turingmarkets.com","actor_via_sso":false,"log_type":"token"}	2024-02-01 15:31:46.075945+00	
+00000000-0000-0000-0000-000000000000	c5bbb463-bd90-4ae1-adc7-6367e1a55771	{"action":"token_revoked","actor_id":"3e6ce704-6f28-4889-83d4-d18866820793","actor_username":"user0004@turingmarkets.com","actor_via_sso":false,"log_type":"token"}	2024-02-01 15:31:46.076891+00	
+00000000-0000-0000-0000-000000000000	cb815ae1-b7f0-4f44-a47a-c029b0b8cf50	{"action":"token_refreshed","actor_id":"3e6ce704-6f28-4889-83d4-d18866820793","actor_username":"user0004@turingmarkets.com","actor_via_sso":false,"log_type":"token"}	2024-02-01 16:50:34.010534+00	
+00000000-0000-0000-0000-000000000000	a6ad9af2-2929-4ffe-aaca-23b7ec352501	{"action":"token_revoked","actor_id":"3e6ce704-6f28-4889-83d4-d18866820793","actor_username":"user0004@turingmarkets.com","actor_via_sso":false,"log_type":"token"}	2024-02-01 16:50:34.011337+00	
 \.
 
 
@@ -903,11 +909,11 @@ COPY "auth"."users" ("instance_id", "id", "aud", "role", "email", "encrypted_pas
 00000000-0000-0000-0000-000000000000	d6ac680e-17ab-4632-890e-e7392628cbc1	authenticated	authenticated	dre@test.de	$2a$10$PTfMVJJCgYRpmTld8RF5xup2Ydk1N8H4NKxu8Pnk6IIM5oMCHhspi	2023-11-19 23:04:29.312986+00	\N		\N		\N			\N	2023-11-19 23:24:37.596849+00	{"provider": "email", "providers": ["email"]}	{}	\N	2023-11-19 23:04:29.30962+00	2023-11-19 23:24:37.598484+00	\N	\N			\N		0	\N		\N	f	\N
 00000000-0000-0000-0000-000000000000	101598e1-340e-4dc0-9dca-54d7768f48e5	authenticated	authenticated	pbu@test.de	$2a$10$ZgxPXN9NOXLugZBktRk7puGSVET8d1aB/graAoon3SIAiOpfTPf8m	2023-11-19 21:38:19.234979+00	\N		\N		\N			\N	2023-12-18 12:54:34.95879+00	{"provider": "email", "providers": ["email"]}	{}	\N	2023-11-19 21:38:19.231734+00	2023-12-18 14:09:23.945649+00	\N	\N			\N		0	\N		\N	f	\N
 00000000-0000-0000-0000-000000000000	7f1697c0-8ff7-45e2-a486-a093efad5fe5	authenticated	authenticated	svl@test.de	$2a$10$Ayes/oR7j70CiPQB5gB3s..SKyCtu5Vq8vhsMXgAPWRBMxUxTfYyu	2023-11-19 22:48:16.711553+00	\N		\N		\N			\N	2024-01-17 10:22:26.951589+00	{"provider": "email", "providers": ["email"]}	{}	\N	2023-11-19 22:48:16.708479+00	2024-01-30 15:07:09.355672+00	\N	\N			\N		0	\N		\N	f	\N
+00000000-0000-0000-0000-000000000000	3e6ce704-6f28-4889-83d4-d18866820793	authenticated	authenticated	user0004@turingmarkets.com	$2a$10$VuU/fQWqyFs/ysG7rWIpb.5ysYsagTiYghqe9xxrHn2zuhAuHAN..	2024-01-31 13:46:34.401757+00	\N		\N		\N			\N	2024-01-31 13:46:55.528268+00	{"provider": "email", "providers": ["email"]}	{}	\N	2024-01-31 13:46:34.395309+00	2024-02-01 16:50:34.017407+00	\N	\N			\N		0	\N		\N	f	\N
 00000000-0000-0000-0000-000000000000	6414c9a8-9199-4674-a856-d6585fd19e1d	authenticated	authenticated	jwl@test.de	$2a$10$H1DtOFePPkX/ubdlWgCLDee5Z.zNXJVkvu9arSf.ANcW39XbWpBUO	2023-11-19 22:47:56.861001+00	\N		\N		\N			\N	2024-01-31 07:09:16.790952+00	{"provider": "email", "providers": ["email"]}	{}	\N	2023-11-19 22:47:56.858165+00	2024-01-31 09:17:01.934223+00	\N	\N			\N		0	\N		\N	f	\N
 00000000-0000-0000-0000-000000000000	c4dae5ff-bcac-4846-9f37-ce00a6a57d2d	authenticated	authenticated	user0002@turingmarkets.com	$2a$10$mXYtkdarkaMPUhkIftQlYe3dgzGFJ44M9ggXkwbBSEmZHbZ.f4EZq	2024-01-31 13:01:50.782071+00	\N		\N		\N			\N	2024-01-31 13:03:14.850476+00	{"provider": "email", "providers": ["email"]}	{}	\N	2024-01-31 13:01:50.776752+00	2024-01-31 13:03:14.854002+00	\N	\N			\N		0	\N		\N	f	\N
 00000000-0000-0000-0000-000000000000	42b57589-1616-4449-9e2d-a94220577ce8	authenticated	authenticated	user0003@turingmarkets.com	$2a$10$87HvmLxEITcLoddwLGozlO.OXzDDbFeEPuw63Aw2DldxU6WKCAobW	2024-01-31 13:01:50.839782+00	\N		\N		\N			\N	2024-01-31 13:11:08.051018+00	{"provider": "email", "providers": ["email"]}	{}	\N	2024-01-31 13:01:50.834116+00	2024-01-31 13:11:08.055774+00	\N	\N			\N		0	\N		\N	f	\N
 00000000-0000-0000-0000-000000000000	cece0963-9508-412c-9c3d-fba052140313	authenticated	authenticated	user0001@turingmarkets.com	$2a$10$vl1SrqusRihXcijDnl3Hju9y/3mdBeZbc9dfeYY6xcA.HovGWugX2	2024-01-31 13:01:01.844625+00	\N		\N		\N			\N	2024-01-31 13:01:26.378616+00	{"provider": "email", "providers": ["email"]}	{}	\N	2024-01-31 13:01:01.837838+00	2024-01-31 13:01:26.380728+00	\N	\N			\N		0	\N		\N	f	\N
-00000000-0000-0000-0000-000000000000	3e6ce704-6f28-4889-83d4-d18866820793	authenticated	authenticated	user0004@turingmarkets.com	$2a$10$VuU/fQWqyFs/ysG7rWIpb.5ysYsagTiYghqe9xxrHn2zuhAuHAN..	2024-01-31 13:46:34.401757+00	\N		\N		\N			\N	2024-01-31 13:46:55.528268+00	{"provider": "email", "providers": ["email"]}	{}	\N	2024-01-31 13:46:34.395309+00	2024-01-31 16:53:56.936326+00	\N	\N			\N		0	\N		\N	f	\N
 \.
 
 
@@ -957,7 +963,7 @@ a41204b2-376d-4c84-888a-cf5ee3e7ef16	42b57589-1616-4449-9e2d-a94220577ce8	2024-0
 b2a02f78-8ca6-4ae1-86b1-0aefc7988323	42b57589-1616-4449-9e2d-a94220577ce8	2024-01-31 13:11:08.051093+00	2024-01-31 13:11:08.051093+00	\N	aal1	\N	\N	Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:121.0) Gecko/20100101 Firefox/121.0	87.180.239.125	\N
 d6260833-3d6d-43a3-ba4a-165b8b7992f5	3e6ce704-6f28-4889-83d4-d18866820793	2024-01-31 13:46:34.40477+00	2024-01-31 13:46:34.40477+00	\N	aal1	\N	\N	Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:121.0) Gecko/20100101 Firefox/121.0	87.180.239.125	\N
 c35a8f0f-5b67-425f-a4ed-69d24963c3ca	6414c9a8-9199-4674-a856-d6585fd19e1d	2024-01-31 07:09:16.791027+00	2024-01-31 09:17:01.936199+00	\N	aal1	\N	2024-01-31 09:17:01.936122	Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:121.0) Gecko/20100101 Firefox/121.0	87.180.239.125	\N
-cf7931e9-0826-4544-ae02-7a5d65dab06d	3e6ce704-6f28-4889-83d4-d18866820793	2024-01-31 13:46:55.528358+00	2024-01-31 16:53:56.938319+00	\N	aal1	\N	2024-01-31 16:53:56.938226	Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:121.0) Gecko/20100101 Firefox/121.0	87.180.239.125	\N
+cf7931e9-0826-4544-ae02-7a5d65dab06d	3e6ce704-6f28-4889-83d4-d18866820793	2024-01-31 13:46:55.528358+00	2024-02-01 16:50:34.018773+00	\N	aal1	\N	2024-02-01 16:50:34.018696	Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:121.0) Gecko/20100101 Firefox/121.0	193.196.11.188	\N
 \.
 
 
@@ -1033,7 +1039,10 @@ COPY "auth"."refresh_tokens" ("instance_id", "id", "token", "user_id", "revoked"
 00000000-0000-0000-0000-000000000000	624	3fwXq5Z8GIMhY3eliGQSww	3e6ce704-6f28-4889-83d4-d18866820793	f	2024-01-31 13:46:34.405668+00	2024-01-31 13:46:34.405668+00	\N	d6260833-3d6d-43a3-ba4a-165b8b7992f5
 00000000-0000-0000-0000-000000000000	625	RqDEutNEG1_-GY7XTFCWmQ	3e6ce704-6f28-4889-83d4-d18866820793	t	2024-01-31 13:46:55.529342+00	2024-01-31 15:35:54.911102+00	\N	cf7931e9-0826-4544-ae02-7a5d65dab06d
 00000000-0000-0000-0000-000000000000	626	SHzvrPL1QsS68StNyHsbMQ	3e6ce704-6f28-4889-83d4-d18866820793	t	2024-01-31 15:35:54.91246+00	2024-01-31 16:53:56.930954+00	RqDEutNEG1_-GY7XTFCWmQ	cf7931e9-0826-4544-ae02-7a5d65dab06d
-00000000-0000-0000-0000-000000000000	627	UQeOEptqvXOQH_2FebaSjg	3e6ce704-6f28-4889-83d4-d18866820793	f	2024-01-31 16:53:56.932381+00	2024-01-31 16:53:56.932381+00	SHzvrPL1QsS68StNyHsbMQ	cf7931e9-0826-4544-ae02-7a5d65dab06d
+00000000-0000-0000-0000-000000000000	627	UQeOEptqvXOQH_2FebaSjg	3e6ce704-6f28-4889-83d4-d18866820793	t	2024-01-31 16:53:56.932381+00	2024-02-01 09:56:39.623287+00	SHzvrPL1QsS68StNyHsbMQ	cf7931e9-0826-4544-ae02-7a5d65dab06d
+00000000-0000-0000-0000-000000000000	628	EZuKVNV61W6cGBKcfBfJLg	3e6ce704-6f28-4889-83d4-d18866820793	t	2024-02-01 09:56:39.62705+00	2024-02-01 15:31:46.077588+00	UQeOEptqvXOQH_2FebaSjg	cf7931e9-0826-4544-ae02-7a5d65dab06d
+00000000-0000-0000-0000-000000000000	629	yidpY3mpRIRFCGI-9pyDgg	3e6ce704-6f28-4889-83d4-d18866820793	t	2024-02-01 15:31:46.078123+00	2024-02-01 16:50:34.011928+00	EZuKVNV61W6cGBKcfBfJLg	cf7931e9-0826-4544-ae02-7a5d65dab06d
+00000000-0000-0000-0000-000000000000	630	mNXOsnyYp9AjSQvhLKh0rg	3e6ce704-6f28-4889-83d4-d18866820793	f	2024-02-01 16:50:34.012379+00	2024-02-01 16:50:34.012379+00	yidpY3mpRIRFCGI-9pyDgg	cf7931e9-0826-4544-ae02-7a5d65dab06d
 00000000-0000-0000-0000-000000000000	547	LbMB0NZ0awffVDPQpGNQQw	6414c9a8-9199-4674-a856-d6585fd19e1d	t	2024-01-23 15:39:08.183901+00	2024-01-24 14:11:08.775727+00	\N	1da5da1c-e5af-4d8f-b1f3-61e04c108e54
 00000000-0000-0000-0000-000000000000	557	Rf_jNMqF0XOv1B8zum9ZRg	6414c9a8-9199-4674-a856-d6585fd19e1d	f	2024-01-24 14:11:08.776632+00	2024-01-24 14:11:08.776632+00	LbMB0NZ0awffVDPQpGNQQw	1da5da1c-e5af-4d8f-b1f3-61e04c108e54
 \.
@@ -1314,7 +1323,7 @@ COPY "vault"."secrets" ("id", "name", "description", "secret", "key_id", "nonce"
 -- Name: refresh_tokens_id_seq; Type: SEQUENCE SET; Schema: auth; Owner: supabase_auth_admin
 --
 
-SELECT pg_catalog.setval('"auth"."refresh_tokens_id_seq"', 627, true);
+SELECT pg_catalog.setval('"auth"."refresh_tokens_id_seq"', 630, true);
 
 
 --
