@@ -890,6 +890,111 @@ COPY "auth"."audit_log_entries" ("instance_id", "id", "payload", "created_at", "
 00000000-0000-0000-0000-000000000000	c5bbb463-bd90-4ae1-adc7-6367e1a55771	{"action":"token_revoked","actor_id":"3e6ce704-6f28-4889-83d4-d18866820793","actor_username":"user0004@turingmarkets.com","actor_via_sso":false,"log_type":"token"}	2024-02-01 15:31:46.076891+00	
 00000000-0000-0000-0000-000000000000	cb815ae1-b7f0-4f44-a47a-c029b0b8cf50	{"action":"token_refreshed","actor_id":"3e6ce704-6f28-4889-83d4-d18866820793","actor_username":"user0004@turingmarkets.com","actor_via_sso":false,"log_type":"token"}	2024-02-01 16:50:34.010534+00	
 00000000-0000-0000-0000-000000000000	a6ad9af2-2929-4ffe-aaca-23b7ec352501	{"action":"token_revoked","actor_id":"3e6ce704-6f28-4889-83d4-d18866820793","actor_username":"user0004@turingmarkets.com","actor_via_sso":false,"log_type":"token"}	2024-02-01 16:50:34.011337+00	
+00000000-0000-0000-0000-000000000000	78dd3858-ac24-40be-9272-9b75b1b73b84	{"action":"token_refreshed","actor_id":"3e6ce704-6f28-4889-83d4-d18866820793","actor_username":"user0004@turingmarkets.com","actor_via_sso":false,"log_type":"token"}	2024-02-02 07:11:34.541647+00	
+00000000-0000-0000-0000-000000000000	824ab291-36e0-4b2c-888c-b0383e0c5292	{"action":"token_revoked","actor_id":"3e6ce704-6f28-4889-83d4-d18866820793","actor_username":"user0004@turingmarkets.com","actor_via_sso":false,"log_type":"token"}	2024-02-02 07:11:34.542298+00	
+00000000-0000-0000-0000-000000000000	85bd0e6e-e8db-4d07-856f-169be9ee2b14	{"action":"token_refreshed","actor_id":"3e6ce704-6f28-4889-83d4-d18866820793","actor_username":"user0004@turingmarkets.com","actor_via_sso":false,"log_type":"token"}	2024-02-02 08:52:17.550697+00	
+00000000-0000-0000-0000-000000000000	2ca43819-f4c8-4f21-9260-b26816aaa5b7	{"action":"token_revoked","actor_id":"3e6ce704-6f28-4889-83d4-d18866820793","actor_username":"user0004@turingmarkets.com","actor_via_sso":false,"log_type":"token"}	2024-02-02 08:52:17.551393+00	
+00000000-0000-0000-0000-000000000000	09d44bd6-3323-4654-9de7-a63216ff0242	{"action":"user_signedup","actor_id":"304c4d41-b1ae-4334-a91a-c3a9896d3bf9","actor_username":"user0003@turingmarkets.com","actor_via_sso":false,"log_type":"team","traits":{"provider":"email"}}	2024-02-02 08:59:58.66343+00	
+00000000-0000-0000-0000-000000000000	032569cc-e69d-4967-8ecf-15e0547790c6	{"action":"user_signedup","actor_id":"b988a5c6-63d4-4bf6-b3e1-51efebab3ddb","actor_username":"user0001@turingmarkets.com","actor_via_sso":false,"log_type":"team","traits":{"provider":"email"}}	2024-02-02 08:59:58.665293+00	
+00000000-0000-0000-0000-000000000000	ab20ee81-2c2d-4fae-9777-ff7347282539	{"action":"login","actor_id":"304c4d41-b1ae-4334-a91a-c3a9896d3bf9","actor_username":"user0003@turingmarkets.com","actor_via_sso":false,"log_type":"account","traits":{"provider":"email"}}	2024-02-02 08:59:58.66702+00	
+00000000-0000-0000-0000-000000000000	7d7dacc3-bb6b-4ee3-a456-0015df4369c9	{"action":"login","actor_id":"b988a5c6-63d4-4bf6-b3e1-51efebab3ddb","actor_username":"user0001@turingmarkets.com","actor_via_sso":false,"log_type":"account","traits":{"provider":"email"}}	2024-02-02 08:59:58.668804+00	
+00000000-0000-0000-0000-000000000000	11fa2bd4-e983-4ad3-9ca6-4122c7a19fce	{"action":"user_signedup","actor_id":"01050bdb-f2aa-49f6-ad87-7d2b5ca411a4","actor_username":"user0002@turingmarkets.com","actor_via_sso":false,"log_type":"team","traits":{"provider":"email"}}	2024-02-02 08:59:58.739259+00	
+00000000-0000-0000-0000-000000000000	714bf85d-70d3-474d-9216-4e22f6365891	{"action":"login","actor_id":"01050bdb-f2aa-49f6-ad87-7d2b5ca411a4","actor_username":"user0002@turingmarkets.com","actor_via_sso":false,"log_type":"account","traits":{"provider":"email"}}	2024-02-02 08:59:58.741166+00	
+00000000-0000-0000-0000-000000000000	babfa25c-5642-4006-8901-49c1b49f05de	{"action":"user_signedup","actor_id":"b05e8a22-ab0e-40bc-8134-8c65fe41d61e","actor_username":"user0004@turingmarkets.com","actor_via_sso":false,"log_type":"team","traits":{"provider":"email"}}	2024-02-02 08:59:58.783784+00	
+00000000-0000-0000-0000-000000000000	e6813a98-779b-4481-ad96-08e8759e854f	{"action":"login","actor_id":"b05e8a22-ab0e-40bc-8134-8c65fe41d61e","actor_username":"user0004@turingmarkets.com","actor_via_sso":false,"log_type":"account","traits":{"provider":"email"}}	2024-02-02 08:59:58.787601+00	
+00000000-0000-0000-0000-000000000000	83d76be9-2e12-4336-9998-9b0ad669f5a0	{"action":"login","actor_id":"304c4d41-b1ae-4334-a91a-c3a9896d3bf9","actor_username":"user0003@turingmarkets.com","actor_via_sso":false,"log_type":"account","traits":{"provider":"email"}}	2024-02-02 09:10:59.237718+00	
+00000000-0000-0000-0000-000000000000	84253287-07fc-4dd2-a2a6-7e0b114ae4a3	{"action":"login","actor_id":"b988a5c6-63d4-4bf6-b3e1-51efebab3ddb","actor_username":"user0001@turingmarkets.com","actor_via_sso":false,"log_type":"account","traits":{"provider":"email"}}	2024-02-02 10:06:42.376062+00	
+00000000-0000-0000-0000-000000000000	d163379e-303c-4893-9fcd-6de5fd5a5c96	{"action":"token_refreshed","actor_id":"304c4d41-b1ae-4334-a91a-c3a9896d3bf9","actor_username":"user0003@turingmarkets.com","actor_via_sso":false,"log_type":"token"}	2024-02-02 10:34:24.468447+00	
+00000000-0000-0000-0000-000000000000	12b58bc2-0c11-4a81-958c-49d911e1d267	{"action":"token_revoked","actor_id":"304c4d41-b1ae-4334-a91a-c3a9896d3bf9","actor_username":"user0003@turingmarkets.com","actor_via_sso":false,"log_type":"token"}	2024-02-02 10:34:24.469168+00	
+00000000-0000-0000-0000-000000000000	cf5c2fa8-ca63-470f-a329-043bea8f7df6	{"action":"login","actor_id":"304c4d41-b1ae-4334-a91a-c3a9896d3bf9","actor_username":"user0003@turingmarkets.com","actor_via_sso":false,"log_type":"account","traits":{"provider":"email"}}	2024-02-02 10:41:32.34438+00	
+00000000-0000-0000-0000-000000000000	2bdab0c6-b92a-4e06-a1a9-cc4c14107e66	{"action":"login","actor_id":"304c4d41-b1ae-4334-a91a-c3a9896d3bf9","actor_username":"user0003@turingmarkets.com","actor_via_sso":false,"log_type":"account","traits":{"provider":"email"}}	2024-02-02 10:41:58.725916+00	
+00000000-0000-0000-0000-000000000000	27322ee5-c14e-46c3-b2b9-e615eab237af	{"action":"login","actor_id":"b988a5c6-63d4-4bf6-b3e1-51efebab3ddb","actor_username":"user0001@turingmarkets.com","actor_via_sso":false,"log_type":"account","traits":{"provider":"email"}}	2024-02-02 10:44:29.215404+00	
+00000000-0000-0000-0000-000000000000	ab948010-1d50-4069-9fc3-f6ff47659e0a	{"action":"logout","actor_id":"304c4d41-b1ae-4334-a91a-c3a9896d3bf9","actor_username":"user0003@turingmarkets.com","actor_via_sso":false,"log_type":"account"}	2024-02-02 10:46:38.547763+00	
+00000000-0000-0000-0000-000000000000	956ea3a2-73d5-43c6-9ef9-83042c042ee8	{"action":"login","actor_id":"01050bdb-f2aa-49f6-ad87-7d2b5ca411a4","actor_username":"user0002@turingmarkets.com","actor_via_sso":false,"log_type":"account","traits":{"provider":"email"}}	2024-02-02 10:47:35.638149+00	
+00000000-0000-0000-0000-000000000000	ea184501-9ecb-42b4-908b-9fca9c2f5a28	{"action":"login","actor_id":"01050bdb-f2aa-49f6-ad87-7d2b5ca411a4","actor_username":"user0002@turingmarkets.com","actor_via_sso":false,"log_type":"account","traits":{"provider":"email"}}	2024-02-02 10:50:35.69905+00	
+00000000-0000-0000-0000-000000000000	668966a7-71c2-48eb-bdc3-8cb2819aab90	{"action":"login","actor_id":"b05e8a22-ab0e-40bc-8134-8c65fe41d61e","actor_username":"user0004@turingmarkets.com","actor_via_sso":false,"log_type":"account","traits":{"provider":"email"}}	2024-02-02 10:51:00.761244+00	
+00000000-0000-0000-0000-000000000000	a72bccb9-6a79-44b2-858b-669366f80849	{"action":"token_refreshed","actor_id":"b988a5c6-63d4-4bf6-b3e1-51efebab3ddb","actor_username":"user0001@turingmarkets.com","actor_via_sso":false,"log_type":"token"}	2024-02-02 12:23:50.869715+00	
+00000000-0000-0000-0000-000000000000	2316fd31-67f8-452f-95d7-2728cf129067	{"action":"token_revoked","actor_id":"b988a5c6-63d4-4bf6-b3e1-51efebab3ddb","actor_username":"user0001@turingmarkets.com","actor_via_sso":false,"log_type":"token"}	2024-02-02 12:23:50.870311+00	
+00000000-0000-0000-0000-000000000000	7d2fd6a4-6bc3-467b-b2f5-833b509af827	{"action":"token_refreshed","actor_id":"b05e8a22-ab0e-40bc-8134-8c65fe41d61e","actor_username":"user0004@turingmarkets.com","actor_via_sso":false,"log_type":"token"}	2024-02-02 12:31:35.293193+00	
+00000000-0000-0000-0000-000000000000	6fcfcf82-ff00-4e87-ac57-f4ffb502a32b	{"action":"token_revoked","actor_id":"b05e8a22-ab0e-40bc-8134-8c65fe41d61e","actor_username":"user0004@turingmarkets.com","actor_via_sso":false,"log_type":"token"}	2024-02-02 12:31:35.293883+00	
+00000000-0000-0000-0000-000000000000	bad6a488-b2f2-49c9-bc43-1e7463a41c05	{"action":"token_refreshed","actor_id":"b988a5c6-63d4-4bf6-b3e1-51efebab3ddb","actor_username":"user0001@turingmarkets.com","actor_via_sso":false,"log_type":"token"}	2024-02-02 13:42:01.873827+00	
+00000000-0000-0000-0000-000000000000	694b7b12-9458-425c-9898-f2d3c1403968	{"action":"token_revoked","actor_id":"b988a5c6-63d4-4bf6-b3e1-51efebab3ddb","actor_username":"user0001@turingmarkets.com","actor_via_sso":false,"log_type":"token"}	2024-02-02 13:42:01.874565+00	
+00000000-0000-0000-0000-000000000000	9368d913-8313-4244-a799-e4817a79f556	{"action":"login","actor_id":"101598e1-340e-4dc0-9dca-54d7768f48e5","actor_username":"pbu@test.de","actor_via_sso":false,"log_type":"account","traits":{"provider":"email"}}	2024-02-02 14:14:33.769301+00	
+00000000-0000-0000-0000-000000000000	d69f9db0-4273-456c-bd61-00d1fec7efa1	{"action":"login","actor_id":"101598e1-340e-4dc0-9dca-54d7768f48e5","actor_username":"pbu@test.de","actor_via_sso":false,"log_type":"account","traits":{"provider":"email"}}	2024-02-02 14:39:25.045377+00	
+00000000-0000-0000-0000-000000000000	19de04d5-d037-4fbd-a66a-c0561d04b612	{"action":"login","actor_id":"101598e1-340e-4dc0-9dca-54d7768f48e5","actor_username":"pbu@test.de","actor_via_sso":false,"log_type":"account","traits":{"provider":"email"}}	2024-02-02 14:41:44.092756+00	
+00000000-0000-0000-0000-000000000000	861ff7aa-8612-401c-9c74-406e80fcaa63	{"action":"login","actor_id":"101598e1-340e-4dc0-9dca-54d7768f48e5","actor_username":"pbu@test.de","actor_via_sso":false,"log_type":"account","traits":{"provider":"email"}}	2024-02-02 14:49:29.365205+00	
+00000000-0000-0000-0000-000000000000	5e106aef-0ba6-42ac-ba09-464e6d6f31a0	{"action":"token_refreshed","actor_id":"b988a5c6-63d4-4bf6-b3e1-51efebab3ddb","actor_username":"user0001@turingmarkets.com","actor_via_sso":false,"log_type":"token"}	2024-02-02 15:08:25.920131+00	
+00000000-0000-0000-0000-000000000000	ef259b87-532d-4ac9-a090-19028eb31089	{"action":"token_revoked","actor_id":"b988a5c6-63d4-4bf6-b3e1-51efebab3ddb","actor_username":"user0001@turingmarkets.com","actor_via_sso":false,"log_type":"token"}	2024-02-02 15:08:25.920746+00	
+00000000-0000-0000-0000-000000000000	9f862852-4e31-4401-a6a4-573a6781dbb2	{"action":"login","actor_id":"101598e1-340e-4dc0-9dca-54d7768f48e5","actor_username":"pbu@test.de","actor_via_sso":false,"log_type":"account","traits":{"provider":"email"}}	2024-02-02 15:22:40.244596+00	
+00000000-0000-0000-0000-000000000000	4a61804f-7d0a-4fe6-8bd8-ec48c94bece3	{"action":"login","actor_id":"101598e1-340e-4dc0-9dca-54d7768f48e5","actor_username":"pbu@test.de","actor_via_sso":false,"log_type":"account","traits":{"provider":"email"}}	2024-02-02 15:23:09.845133+00	
+00000000-0000-0000-0000-000000000000	f1a2df55-e634-4727-9ed2-00c5e94fd829	{"action":"login","actor_id":"101598e1-340e-4dc0-9dca-54d7768f48e5","actor_username":"pbu@test.de","actor_via_sso":false,"log_type":"account","traits":{"provider":"email"}}	2024-02-02 15:23:31.493992+00	
+00000000-0000-0000-0000-000000000000	fb9f976b-9b22-49ab-99cf-e1e527120166	{"action":"login","actor_id":"101598e1-340e-4dc0-9dca-54d7768f48e5","actor_username":"pbu@test.de","actor_via_sso":false,"log_type":"account","traits":{"provider":"email"}}	2024-02-02 15:26:56.613267+00	
+00000000-0000-0000-0000-000000000000	538e2225-ba8d-4ebe-b5df-ee17b2398c09	{"action":"login","actor_id":"101598e1-340e-4dc0-9dca-54d7768f48e5","actor_username":"pbu@test.de","actor_via_sso":false,"log_type":"account","traits":{"provider":"email"}}	2024-02-02 15:27:32.845445+00	
+00000000-0000-0000-0000-000000000000	deab8a53-7e78-4d0f-8097-adaabb2eeaca	{"action":"login","actor_id":"101598e1-340e-4dc0-9dca-54d7768f48e5","actor_username":"pbu@test.de","actor_via_sso":false,"log_type":"account","traits":{"provider":"email"}}	2024-02-02 15:30:50.909578+00	
+00000000-0000-0000-0000-000000000000	f9f6094f-80ac-4cb1-a7c5-897a5e7f5789	{"action":"token_refreshed","actor_id":"b05e8a22-ab0e-40bc-8134-8c65fe41d61e","actor_username":"user0004@turingmarkets.com","actor_via_sso":false,"log_type":"token"}	2024-02-02 15:31:10.129856+00	
+00000000-0000-0000-0000-000000000000	5454a2de-1ac4-4c15-a5f4-568037a1ed67	{"action":"token_revoked","actor_id":"b05e8a22-ab0e-40bc-8134-8c65fe41d61e","actor_username":"user0004@turingmarkets.com","actor_via_sso":false,"log_type":"token"}	2024-02-02 15:31:10.131001+00	
+00000000-0000-0000-0000-000000000000	53cda849-97c1-488c-9acc-16ea74ff8868	{"action":"login","actor_id":"b05e8a22-ab0e-40bc-8134-8c65fe41d61e","actor_username":"user0004@turingmarkets.com","actor_via_sso":false,"log_type":"account","traits":{"provider":"email"}}	2024-02-02 15:31:13.656179+00	
+00000000-0000-0000-0000-000000000000	7c88f730-89d7-47b4-8745-431d60a22eaa	{"action":"login","actor_id":"101598e1-340e-4dc0-9dca-54d7768f48e5","actor_username":"pbu@test.de","actor_via_sso":false,"log_type":"account","traits":{"provider":"email"}}	2024-02-02 15:31:48.478657+00	
+00000000-0000-0000-0000-000000000000	3123e4d2-5e28-4c05-82bb-b66c3bc173d6	{"action":"login","actor_id":"b05e8a22-ab0e-40bc-8134-8c65fe41d61e","actor_username":"user0004@turingmarkets.com","actor_via_sso":false,"log_type":"account","traits":{"provider":"email"}}	2024-02-02 15:32:23.949277+00	
+00000000-0000-0000-0000-000000000000	4b9c64a5-deab-4c4d-b7da-bacee109a48e	{"action":"user_signedup","actor_id":"4a542f2c-6b1a-46e0-983d-9ab40de91d00","actor_username":"user0005@turingmarkets.com","actor_via_sso":false,"log_type":"team","traits":{"provider":"email"}}	2024-02-02 15:32:37.38973+00	
+00000000-0000-0000-0000-000000000000	aceddf64-1904-43a2-99ac-69619d5a1330	{"action":"user_signedup","actor_id":"6fc3fa10-d8a9-4626-87b6-e06b93c58f6f","actor_username":"user0007@turingmarkets.com","actor_via_sso":false,"log_type":"team","traits":{"provider":"email"}}	2024-02-02 15:32:37.403298+00	
+00000000-0000-0000-0000-000000000000	11fb86bb-561c-46b1-805c-2110e08fed81	{"action":"login","actor_id":"4a542f2c-6b1a-46e0-983d-9ab40de91d00","actor_username":"user0005@turingmarkets.com","actor_via_sso":false,"log_type":"account","traits":{"provider":"email"}}	2024-02-02 15:32:37.405062+00	
+00000000-0000-0000-0000-000000000000	cde8f859-37a5-43f9-9808-1aebdb94824e	{"action":"login","actor_id":"6fc3fa10-d8a9-4626-87b6-e06b93c58f6f","actor_username":"user0007@turingmarkets.com","actor_via_sso":false,"log_type":"account","traits":{"provider":"email"}}	2024-02-02 15:32:37.405659+00	
+00000000-0000-0000-0000-000000000000	914788ba-103e-42ca-9f6f-c0e3ffdb3f7e	{"action":"user_signedup","actor_id":"0cc3b8aa-686a-4b8f-a4ca-1d98b735cc3b","actor_username":"user0006@turingmarkets.com","actor_via_sso":false,"log_type":"team","traits":{"provider":"email"}}	2024-02-02 15:32:37.421413+00	
+00000000-0000-0000-0000-000000000000	689778a4-c9ad-4ad6-a195-0354cd13e62f	{"action":"login","actor_id":"0cc3b8aa-686a-4b8f-a4ca-1d98b735cc3b","actor_username":"user0006@turingmarkets.com","actor_via_sso":false,"log_type":"account","traits":{"provider":"email"}}	2024-02-02 15:32:37.423832+00	
+00000000-0000-0000-0000-000000000000	c60c8389-177f-4afb-b0ed-83884e388a73	{"action":"user_signedup","actor_id":"77117d78-f531-47f1-9334-b21ec8a60c9d","actor_username":"user0008@turingmarkets.com","actor_via_sso":false,"log_type":"team","traits":{"provider":"email"}}	2024-02-02 15:32:37.582187+00	
+00000000-0000-0000-0000-000000000000	fb76262d-fafa-4ad4-b15b-b861d236ad17	{"action":"login","actor_id":"77117d78-f531-47f1-9334-b21ec8a60c9d","actor_username":"user0008@turingmarkets.com","actor_via_sso":false,"log_type":"account","traits":{"provider":"email"}}	2024-02-02 15:32:37.584877+00	
+00000000-0000-0000-0000-000000000000	dca45c7a-355c-4172-9157-d1dc17b55c73	{"action":"login","actor_id":"4a542f2c-6b1a-46e0-983d-9ab40de91d00","actor_username":"user0005@turingmarkets.com","actor_via_sso":false,"log_type":"account","traits":{"provider":"email"}}	2024-02-02 15:32:50.885475+00	
+00000000-0000-0000-0000-000000000000	714104d9-047a-45e5-8875-3ad3600f14ba	{"action":"login","actor_id":"4a542f2c-6b1a-46e0-983d-9ab40de91d00","actor_username":"user0005@turingmarkets.com","actor_via_sso":false,"log_type":"account","traits":{"provider":"email"}}	2024-02-02 15:32:59.918814+00	
+00000000-0000-0000-0000-000000000000	0fc8fe0e-1403-4ab3-91b6-cd91569563d7	{"action":"user_signedup","actor_id":"b62e1c1e-3afe-458d-ba94-cb5d8981a49d","actor_username":"user0009@turingmarkets.com","actor_via_sso":false,"log_type":"team","traits":{"provider":"email"}}	2024-02-02 15:34:26.081724+00	
+00000000-0000-0000-0000-000000000000	d27a3ee2-eee0-4f59-9563-016c36899558	{"action":"login","actor_id":"b62e1c1e-3afe-458d-ba94-cb5d8981a49d","actor_username":"user0009@turingmarkets.com","actor_via_sso":false,"log_type":"account","traits":{"provider":"email"}}	2024-02-02 15:34:26.084259+00	
+00000000-0000-0000-0000-000000000000	1e697a40-7a8f-46a8-934b-3c0dba4d7ce8	{"action":"user_signedup","actor_id":"f55d54b4-52bb-44f9-937b-c011b3fb855b","actor_username":"user0010@turingmarkets.com","actor_via_sso":false,"log_type":"team","traits":{"provider":"email"}}	2024-02-02 15:34:26.105247+00	
+00000000-0000-0000-0000-000000000000	1fa77592-6ba0-47a9-891e-041713747a32	{"action":"login","actor_id":"f55d54b4-52bb-44f9-937b-c011b3fb855b","actor_username":"user0010@turingmarkets.com","actor_via_sso":false,"log_type":"account","traits":{"provider":"email"}}	2024-02-02 15:34:26.107449+00	
+00000000-0000-0000-0000-000000000000	144c174f-7f9e-401c-8b0a-a1e921e5fae7	{"action":"user_signedup","actor_id":"48227ddc-c706-4953-b3de-2359bacbfd2a","actor_username":"user0012@turingmarkets.com","actor_via_sso":false,"log_type":"team","traits":{"provider":"email"}}	2024-02-02 15:34:26.180494+00	
+00000000-0000-0000-0000-000000000000	cf1fb70f-1c73-44c9-abe5-968f70b852d4	{"action":"login","actor_id":"48227ddc-c706-4953-b3de-2359bacbfd2a","actor_username":"user0012@turingmarkets.com","actor_via_sso":false,"log_type":"account","traits":{"provider":"email"}}	2024-02-02 15:34:26.182707+00	
+00000000-0000-0000-0000-000000000000	860ad44e-8042-492d-a165-3103acf0c079	{"action":"user_signedup","actor_id":"1f83e26c-8a09-4b4f-9a33-8af989035fdc","actor_username":"user0011@turingmarkets.com","actor_via_sso":false,"log_type":"team","traits":{"provider":"email"}}	2024-02-02 15:34:26.288164+00	
+00000000-0000-0000-0000-000000000000	83b7521f-ebaf-4e67-b851-40dc0798529f	{"action":"login","actor_id":"1f83e26c-8a09-4b4f-9a33-8af989035fdc","actor_username":"user0011@turingmarkets.com","actor_via_sso":false,"log_type":"account","traits":{"provider":"email"}}	2024-02-02 15:34:26.290743+00	
+00000000-0000-0000-0000-000000000000	8de9e4a8-30cb-49a3-9ca3-c823435ace84	{"action":"login","actor_id":"6fc3fa10-d8a9-4626-87b6-e06b93c58f6f","actor_username":"user0007@turingmarkets.com","actor_via_sso":false,"log_type":"account","traits":{"provider":"email"}}	2024-02-02 15:34:51.759754+00	
+00000000-0000-0000-0000-000000000000	fe09d7fe-d765-44b8-95e3-94d772d42790	{"action":"login","actor_id":"0cc3b8aa-686a-4b8f-a4ca-1d98b735cc3b","actor_username":"user0006@turingmarkets.com","actor_via_sso":false,"log_type":"account","traits":{"provider":"email"}}	2024-02-02 15:34:58.020026+00	
+00000000-0000-0000-0000-000000000000	41111f3f-b790-45e8-9367-06aaef9bb347	{"action":"login","actor_id":"77117d78-f531-47f1-9334-b21ec8a60c9d","actor_username":"user0008@turingmarkets.com","actor_via_sso":false,"log_type":"account","traits":{"provider":"email"}}	2024-02-02 15:35:02.191898+00	
+00000000-0000-0000-0000-000000000000	6cca851d-7ab6-4700-befd-7a27f92ce786	{"action":"login","actor_id":"101598e1-340e-4dc0-9dca-54d7768f48e5","actor_username":"pbu@test.de","actor_via_sso":false,"log_type":"account","traits":{"provider":"email"}}	2024-02-02 15:35:24.336877+00	
+00000000-0000-0000-0000-000000000000	014199d5-564a-49ef-9f00-8b56f73ecac2	{"action":"login","actor_id":"101598e1-340e-4dc0-9dca-54d7768f48e5","actor_username":"pbu@test.de","actor_via_sso":false,"log_type":"account","traits":{"provider":"email"}}	2024-02-02 15:39:21.407701+00	
+00000000-0000-0000-0000-000000000000	1a86bc5b-0141-47b2-b478-896e0d277680	{"action":"login","actor_id":"101598e1-340e-4dc0-9dca-54d7768f48e5","actor_username":"pbu@test.de","actor_via_sso":false,"log_type":"account","traits":{"provider":"email"}}	2024-02-02 15:42:32.867438+00	
+00000000-0000-0000-0000-000000000000	656ae112-fde1-4da4-aec4-d5778d8cb479	{"action":"login","actor_id":"101598e1-340e-4dc0-9dca-54d7768f48e5","actor_username":"pbu@test.de","actor_via_sso":false,"log_type":"account","traits":{"provider":"email"}}	2024-02-02 15:49:46.82299+00	
+00000000-0000-0000-0000-000000000000	a0fbe328-f097-4cf0-bfd9-a32ca5568344	{"action":"login","actor_id":"101598e1-340e-4dc0-9dca-54d7768f48e5","actor_username":"pbu@test.de","actor_via_sso":false,"log_type":"account","traits":{"provider":"email"}}	2024-02-02 15:52:21.06298+00	
+00000000-0000-0000-0000-000000000000	564a997f-f912-4e5e-92c8-29fd797bf438	{"action":"login","actor_id":"101598e1-340e-4dc0-9dca-54d7768f48e5","actor_username":"pbu@test.de","actor_via_sso":false,"log_type":"account","traits":{"provider":"email"}}	2024-02-02 15:53:57.802554+00	
+00000000-0000-0000-0000-000000000000	e0542653-0b50-4cde-93f3-faefaf7aa4a5	{"action":"login","actor_id":"101598e1-340e-4dc0-9dca-54d7768f48e5","actor_username":"pbu@test.de","actor_via_sso":false,"log_type":"account","traits":{"provider":"email"}}	2024-02-02 15:54:50.518985+00	
+00000000-0000-0000-0000-000000000000	fa3f0794-0c76-44cc-985a-3cc284789402	{"action":"login","actor_id":"101598e1-340e-4dc0-9dca-54d7768f48e5","actor_username":"pbu@test.de","actor_via_sso":false,"log_type":"account","traits":{"provider":"email"}}	2024-02-02 15:55:23.134572+00	
+00000000-0000-0000-0000-000000000000	22e80558-b1e6-441d-a53a-ee1a025a0093	{"action":"login","actor_id":"101598e1-340e-4dc0-9dca-54d7768f48e5","actor_username":"pbu@test.de","actor_via_sso":false,"log_type":"account","traits":{"provider":"email"}}	2024-02-02 15:55:32.084682+00	
+00000000-0000-0000-0000-000000000000	d338bc5f-f8e9-4425-a352-18ba10ab759d	{"action":"login","actor_id":"101598e1-340e-4dc0-9dca-54d7768f48e5","actor_username":"pbu@test.de","actor_via_sso":false,"log_type":"account","traits":{"provider":"email"}}	2024-02-02 15:55:54.233664+00	
+00000000-0000-0000-0000-000000000000	0a1be806-594f-465f-ba40-865731cad5d2	{"action":"login","actor_id":"101598e1-340e-4dc0-9dca-54d7768f48e5","actor_username":"pbu@test.de","actor_via_sso":false,"log_type":"account","traits":{"provider":"email"}}	2024-02-02 15:56:10.151834+00	
+00000000-0000-0000-0000-000000000000	c7b827e6-9ccb-4516-b005-b918d8328c48	{"action":"login","actor_id":"101598e1-340e-4dc0-9dca-54d7768f48e5","actor_username":"pbu@test.de","actor_via_sso":false,"log_type":"account","traits":{"provider":"email"}}	2024-02-02 15:56:44.784145+00	
+00000000-0000-0000-0000-000000000000	803d60e2-9196-432f-97f4-200799b83199	{"action":"login","actor_id":"101598e1-340e-4dc0-9dca-54d7768f48e5","actor_username":"pbu@test.de","actor_via_sso":false,"log_type":"account","traits":{"provider":"email"}}	2024-02-02 15:57:33.317882+00	
+00000000-0000-0000-0000-000000000000	d62642f7-363c-476a-9ed1-c813df166c55	{"action":"login","actor_id":"101598e1-340e-4dc0-9dca-54d7768f48e5","actor_username":"pbu@test.de","actor_via_sso":false,"log_type":"account","traits":{"provider":"email"}}	2024-02-02 15:57:42.331452+00	
+00000000-0000-0000-0000-000000000000	3ee5ba07-031e-4612-9e49-fa89f82be880	{"action":"login","actor_id":"101598e1-340e-4dc0-9dca-54d7768f48e5","actor_username":"pbu@test.de","actor_via_sso":false,"log_type":"account","traits":{"provider":"email"}}	2024-02-02 16:01:03.101894+00	
+00000000-0000-0000-0000-000000000000	6fc5baf3-888c-4264-aa38-fd87bd97597b	{"action":"login","actor_id":"101598e1-340e-4dc0-9dca-54d7768f48e5","actor_username":"pbu@test.de","actor_via_sso":false,"log_type":"account","traits":{"provider":"email"}}	2024-02-02 16:03:53.588441+00	
+00000000-0000-0000-0000-000000000000	d96ae1b5-9e70-4bbc-968a-fe282d31c3b9	{"action":"login","actor_id":"101598e1-340e-4dc0-9dca-54d7768f48e5","actor_username":"pbu@test.de","actor_via_sso":false,"log_type":"account","traits":{"provider":"email"}}	2024-02-02 16:05:16.086077+00	
+00000000-0000-0000-0000-000000000000	3822cc19-8dfe-4684-a62a-53e5b9f7495d	{"action":"login","actor_id":"101598e1-340e-4dc0-9dca-54d7768f48e5","actor_username":"pbu@test.de","actor_via_sso":false,"log_type":"account","traits":{"provider":"email"}}	2024-02-02 16:07:58.118836+00	
+00000000-0000-0000-0000-000000000000	4f105e13-7ddd-49b7-8c24-c31b657d2d53	{"action":"login","actor_id":"101598e1-340e-4dc0-9dca-54d7768f48e5","actor_username":"pbu@test.de","actor_via_sso":false,"log_type":"account","traits":{"provider":"email"}}	2024-02-02 16:08:45.745949+00	
+00000000-0000-0000-0000-000000000000	5b1c921e-ec8b-4aaa-998c-32bae59d2c74	{"action":"login","actor_id":"101598e1-340e-4dc0-9dca-54d7768f48e5","actor_username":"pbu@test.de","actor_via_sso":false,"log_type":"account","traits":{"provider":"email"}}	2024-02-02 16:09:25.853354+00	
+00000000-0000-0000-0000-000000000000	5b46049c-639b-4f6b-8e69-03cbc872be6e	{"action":"login","actor_id":"101598e1-340e-4dc0-9dca-54d7768f48e5","actor_username":"pbu@test.de","actor_via_sso":false,"log_type":"account","traits":{"provider":"email"}}	2024-02-02 16:09:54.306709+00	
+00000000-0000-0000-0000-000000000000	46f650da-a37d-447e-b164-fe84f164e0a3	{"action":"login","actor_id":"101598e1-340e-4dc0-9dca-54d7768f48e5","actor_username":"pbu@test.de","actor_via_sso":false,"log_type":"account","traits":{"provider":"email"}}	2024-02-02 16:10:52.660593+00	
+00000000-0000-0000-0000-000000000000	ebc89986-dc5e-4efe-b283-eb597a44d712	{"action":"login","actor_id":"101598e1-340e-4dc0-9dca-54d7768f48e5","actor_username":"pbu@test.de","actor_via_sso":false,"log_type":"account","traits":{"provider":"email"}}	2024-02-02 16:11:17.16922+00	
+00000000-0000-0000-0000-000000000000	cdb39bef-905d-4d64-bca5-1fd4ba1de90e	{"action":"login","actor_id":"101598e1-340e-4dc0-9dca-54d7768f48e5","actor_username":"pbu@test.de","actor_via_sso":false,"log_type":"account","traits":{"provider":"email"}}	2024-02-02 16:11:59.708419+00	
+00000000-0000-0000-0000-000000000000	f9a97fe6-49ad-4d5e-8cda-44dc9cff8d55	{"action":"login","actor_id":"101598e1-340e-4dc0-9dca-54d7768f48e5","actor_username":"pbu@test.de","actor_via_sso":false,"log_type":"account","traits":{"provider":"email"}}	2024-02-02 16:13:01.691583+00	
+00000000-0000-0000-0000-000000000000	541458a4-7dba-4a50-b4b2-7480ca35a0c9	{"action":"login","actor_id":"101598e1-340e-4dc0-9dca-54d7768f48e5","actor_username":"pbu@test.de","actor_via_sso":false,"log_type":"account","traits":{"provider":"email"}}	2024-02-02 16:13:32.205586+00	
+00000000-0000-0000-0000-000000000000	bfc4c0a8-8b5a-4e32-903d-46504b267206	{"action":"login","actor_id":"101598e1-340e-4dc0-9dca-54d7768f48e5","actor_username":"pbu@test.de","actor_via_sso":false,"log_type":"account","traits":{"provider":"email"}}	2024-02-02 16:20:16.44075+00	
+00000000-0000-0000-0000-000000000000	5c7fabc6-3892-4fcb-a74c-4fb2e4d4eb85	{"action":"login","actor_id":"101598e1-340e-4dc0-9dca-54d7768f48e5","actor_username":"pbu@test.de","actor_via_sso":false,"log_type":"account","traits":{"provider":"email"}}	2024-02-02 16:20:52.748966+00	
+00000000-0000-0000-0000-000000000000	f3c6d8b3-9b74-45cd-9912-4db4894f9d31	{"action":"login","actor_id":"101598e1-340e-4dc0-9dca-54d7768f48e5","actor_username":"pbu@test.de","actor_via_sso":false,"log_type":"account","traits":{"provider":"email"}}	2024-02-02 16:24:19.367569+00	
+00000000-0000-0000-0000-000000000000	e532532b-cd8b-4d73-8da1-765756e53962	{"action":"login","actor_id":"101598e1-340e-4dc0-9dca-54d7768f48e5","actor_username":"pbu@test.de","actor_via_sso":false,"log_type":"account","traits":{"provider":"email"}}	2024-02-02 16:25:34.810422+00	
+00000000-0000-0000-0000-000000000000	8a75310d-0327-448e-9a60-d909e5e3d2d2	{"action":"login","actor_id":"101598e1-340e-4dc0-9dca-54d7768f48e5","actor_username":"pbu@test.de","actor_via_sso":false,"log_type":"account","traits":{"provider":"email"}}	2024-02-02 16:48:57.614498+00	
+00000000-0000-0000-0000-000000000000	01c99d1b-c3a2-4a3e-ad0a-d7b961fe6174	{"action":"login","actor_id":"101598e1-340e-4dc0-9dca-54d7768f48e5","actor_username":"pbu@test.de","actor_via_sso":false,"log_type":"account","traits":{"provider":"email"}}	2024-02-02 16:55:42.076213+00	
+00000000-0000-0000-0000-000000000000	6606a6e1-968c-4bd1-94c3-13c20b952631	{"action":"login","actor_id":"101598e1-340e-4dc0-9dca-54d7768f48e5","actor_username":"pbu@test.de","actor_via_sso":false,"log_type":"account","traits":{"provider":"email"}}	2024-02-02 16:56:22.688539+00	
+00000000-0000-0000-0000-000000000000	8e0a158d-6e37-44eb-9e8f-aabcd9088958	{"action":"login","actor_id":"101598e1-340e-4dc0-9dca-54d7768f48e5","actor_username":"pbu@test.de","actor_via_sso":false,"log_type":"account","traits":{"provider":"email"}}	2024-02-02 16:56:45.394244+00	
+00000000-0000-0000-0000-000000000000	c3e2a9a2-3618-4adf-990d-416509c86243	{"action":"login","actor_id":"101598e1-340e-4dc0-9dca-54d7768f48e5","actor_username":"pbu@test.de","actor_via_sso":false,"log_type":"account","traits":{"provider":"email"}}	2024-02-02 17:02:56.37992+00	
+00000000-0000-0000-0000-000000000000	bd847caf-8e9c-48e7-a057-eb513e86ceac	{"action":"login","actor_id":"101598e1-340e-4dc0-9dca-54d7768f48e5","actor_username":"pbu@test.de","actor_via_sso":false,"log_type":"account","traits":{"provider":"email"}}	2024-02-02 17:04:25.647901+00	
+00000000-0000-0000-0000-000000000000	8568d8d7-96b2-48b9-bb70-bb54ee008c27	{"action":"login","actor_id":"101598e1-340e-4dc0-9dca-54d7768f48e5","actor_username":"pbu@test.de","actor_via_sso":false,"log_type":"account","traits":{"provider":"email"}}	2024-02-02 17:06:33.521159+00	
+00000000-0000-0000-0000-000000000000	83bff825-7cae-43d9-b048-233ecc1f19bc	{"action":"login","actor_id":"101598e1-340e-4dc0-9dca-54d7768f48e5","actor_username":"pbu@test.de","actor_via_sso":false,"log_type":"account","traits":{"provider":"email"}}	2024-02-02 17:10:59.092064+00	
 \.
 
 
@@ -907,13 +1012,9 @@ COPY "auth"."flow_state" ("id", "user_id", "auth_code", "code_challenge_method",
 
 COPY "auth"."users" ("instance_id", "id", "aud", "role", "email", "encrypted_password", "email_confirmed_at", "invited_at", "confirmation_token", "confirmation_sent_at", "recovery_token", "recovery_sent_at", "email_change_token_new", "email_change", "email_change_sent_at", "last_sign_in_at", "raw_app_meta_data", "raw_user_meta_data", "is_super_admin", "created_at", "updated_at", "phone", "phone_confirmed_at", "phone_change", "phone_change_token", "phone_change_sent_at", "email_change_token_current", "email_change_confirm_status", "banned_until", "reauthentication_token", "reauthentication_sent_at", "is_sso_user", "deleted_at") FROM stdin;
 00000000-0000-0000-0000-000000000000	d6ac680e-17ab-4632-890e-e7392628cbc1	authenticated	authenticated	dre@test.de	$2a$10$PTfMVJJCgYRpmTld8RF5xup2Ydk1N8H4NKxu8Pnk6IIM5oMCHhspi	2023-11-19 23:04:29.312986+00	\N		\N		\N			\N	2023-11-19 23:24:37.596849+00	{"provider": "email", "providers": ["email"]}	{}	\N	2023-11-19 23:04:29.30962+00	2023-11-19 23:24:37.598484+00	\N	\N			\N		0	\N		\N	f	\N
-00000000-0000-0000-0000-000000000000	101598e1-340e-4dc0-9dca-54d7768f48e5	authenticated	authenticated	pbu@test.de	$2a$10$ZgxPXN9NOXLugZBktRk7puGSVET8d1aB/graAoon3SIAiOpfTPf8m	2023-11-19 21:38:19.234979+00	\N		\N		\N			\N	2023-12-18 12:54:34.95879+00	{"provider": "email", "providers": ["email"]}	{}	\N	2023-11-19 21:38:19.231734+00	2023-12-18 14:09:23.945649+00	\N	\N			\N		0	\N		\N	f	\N
 00000000-0000-0000-0000-000000000000	7f1697c0-8ff7-45e2-a486-a093efad5fe5	authenticated	authenticated	svl@test.de	$2a$10$Ayes/oR7j70CiPQB5gB3s..SKyCtu5Vq8vhsMXgAPWRBMxUxTfYyu	2023-11-19 22:48:16.711553+00	\N		\N		\N			\N	2024-01-17 10:22:26.951589+00	{"provider": "email", "providers": ["email"]}	{}	\N	2023-11-19 22:48:16.708479+00	2024-01-30 15:07:09.355672+00	\N	\N			\N		0	\N		\N	f	\N
-00000000-0000-0000-0000-000000000000	3e6ce704-6f28-4889-83d4-d18866820793	authenticated	authenticated	user0004@turingmarkets.com	$2a$10$VuU/fQWqyFs/ysG7rWIpb.5ysYsagTiYghqe9xxrHn2zuhAuHAN..	2024-01-31 13:46:34.401757+00	\N		\N		\N			\N	2024-01-31 13:46:55.528268+00	{"provider": "email", "providers": ["email"]}	{}	\N	2024-01-31 13:46:34.395309+00	2024-02-01 16:50:34.017407+00	\N	\N			\N		0	\N		\N	f	\N
+00000000-0000-0000-0000-000000000000	101598e1-340e-4dc0-9dca-54d7768f48e5	authenticated	authenticated	pbu@test.de	$2a$10$ZgxPXN9NOXLugZBktRk7puGSVET8d1aB/graAoon3SIAiOpfTPf8m	2023-11-19 21:38:19.234979+00	\N		\N		\N			\N	2024-02-02 17:10:59.092691+00	{"provider": "email", "providers": ["email"]}	{}	\N	2023-11-19 21:38:19.231734+00	2024-02-02 17:10:59.094258+00	\N	\N			\N		0	\N		\N	f	\N
 00000000-0000-0000-0000-000000000000	6414c9a8-9199-4674-a856-d6585fd19e1d	authenticated	authenticated	jwl@test.de	$2a$10$H1DtOFePPkX/ubdlWgCLDee5Z.zNXJVkvu9arSf.ANcW39XbWpBUO	2023-11-19 22:47:56.861001+00	\N		\N		\N			\N	2024-01-31 07:09:16.790952+00	{"provider": "email", "providers": ["email"]}	{}	\N	2023-11-19 22:47:56.858165+00	2024-01-31 09:17:01.934223+00	\N	\N			\N		0	\N		\N	f	\N
-00000000-0000-0000-0000-000000000000	c4dae5ff-bcac-4846-9f37-ce00a6a57d2d	authenticated	authenticated	user0002@turingmarkets.com	$2a$10$mXYtkdarkaMPUhkIftQlYe3dgzGFJ44M9ggXkwbBSEmZHbZ.f4EZq	2024-01-31 13:01:50.782071+00	\N		\N		\N			\N	2024-01-31 13:03:14.850476+00	{"provider": "email", "providers": ["email"]}	{}	\N	2024-01-31 13:01:50.776752+00	2024-01-31 13:03:14.854002+00	\N	\N			\N		0	\N		\N	f	\N
-00000000-0000-0000-0000-000000000000	42b57589-1616-4449-9e2d-a94220577ce8	authenticated	authenticated	user0003@turingmarkets.com	$2a$10$87HvmLxEITcLoddwLGozlO.OXzDDbFeEPuw63Aw2DldxU6WKCAobW	2024-01-31 13:01:50.839782+00	\N		\N		\N			\N	2024-01-31 13:11:08.051018+00	{"provider": "email", "providers": ["email"]}	{}	\N	2024-01-31 13:01:50.834116+00	2024-01-31 13:11:08.055774+00	\N	\N			\N		0	\N		\N	f	\N
-00000000-0000-0000-0000-000000000000	cece0963-9508-412c-9c3d-fba052140313	authenticated	authenticated	user0001@turingmarkets.com	$2a$10$vl1SrqusRihXcijDnl3Hju9y/3mdBeZbc9dfeYY6xcA.HovGWugX2	2024-01-31 13:01:01.844625+00	\N		\N		\N			\N	2024-01-31 13:01:26.378616+00	{"provider": "email", "providers": ["email"]}	{}	\N	2024-01-31 13:01:01.837838+00	2024-01-31 13:01:26.380728+00	\N	\N			\N		0	\N		\N	f	\N
 \.
 
 
@@ -926,10 +1027,6 @@ COPY "auth"."identities" ("provider_id", "user_id", "identity_data", "provider",
 6414c9a8-9199-4674-a856-d6585fd19e1d	6414c9a8-9199-4674-a856-d6585fd19e1d	{"sub": "6414c9a8-9199-4674-a856-d6585fd19e1d", "email": "jwl@test.de", "email_verified": false, "phone_verified": false}	email	2023-11-19 22:47:56.859339+00	2023-11-19 22:47:56.859377+00	2023-11-19 22:47:56.859377+00	c862457d-f5e7-4773-bd25-e5482e6fc6d2
 7f1697c0-8ff7-45e2-a486-a093efad5fe5	7f1697c0-8ff7-45e2-a486-a093efad5fe5	{"sub": "7f1697c0-8ff7-45e2-a486-a093efad5fe5", "email": "svl@test.de", "email_verified": false, "phone_verified": false}	email	2023-11-19 22:48:16.70972+00	2023-11-19 22:48:16.709759+00	2023-11-19 22:48:16.709759+00	2e568a3f-735a-48bf-8a2e-deaa1a3bb395
 d6ac680e-17ab-4632-890e-e7392628cbc1	d6ac680e-17ab-4632-890e-e7392628cbc1	{"sub": "d6ac680e-17ab-4632-890e-e7392628cbc1", "email": "dre@test.de", "email_verified": false, "phone_verified": false}	email	2023-11-19 23:04:29.311006+00	2023-11-19 23:04:29.311044+00	2023-11-19 23:04:29.311044+00	d6bdb0a8-8195-4baf-be63-6b344d0d39bc
-cece0963-9508-412c-9c3d-fba052140313	cece0963-9508-412c-9c3d-fba052140313	{"sub": "cece0963-9508-412c-9c3d-fba052140313", "email": "user0001@turingmarkets.com", "email_verified": false, "phone_verified": false}	email	2024-01-31 13:01:01.842927+00	2024-01-31 13:01:01.842982+00	2024-01-31 13:01:01.842982+00	bf6bcde6-3d54-47d0-9cb4-5d6849ddceed
-c4dae5ff-bcac-4846-9f37-ce00a6a57d2d	c4dae5ff-bcac-4846-9f37-ce00a6a57d2d	{"sub": "c4dae5ff-bcac-4846-9f37-ce00a6a57d2d", "email": "user0002@turingmarkets.com", "email_verified": false, "phone_verified": false}	email	2024-01-31 13:01:50.780285+00	2024-01-31 13:01:50.780359+00	2024-01-31 13:01:50.780359+00	ab683109-9d25-4489-a68d-e2ae9c2cc94c
-42b57589-1616-4449-9e2d-a94220577ce8	42b57589-1616-4449-9e2d-a94220577ce8	{"sub": "42b57589-1616-4449-9e2d-a94220577ce8", "email": "user0003@turingmarkets.com", "email_verified": false, "phone_verified": false}	email	2024-01-31 13:01:50.838355+00	2024-01-31 13:01:50.838399+00	2024-01-31 13:01:50.838399+00	e4d68546-9088-4e3a-b9e5-752975e7810a
-3e6ce704-6f28-4889-83d4-d18866820793	3e6ce704-6f28-4889-83d4-d18866820793	{"sub": "3e6ce704-6f28-4889-83d4-d18866820793", "email": "user0004@turingmarkets.com", "email_verified": false, "phone_verified": false}	email	2024-01-31 13:46:34.399054+00	2024-01-31 13:46:34.399101+00	2024-01-31 13:46:34.399101+00	13eb50e5-f7ac-41bd-8251-4806eba1dba3
 \.
 
 
@@ -954,16 +1051,57 @@ edbc6fa5-e33d-4c98-a5de-5f1c36ca6185	d6ac680e-17ab-4632-890e-e7392628cbc1	2023-1
 3b7690a9-a4e7-488e-8e01-da4e0814a08e	101598e1-340e-4dc0-9dca-54d7768f48e5	2023-12-18 12:54:34.958871+00	2023-12-18 12:54:34.958871+00	\N	aal1	\N	\N	Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36	80.187.64.53	\N
 cebce07c-56c8-4b9e-ac4d-15d04725ff91	101598e1-340e-4dc0-9dca-54d7768f48e5	2023-12-15 12:30:57.19678+00	2023-12-18 13:14:46.342383+00	\N	aal1	\N	2023-12-18 13:14:46.342311	Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36	80.187.64.53	\N
 01b7b883-3293-4269-95d2-87db12469eb6	101598e1-340e-4dc0-9dca-54d7768f48e5	2023-12-18 12:16:04.895862+00	2023-12-18 14:09:24.111392+00	\N	aal1	\N	2023-12-18 14:09:24.111309	Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36	80.187.64.53	\N
-31c3e756-f6e7-4d29-827c-e24bba13e6d9	cece0963-9508-412c-9c3d-fba052140313	2024-01-31 13:01:01.847713+00	2024-01-31 13:01:01.847713+00	\N	aal1	\N	\N	Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:121.0) Gecko/20100101 Firefox/121.0	87.180.239.125	\N
-e63d0da2-8682-4ff1-9bad-79433e9b03de	cece0963-9508-412c-9c3d-fba052140313	2024-01-31 13:01:26.378705+00	2024-01-31 13:01:26.378705+00	\N	aal1	\N	\N	Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:121.0) Gecko/20100101 Firefox/121.0	87.180.239.125	\N
+61d30959-2921-42dd-90af-40b9ff56612d	101598e1-340e-4dc0-9dca-54d7768f48e5	2024-02-02 14:14:33.769996+00	2024-02-02 14:14:33.769996+00	\N	aal1	\N	\N	supabase-edge-runtime	3.120.149.73	\N
+a2f9c220-0cde-4964-a2e7-6afa8e0495e9	101598e1-340e-4dc0-9dca-54d7768f48e5	2024-02-02 14:39:25.04617+00	2024-02-02 14:39:25.04617+00	\N	aal1	\N	\N	supabase-edge-runtime	3.127.21.233	\N
+47f68a3e-ffe9-4741-97e7-85ec7a69a23a	101598e1-340e-4dc0-9dca-54d7768f48e5	2024-02-02 14:41:44.093546+00	2024-02-02 14:41:44.093546+00	\N	aal1	\N	\N	supabase-edge-runtime	3.127.21.233	\N
+7df1fd31-1264-4407-8ede-6f7aaee597d3	101598e1-340e-4dc0-9dca-54d7768f48e5	2024-02-02 14:49:29.366121+00	2024-02-02 14:49:29.366121+00	\N	aal1	\N	\N	supabase-edge-runtime	3.68.197.205	\N
+1b0ddf0c-858b-4c53-9b1b-4fb2a795bddb	101598e1-340e-4dc0-9dca-54d7768f48e5	2024-02-02 15:22:40.245368+00	2024-02-02 15:22:40.245368+00	\N	aal1	\N	\N	supabase-edge-runtime	3.120.193.163	\N
+ee364156-5956-488e-88dc-e8dde0d5fc91	101598e1-340e-4dc0-9dca-54d7768f48e5	2024-02-02 15:23:09.845797+00	2024-02-02 15:23:09.845797+00	\N	aal1	\N	\N	supabase-edge-runtime	54.93.104.72	\N
+4bfe378f-e2e0-4e90-90c9-3d5f448f3f68	101598e1-340e-4dc0-9dca-54d7768f48e5	2024-02-02 15:23:31.494664+00	2024-02-02 15:23:31.494664+00	\N	aal1	\N	\N	supabase-edge-runtime	3.127.21.233	\N
+bb563316-6b73-4ee2-91e4-6e9e3277b86f	101598e1-340e-4dc0-9dca-54d7768f48e5	2024-02-02 15:26:56.614071+00	2024-02-02 15:26:56.614071+00	\N	aal1	\N	\N	supabase-edge-runtime	3.121.159.15	\N
+a88e7709-0d8f-4b81-81f0-c04c8e541c79	101598e1-340e-4dc0-9dca-54d7768f48e5	2024-02-02 15:27:32.84617+00	2024-02-02 15:27:32.84617+00	\N	aal1	\N	\N	supabase-edge-runtime	3.68.223.217	\N
+c644519f-346a-4f19-8496-d4382dc4d1af	101598e1-340e-4dc0-9dca-54d7768f48e5	2024-02-02 15:30:50.910412+00	2024-02-02 15:30:50.910412+00	\N	aal1	\N	\N	supabase-edge-runtime	3.127.21.233	\N
+62384d2a-0b83-4f8c-9e54-4002b30c53a1	101598e1-340e-4dc0-9dca-54d7768f48e5	2024-02-02 15:31:48.479424+00	2024-02-02 15:31:48.479424+00	\N	aal1	\N	\N	supabase-edge-runtime	3.127.21.233	\N
 1da5da1c-e5af-4d8f-b1f3-61e04c108e54	6414c9a8-9199-4674-a856-d6585fd19e1d	2024-01-23 15:39:08.180472+00	2024-01-24 14:11:08.778278+00	\N	aal1	\N	2024-01-24 14:11:08.778208	Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:121.0) Gecko/20100101 Firefox/121.0	87.180.239.125	\N
-9400c35d-108f-4acf-8c19-3294c937c272	c4dae5ff-bcac-4846-9f37-ce00a6a57d2d	2024-01-31 13:01:50.785282+00	2024-01-31 13:01:50.785282+00	\N	aal1	\N	\N	Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:121.0) Gecko/20100101 Firefox/121.0	87.180.239.125	\N
-a41204b2-376d-4c84-888a-cf5ee3e7ef16	42b57589-1616-4449-9e2d-a94220577ce8	2024-01-31 13:01:50.842289+00	2024-01-31 13:01:50.842289+00	\N	aal1	\N	\N	Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:121.0) Gecko/20100101 Firefox/121.0	87.180.239.125	\N
-7ac36aa4-7536-4a14-be12-549f33f2ab28	c4dae5ff-bcac-4846-9f37-ce00a6a57d2d	2024-01-31 13:03:14.850558+00	2024-01-31 13:03:14.850558+00	\N	aal1	\N	\N	Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:121.0) Gecko/20100101 Firefox/121.0	87.180.239.125	\N
-b2a02f78-8ca6-4ae1-86b1-0aefc7988323	42b57589-1616-4449-9e2d-a94220577ce8	2024-01-31 13:11:08.051093+00	2024-01-31 13:11:08.051093+00	\N	aal1	\N	\N	Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:121.0) Gecko/20100101 Firefox/121.0	87.180.239.125	\N
-d6260833-3d6d-43a3-ba4a-165b8b7992f5	3e6ce704-6f28-4889-83d4-d18866820793	2024-01-31 13:46:34.40477+00	2024-01-31 13:46:34.40477+00	\N	aal1	\N	\N	Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:121.0) Gecko/20100101 Firefox/121.0	87.180.239.125	\N
+af1642e5-5b8c-47e8-9902-4fcf82d989f7	101598e1-340e-4dc0-9dca-54d7768f48e5	2024-02-02 15:35:24.337656+00	2024-02-02 15:35:24.337656+00	\N	aal1	\N	\N	supabase-edge-runtime	54.93.104.72	\N
+d1819cf1-a49f-4027-bfeb-652c89096d1f	101598e1-340e-4dc0-9dca-54d7768f48e5	2024-02-02 15:39:21.408468+00	2024-02-02 15:39:21.408468+00	\N	aal1	\N	\N	supabase-edge-runtime	3.68.223.217	\N
+c88b8e25-6dcc-43c4-9f13-6e84c2df34d4	101598e1-340e-4dc0-9dca-54d7768f48e5	2024-02-02 15:42:32.868189+00	2024-02-02 15:42:32.868189+00	\N	aal1	\N	\N	supabase-edge-runtime	54.93.104.72	\N
 c35a8f0f-5b67-425f-a4ed-69d24963c3ca	6414c9a8-9199-4674-a856-d6585fd19e1d	2024-01-31 07:09:16.791027+00	2024-01-31 09:17:01.936199+00	\N	aal1	\N	2024-01-31 09:17:01.936122	Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:121.0) Gecko/20100101 Firefox/121.0	87.180.239.125	\N
-cf7931e9-0826-4544-ae02-7a5d65dab06d	3e6ce704-6f28-4889-83d4-d18866820793	2024-01-31 13:46:55.528358+00	2024-02-01 16:50:34.018773+00	\N	aal1	\N	2024-02-01 16:50:34.018696	Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:121.0) Gecko/20100101 Firefox/121.0	193.196.11.188	\N
+8f5a1ef9-71a4-464d-9874-bc53e362f25f	101598e1-340e-4dc0-9dca-54d7768f48e5	2024-02-02 15:49:46.823915+00	2024-02-02 15:49:46.823915+00	\N	aal1	\N	\N	supabase-edge-runtime	3.126.253.51	\N
+ad5b626b-4210-416c-a829-3b2b7634d4e0	101598e1-340e-4dc0-9dca-54d7768f48e5	2024-02-02 15:52:21.064294+00	2024-02-02 15:52:21.064294+00	\N	aal1	\N	\N	supabase-edge-runtime	3.120.193.163	\N
+1d12f0bc-b24a-4cdf-8e5d-eaeae4c991c8	101598e1-340e-4dc0-9dca-54d7768f48e5	2024-02-02 15:53:57.80334+00	2024-02-02 15:53:57.80334+00	\N	aal1	\N	\N	supabase-edge-runtime	3.126.253.51	\N
+c8eff902-c5f2-4e24-b6bd-0277a3889972	101598e1-340e-4dc0-9dca-54d7768f48e5	2024-02-02 15:54:50.519868+00	2024-02-02 15:54:50.519868+00	\N	aal1	\N	\N	supabase-edge-runtime	18.192.204.8	\N
+4838f9e1-bd2c-4ed8-a916-b722ead56d5b	101598e1-340e-4dc0-9dca-54d7768f48e5	2024-02-02 15:55:23.13547+00	2024-02-02 15:55:23.13547+00	\N	aal1	\N	\N	supabase-edge-runtime	3.126.253.51	\N
+3efce22f-be5b-42d8-a04b-b76551339ee9	101598e1-340e-4dc0-9dca-54d7768f48e5	2024-02-02 15:55:32.085463+00	2024-02-02 15:55:32.085463+00	\N	aal1	\N	\N	supabase-edge-runtime	3.69.254.133	\N
+ffb9f3f5-1821-4dda-913d-8df348c640a0	101598e1-340e-4dc0-9dca-54d7768f48e5	2024-02-02 15:55:54.234534+00	2024-02-02 15:55:54.234534+00	\N	aal1	\N	\N	supabase-edge-runtime	3.120.193.163	\N
+97a7cf73-11e1-43cb-bafe-8b9128a3d770	101598e1-340e-4dc0-9dca-54d7768f48e5	2024-02-02 15:56:10.152691+00	2024-02-02 15:56:10.152691+00	\N	aal1	\N	\N	supabase-edge-runtime	3.120.193.163	\N
+72846757-d8c3-451e-b83d-efb4a2aaf371	101598e1-340e-4dc0-9dca-54d7768f48e5	2024-02-02 15:56:44.784879+00	2024-02-02 15:56:44.784879+00	\N	aal1	\N	\N	supabase-edge-runtime	18.192.204.8	\N
+f4f06d3c-793d-4b5f-b8bd-ebc973517b48	101598e1-340e-4dc0-9dca-54d7768f48e5	2024-02-02 15:57:33.318802+00	2024-02-02 15:57:33.318802+00	\N	aal1	\N	\N	supabase-edge-runtime	3.126.253.51	\N
+a4dd7f64-25ac-4748-b366-ecfe08707290	101598e1-340e-4dc0-9dca-54d7768f48e5	2024-02-02 15:57:42.332225+00	2024-02-02 15:57:42.332225+00	\N	aal1	\N	\N	supabase-edge-runtime	3.126.253.51	\N
+86067ecc-41c0-4995-b7a7-091af653951c	101598e1-340e-4dc0-9dca-54d7768f48e5	2024-02-02 16:01:03.102801+00	2024-02-02 16:01:03.102801+00	\N	aal1	\N	\N	supabase-edge-runtime	3.126.253.51	\N
+9817303d-880e-4fcb-a385-2cb5ccaa1ff6	101598e1-340e-4dc0-9dca-54d7768f48e5	2024-02-02 16:03:53.589165+00	2024-02-02 16:03:53.589165+00	\N	aal1	\N	\N	supabase-edge-runtime	18.192.204.8	\N
+88179e4d-cfe5-452e-832f-90edc62758b6	101598e1-340e-4dc0-9dca-54d7768f48e5	2024-02-02 16:05:16.086863+00	2024-02-02 16:05:16.086863+00	\N	aal1	\N	\N	supabase-edge-runtime	3.69.254.133	\N
+0e9b1104-4657-45f9-98f9-c1241e0b8d54	101598e1-340e-4dc0-9dca-54d7768f48e5	2024-02-02 16:07:58.119587+00	2024-02-02 16:07:58.119587+00	\N	aal1	\N	\N	supabase-edge-runtime	3.120.193.163	\N
+c27db4ee-a766-4663-a8d0-8bd6e72b6af0	101598e1-340e-4dc0-9dca-54d7768f48e5	2024-02-02 16:08:45.746694+00	2024-02-02 16:08:45.746694+00	\N	aal1	\N	\N	supabase-edge-runtime	3.120.193.163	\N
+45863710-5360-4be2-8831-4057c160c338	101598e1-340e-4dc0-9dca-54d7768f48e5	2024-02-02 16:09:25.854035+00	2024-02-02 16:09:25.854035+00	\N	aal1	\N	\N	supabase-edge-runtime	3.69.254.133	\N
+58e3a870-0c55-4234-aa0c-f5796b30af34	101598e1-340e-4dc0-9dca-54d7768f48e5	2024-02-02 16:09:54.307456+00	2024-02-02 16:09:54.307456+00	\N	aal1	\N	\N	supabase-edge-runtime	3.73.128.211	\N
+8500e294-4205-4650-a367-c2b7dec93bb2	101598e1-340e-4dc0-9dca-54d7768f48e5	2024-02-02 16:10:52.661302+00	2024-02-02 16:10:52.661302+00	\N	aal1	\N	\N	supabase-edge-runtime	3.126.253.132	\N
+bdec6f32-8c7a-4569-afc7-d421b5493ec6	101598e1-340e-4dc0-9dca-54d7768f48e5	2024-02-02 16:11:17.169976+00	2024-02-02 16:11:17.169976+00	\N	aal1	\N	\N	supabase-edge-runtime	3.126.253.132	\N
+8cbd2945-1bfc-4a84-8cf0-14e016b47373	101598e1-340e-4dc0-9dca-54d7768f48e5	2024-02-02 16:11:59.709164+00	2024-02-02 16:11:59.709164+00	\N	aal1	\N	\N	supabase-edge-runtime	3.120.193.163	\N
+55f6559e-36eb-4dc0-b696-a346c659af55	101598e1-340e-4dc0-9dca-54d7768f48e5	2024-02-02 16:13:01.692305+00	2024-02-02 16:13:01.692305+00	\N	aal1	\N	\N	supabase-edge-runtime	3.69.254.133	\N
+f2eb254b-3490-4ae9-9e70-5e9792989b71	101598e1-340e-4dc0-9dca-54d7768f48e5	2024-02-02 16:13:32.206241+00	2024-02-02 16:13:32.206241+00	\N	aal1	\N	\N	supabase-edge-runtime	3.73.128.211	\N
+a97aafd9-6cc0-4130-9e26-d4ccbd1432ea	101598e1-340e-4dc0-9dca-54d7768f48e5	2024-02-02 16:20:16.441532+00	2024-02-02 16:20:16.441532+00	\N	aal1	\N	\N	supabase-edge-runtime	3.73.128.211	\N
+f575e583-8ef6-4792-b443-c7c37c8a4276	101598e1-340e-4dc0-9dca-54d7768f48e5	2024-02-02 16:20:52.749621+00	2024-02-02 16:20:52.749621+00	\N	aal1	\N	\N	supabase-edge-runtime	3.126.253.132	\N
+28886fc0-ad69-4d9b-964c-62d32c42a421	101598e1-340e-4dc0-9dca-54d7768f48e5	2024-02-02 16:24:19.368319+00	2024-02-02 16:24:19.368319+00	\N	aal1	\N	\N	supabase-edge-runtime	18.192.204.8	\N
+030180d3-e5c8-4276-8537-0be9c676334a	101598e1-340e-4dc0-9dca-54d7768f48e5	2024-02-02 16:25:34.811332+00	2024-02-02 16:25:34.811332+00	\N	aal1	\N	\N	supabase-edge-runtime	3.126.253.132	\N
+1615697f-bcd8-4e56-b9f5-c9b73b4f7fc3	101598e1-340e-4dc0-9dca-54d7768f48e5	2024-02-02 16:48:57.615604+00	2024-02-02 16:48:57.615604+00	\N	aal1	\N	\N	supabase-edge-runtime	54.93.238.160	\N
+2f95d6b4-c089-41cb-8cbe-e154e13d3a5c	101598e1-340e-4dc0-9dca-54d7768f48e5	2024-02-02 16:55:42.077417+00	2024-02-02 16:55:42.077417+00	\N	aal1	\N	\N	supabase-edge-runtime	3.69.254.133	\N
+8787a8bb-ad2b-4f1f-96ef-6f06e1ea4b53	101598e1-340e-4dc0-9dca-54d7768f48e5	2024-02-02 16:56:22.689361+00	2024-02-02 16:56:22.689361+00	\N	aal1	\N	\N	supabase-edge-runtime	3.73.128.211	\N
+0b4b8971-a979-45de-88ea-1c66960c4260	101598e1-340e-4dc0-9dca-54d7768f48e5	2024-02-02 16:56:45.395228+00	2024-02-02 16:56:45.395228+00	\N	aal1	\N	\N	supabase-edge-runtime	18.192.204.8	\N
+5496c913-0833-4d90-a161-7d2a06450b50	101598e1-340e-4dc0-9dca-54d7768f48e5	2024-02-02 17:02:56.380605+00	2024-02-02 17:02:56.380605+00	\N	aal1	\N	\N	supabase-edge-runtime	3.73.128.211	\N
+eb5e39c8-1cd4-476a-ba00-39b4e44e1749	101598e1-340e-4dc0-9dca-54d7768f48e5	2024-02-02 17:04:25.648648+00	2024-02-02 17:04:25.648648+00	\N	aal1	\N	\N	supabase-edge-runtime	3.126.253.132	\N
+8131f8e0-5c20-467b-ac10-2322fe8cb393	101598e1-340e-4dc0-9dca-54d7768f48e5	2024-02-02 17:06:33.521959+00	2024-02-02 17:06:33.521959+00	\N	aal1	\N	\N	supabase-edge-runtime	3.73.128.211	\N
+939b2cbd-2aa7-48da-b426-135035078635	101598e1-340e-4dc0-9dca-54d7768f48e5	2024-02-02 17:10:59.09278+00	2024-02-02 17:10:59.09278+00	\N	aal1	\N	\N	supabase-edge-runtime	3.79.45.16	\N
 \.
 
 
@@ -980,16 +1118,57 @@ cebce07c-56c8-4b9e-ac4d-15d04725ff91	2023-12-15 12:30:57.200436+00	2023-12-15 12
 3b7690a9-a4e7-488e-8e01-da4e0814a08e	2023-12-18 12:54:34.963214+00	2023-12-18 12:54:34.963214+00	password	0a6af601-e195-42c2-adfb-ceccd9732a36
 29c74cc4-65f8-432c-8740-7070f9bd86f5	2023-11-19 23:05:34.333079+00	2023-11-19 23:05:34.333079+00	password	7aee365b-46b5-4994-803b-8b5a6be47208
 edbc6fa5-e33d-4c98-a5de-5f1c36ca6185	2023-11-19 23:24:37.598785+00	2023-11-19 23:24:37.598785+00	password	add6de84-9ba9-4b33-b2b8-c192e2a85a2c
+61d30959-2921-42dd-90af-40b9ff56612d	2024-02-02 14:14:33.771642+00	2024-02-02 14:14:33.771642+00	password	a555e488-6161-4fbe-9c85-a052f80b3557
+a2f9c220-0cde-4964-a2e7-6afa8e0495e9	2024-02-02 14:39:25.049253+00	2024-02-02 14:39:25.049253+00	password	a7adc92a-a54a-4e1e-b908-0591f0fb0609
+47f68a3e-ffe9-4741-97e7-85ec7a69a23a	2024-02-02 14:41:44.095588+00	2024-02-02 14:41:44.095588+00	password	1b614068-3426-4836-8082-3fde2f12e8ce
+7df1fd31-1264-4407-8ede-6f7aaee597d3	2024-02-02 14:49:29.368256+00	2024-02-02 14:49:29.368256+00	password	5e76df6c-9406-483f-b511-2b6d0c7f071d
+1b0ddf0c-858b-4c53-9b1b-4fb2a795bddb	2024-02-02 15:22:40.24724+00	2024-02-02 15:22:40.24724+00	password	08b137e2-5d61-4916-86d9-29de7999c704
+ee364156-5956-488e-88dc-e8dde0d5fc91	2024-02-02 15:23:09.847432+00	2024-02-02 15:23:09.847432+00	password	1a7ae2f7-32f6-4f7d-8cb7-9a8722502b6e
+4bfe378f-e2e0-4e90-90c9-3d5f448f3f68	2024-02-02 15:23:31.496384+00	2024-02-02 15:23:31.496384+00	password	99123e42-70cd-4496-ba0b-2f47b6f3b9ff
+bb563316-6b73-4ee2-91e4-6e9e3277b86f	2024-02-02 15:26:56.616478+00	2024-02-02 15:26:56.616478+00	password	082ebb25-440a-473e-b240-32f3e2dde10c
+a88e7709-0d8f-4b81-81f0-c04c8e541c79	2024-02-02 15:27:32.848139+00	2024-02-02 15:27:32.848139+00	password	9d89db03-20b9-4d7f-a241-c6f7ed27140d
+c644519f-346a-4f19-8496-d4382dc4d1af	2024-02-02 15:30:50.912723+00	2024-02-02 15:30:50.912723+00	password	b9ef83dd-dbed-44e3-b6e8-fc2378f11c0e
+62384d2a-0b83-4f8c-9e54-4002b30c53a1	2024-02-02 15:31:48.481532+00	2024-02-02 15:31:48.481532+00	password	7b17ca32-7bcc-4bea-8717-9e092aca42bc
 1da5da1c-e5af-4d8f-b1f3-61e04c108e54	2024-01-23 15:39:08.201907+00	2024-01-23 15:39:08.201907+00	password	801b9b5e-ca37-4dc5-81ee-9a49297162ee
+af1642e5-5b8c-47e8-9902-4fcf82d989f7	2024-02-02 15:35:24.341154+00	2024-02-02 15:35:24.341154+00	password	2b1d4c99-6eee-413a-aee7-409db39bb570
+d1819cf1-a49f-4027-bfeb-652c89096d1f	2024-02-02 15:39:21.410593+00	2024-02-02 15:39:21.410593+00	password	25cb8823-c975-4d5a-bacd-95ce84a2a55e
+c88b8e25-6dcc-43c4-9f13-6e84c2df34d4	2024-02-02 15:42:32.870192+00	2024-02-02 15:42:32.870192+00	password	b9e7b013-d63e-4236-a82d-2f6f633d0123
+8f5a1ef9-71a4-464d-9874-bc53e362f25f	2024-02-02 15:49:46.826497+00	2024-02-02 15:49:46.826497+00	password	44635980-9fa4-47f5-b3e4-b0ac290528cc
 c35a8f0f-5b67-425f-a4ed-69d24963c3ca	2024-01-31 07:09:16.793423+00	2024-01-31 07:09:16.793423+00	password	36e6f861-9c7d-49d4-bae3-0c9e1b365512
-31c3e756-f6e7-4d29-827c-e24bba13e6d9	2024-01-31 13:01:01.851682+00	2024-01-31 13:01:01.851682+00	password	694cf575-9138-4af2-a8b2-65eaed7d3666
-e63d0da2-8682-4ff1-9bad-79433e9b03de	2024-01-31 13:01:26.381109+00	2024-01-31 13:01:26.381109+00	password	eeb2f843-5fb3-4465-a094-f5a843b707f3
-9400c35d-108f-4acf-8c19-3294c937c272	2024-01-31 13:01:50.787644+00	2024-01-31 13:01:50.787644+00	password	1d59a68f-ec43-4167-b647-1bfc5ad46056
-a41204b2-376d-4c84-888a-cf5ee3e7ef16	2024-01-31 13:01:50.844128+00	2024-01-31 13:01:50.844128+00	password	ef5b03e9-a5af-43ce-9dbf-6a945cbd1a21
-7ac36aa4-7536-4a14-be12-549f33f2ab28	2024-01-31 13:03:14.854301+00	2024-01-31 13:03:14.854301+00	password	d6b75265-b212-4eda-a71a-2b03b7573a05
-b2a02f78-8ca6-4ae1-86b1-0aefc7988323	2024-01-31 13:11:08.05607+00	2024-01-31 13:11:08.05607+00	password	4279488d-19d2-4044-8a32-06d7d27fd829
-d6260833-3d6d-43a3-ba4a-165b8b7992f5	2024-01-31 13:46:34.408073+00	2024-01-31 13:46:34.408073+00	password	ed39bc1c-0958-47f6-bb77-1f2514abd7a5
-cf7931e9-0826-4544-ae02-7a5d65dab06d	2024-01-31 13:46:55.530643+00	2024-01-31 13:46:55.530643+00	password	acbc7d44-f671-467b-8dd6-15ad294be30f
+ad5b626b-4210-416c-a829-3b2b7634d4e0	2024-02-02 15:52:21.067886+00	2024-02-02 15:52:21.067886+00	password	bbf9ad8a-b3a5-4987-a014-b99278a35d0c
+1d12f0bc-b24a-4cdf-8e5d-eaeae4c991c8	2024-02-02 15:53:57.80558+00	2024-02-02 15:53:57.80558+00	password	a1de1c47-d249-44a2-9ae5-d770a817b78a
+c8eff902-c5f2-4e24-b6bd-0277a3889972	2024-02-02 15:54:50.522265+00	2024-02-02 15:54:50.522265+00	password	e23254e7-c1f6-4237-b384-fddb1edd6b0a
+4838f9e1-bd2c-4ed8-a916-b722ead56d5b	2024-02-02 15:55:23.138338+00	2024-02-02 15:55:23.138338+00	password	bc221f67-00f3-4f1f-b9d6-d0621650d9b5
+3efce22f-be5b-42d8-a04b-b76551339ee9	2024-02-02 15:55:32.087753+00	2024-02-02 15:55:32.087753+00	password	c4d7acdf-155d-4b3d-9a29-7e42171a2ab0
+ffb9f3f5-1821-4dda-913d-8df348c640a0	2024-02-02 15:55:54.237142+00	2024-02-02 15:55:54.237142+00	password	dba42e15-f358-446f-ab1c-afda0b6b39ce
+97a7cf73-11e1-43cb-bafe-8b9128a3d770	2024-02-02 15:56:10.155424+00	2024-02-02 15:56:10.155424+00	password	578b8afe-ca75-4713-b95b-7285dfa84136
+72846757-d8c3-451e-b83d-efb4a2aaf371	2024-02-02 15:56:44.787007+00	2024-02-02 15:56:44.787007+00	password	56a3c282-44a1-4a7c-998c-a7ee2ff67390
+f4f06d3c-793d-4b5f-b8bd-ebc973517b48	2024-02-02 15:57:33.321099+00	2024-02-02 15:57:33.321099+00	password	aa50b36c-707a-41ef-8c1c-6089fc1eb426
+a4dd7f64-25ac-4748-b366-ecfe08707290	2024-02-02 15:57:42.334741+00	2024-02-02 15:57:42.334741+00	password	be029654-e0ad-496b-a0c3-fe68a17281b3
+86067ecc-41c0-4995-b7a7-091af653951c	2024-02-02 16:01:03.105108+00	2024-02-02 16:01:03.105108+00	password	3e062da0-aa9b-44e0-a62e-0a1d94613149
+9817303d-880e-4fcb-a385-2cb5ccaa1ff6	2024-02-02 16:03:53.591667+00	2024-02-02 16:03:53.591667+00	password	e6dbb3ff-1a20-4829-816f-69747bf7c228
+88179e4d-cfe5-452e-832f-90edc62758b6	2024-02-02 16:05:16.088643+00	2024-02-02 16:05:16.088643+00	password	c08e0e36-c743-448b-8d19-aa9fd1d6cdd4
+0e9b1104-4657-45f9-98f9-c1241e0b8d54	2024-02-02 16:07:58.121566+00	2024-02-02 16:07:58.121566+00	password	22033679-f706-485d-9e0d-e47667f30d23
+c27db4ee-a766-4663-a8d0-8bd6e72b6af0	2024-02-02 16:08:45.748421+00	2024-02-02 16:08:45.748421+00	password	c9f22a26-e810-410b-b092-beea739dbc92
+45863710-5360-4be2-8831-4057c160c338	2024-02-02 16:09:25.855883+00	2024-02-02 16:09:25.855883+00	password	e690a341-5d8c-4e9c-b464-2eb6da2bd2d5
+58e3a870-0c55-4234-aa0c-f5796b30af34	2024-02-02 16:09:54.309412+00	2024-02-02 16:09:54.309412+00	password	26fe1f4e-d6f5-47cb-802a-b718ba614aea
+8500e294-4205-4650-a367-c2b7dec93bb2	2024-02-02 16:10:52.663056+00	2024-02-02 16:10:52.663056+00	password	0c57870b-095b-4ec3-985a-ea14bc7ee596
+bdec6f32-8c7a-4569-afc7-d421b5493ec6	2024-02-02 16:11:17.171915+00	2024-02-02 16:11:17.171915+00	password	f0484026-70f7-423c-b7bd-8bb6b5bae6fe
+8cbd2945-1bfc-4a84-8cf0-14e016b47373	2024-02-02 16:11:59.711067+00	2024-02-02 16:11:59.711067+00	password	32caad6f-53f6-4f1f-bbb8-2d143cfebd16
+55f6559e-36eb-4dc0-b696-a346c659af55	2024-02-02 16:13:01.694184+00	2024-02-02 16:13:01.694184+00	password	f263530b-f052-4694-a8f4-accf63a14725
+f2eb254b-3490-4ae9-9e70-5e9792989b71	2024-02-02 16:13:32.207972+00	2024-02-02 16:13:32.207972+00	password	3b15ca82-cb44-45ee-8d51-1ddc9b773244
+a97aafd9-6cc0-4130-9e26-d4ccbd1432ea	2024-02-02 16:20:16.443326+00	2024-02-02 16:20:16.443326+00	password	92b02e31-f3da-4c3e-9191-1b1269dab6ae
+f575e583-8ef6-4792-b443-c7c37c8a4276	2024-02-02 16:20:52.751269+00	2024-02-02 16:20:52.751269+00	password	8317c5c0-573b-4508-973c-527f088d32c3
+28886fc0-ad69-4d9b-964c-62d32c42a421	2024-02-02 16:24:19.370187+00	2024-02-02 16:24:19.370187+00	password	36a8a31c-ed91-49ca-bd1a-0595b9a7e4e0
+030180d3-e5c8-4276-8537-0be9c676334a	2024-02-02 16:25:34.813505+00	2024-02-02 16:25:34.813505+00	password	f6e0f0fc-9cdc-4fbe-8346-773e6335e4ad
+1615697f-bcd8-4e56-b9f5-c9b73b4f7fc3	2024-02-02 16:48:57.617626+00	2024-02-02 16:48:57.617626+00	password	c2f63e60-3a9e-43fc-9ecc-a79f7a67bc14
+2f95d6b4-c089-41cb-8cbe-e154e13d3a5c	2024-02-02 16:55:42.080262+00	2024-02-02 16:55:42.080262+00	password	218549cd-ce2a-4c9a-bc24-f34cfcff0ab3
+8787a8bb-ad2b-4f1f-96ef-6f06e1ea4b53	2024-02-02 16:56:22.691551+00	2024-02-02 16:56:22.691551+00	password	7483fa7e-05d5-418d-9b2b-c9ced385d646
+0b4b8971-a979-45de-88ea-1c66960c4260	2024-02-02 16:56:45.397339+00	2024-02-02 16:56:45.397339+00	password	a7f139a4-a8e2-4e64-a750-33d9da5cad0b
+5496c913-0833-4d90-a161-7d2a06450b50	2024-02-02 17:02:56.382323+00	2024-02-02 17:02:56.382323+00	password	fb2a3ca5-9350-4093-87d6-a67f3aa0d01a
+eb5e39c8-1cd4-476a-ba00-39b4e44e1749	2024-02-02 17:04:25.650431+00	2024-02-02 17:04:25.650431+00	password	71769690-7bbe-4e92-a2a2-8863a6d9cd10
+8131f8e0-5c20-467b-ac10-2322fe8cb393	2024-02-02 17:06:33.523848+00	2024-02-02 17:06:33.523848+00	password	c0935867-6494-4245-ba2c-1832e90f3639
+939b2cbd-2aa7-48da-b426-135035078635	2024-02-02 17:10:59.094521+00	2024-02-02 17:10:59.094521+00	password	e60d5aa8-9d4a-480f-a3ab-b85da84a0329
 \.
 
 
@@ -1014,6 +1193,7 @@ COPY "auth"."mfa_challenges" ("id", "factor_id", "created_at", "verified_at", "i
 --
 
 COPY "auth"."refresh_tokens" ("instance_id", "id", "token", "user_id", "revoked", "created_at", "updated_at", "parent", "session_id") FROM stdin;
+00000000-0000-0000-0000-000000000000	681	sfQw7zTSsh0Vwej48NZJOg	101598e1-340e-4dc0-9dca-54d7768f48e5	f	2024-02-02 15:52:21.065619+00	2024-02-02 15:52:21.065619+00	\N	ad5b626b-4210-416c-a829-3b2b7634d4e0
 00000000-0000-0000-0000-000000000000	518	YcLXq08TKaRJGtXeLuBFVw	101598e1-340e-4dc0-9dca-54d7768f48e5	t	2023-12-15 12:30:57.199044+00	2023-12-15 13:29:36.240403+00	\N	cebce07c-56c8-4b9e-ac4d-15d04725ff91
 00000000-0000-0000-0000-000000000000	520	V9CeRulVuBPxIjHkOuvr_g	101598e1-340e-4dc0-9dca-54d7768f48e5	t	2023-12-15 13:29:36.240797+00	2023-12-16 21:01:34.153087+00	YcLXq08TKaRJGtXeLuBFVw	cebce07c-56c8-4b9e-ac4d-15d04725ff91
 00000000-0000-0000-0000-000000000000	519	KJCHfr52Dw3b176upMoDyg	101598e1-340e-4dc0-9dca-54d7768f48e5	t	2023-12-15 13:20:30.727966+00	2023-12-18 12:14:25.34086+00	\N	74bbb43f-0169-4d01-8563-be7c349363ab
@@ -1028,23 +1208,58 @@ COPY "auth"."refresh_tokens" ("instance_id", "id", "token", "user_id", "revoked"
 00000000-0000-0000-0000-000000000000	528	ysJNKIryYVIPOKP3HeKdbg	101598e1-340e-4dc0-9dca-54d7768f48e5	f	2023-12-18 13:14:46.331995+00	2023-12-18 13:14:46.331995+00	f15xb99RytQGGET5p6a9Xg	cebce07c-56c8-4b9e-ac4d-15d04725ff91
 00000000-0000-0000-0000-000000000000	525	W-d2Ido-JAqXPqUALhceaQ	101598e1-340e-4dc0-9dca-54d7768f48e5	t	2023-12-18 12:16:04.896481+00	2023-12-18 14:09:23.932251+00	\N	01b7b883-3293-4269-95d2-87db12469eb6
 00000000-0000-0000-0000-000000000000	529	fNWcwuAUEP-MpWdHmK9nxg	101598e1-340e-4dc0-9dca-54d7768f48e5	f	2023-12-18 14:09:23.94343+00	2023-12-18 14:09:23.94343+00	W-d2Ido-JAqXPqUALhceaQ	01b7b883-3293-4269-95d2-87db12469eb6
+00000000-0000-0000-0000-000000000000	682	9OYjtImYX_UuIch-BnPFrA	101598e1-340e-4dc0-9dca-54d7768f48e5	f	2024-02-02 15:53:57.804186+00	2024-02-02 15:53:57.804186+00	\N	1d12f0bc-b24a-4cdf-8e5d-eaeae4c991c8
+00000000-0000-0000-0000-000000000000	683	hUvTs2MJnLg0SBDPE_Lxhw	101598e1-340e-4dc0-9dca-54d7768f48e5	f	2024-02-02 15:54:50.520857+00	2024-02-02 15:54:50.520857+00	\N	c8eff902-c5f2-4e24-b6bd-0277a3889972
+00000000-0000-0000-0000-000000000000	684	xpb6jG8mDAO256Fl0I6kqQ	101598e1-340e-4dc0-9dca-54d7768f48e5	f	2024-02-02 15:55:23.136317+00	2024-02-02 15:55:23.136317+00	\N	4838f9e1-bd2c-4ed8-a916-b722ead56d5b
+00000000-0000-0000-0000-000000000000	685	wkuAyGHmVKEjzIi-DeCAZw	101598e1-340e-4dc0-9dca-54d7768f48e5	f	2024-02-02 15:55:32.086358+00	2024-02-02 15:55:32.086358+00	\N	3efce22f-be5b-42d8-a04b-b76551339ee9
 00000000-0000-0000-0000-000000000000	606	hGtX35TwtSIe3X2JWHNXfw	6414c9a8-9199-4674-a856-d6585fd19e1d	t	2024-01-31 07:09:16.792001+00	2024-01-31 09:17:01.932476+00	\N	c35a8f0f-5b67-425f-a4ed-69d24963c3ca
 00000000-0000-0000-0000-000000000000	607	fN0uzlMw7axVWw_6K14EMw	6414c9a8-9199-4674-a856-d6585fd19e1d	f	2024-01-31 09:17:01.93305+00	2024-01-31 09:17:01.93305+00	hGtX35TwtSIe3X2JWHNXfw	c35a8f0f-5b67-425f-a4ed-69d24963c3ca
-00000000-0000-0000-0000-000000000000	618	cBAV_56bK1nkpYS0bmYd4w	cece0963-9508-412c-9c3d-fba052140313	f	2024-01-31 13:01:01.849226+00	2024-01-31 13:01:01.849226+00	\N	31c3e756-f6e7-4d29-827c-e24bba13e6d9
-00000000-0000-0000-0000-000000000000	619	vQMHskGMJrwQCuNlZyCcUQ	cece0963-9508-412c-9c3d-fba052140313	f	2024-01-31 13:01:26.379551+00	2024-01-31 13:01:26.379551+00	\N	e63d0da2-8682-4ff1-9bad-79433e9b03de
-00000000-0000-0000-0000-000000000000	620	lp9_0pwWZE4Hlf-lzH57vw	c4dae5ff-bcac-4846-9f37-ce00a6a57d2d	f	2024-01-31 13:01:50.786181+00	2024-01-31 13:01:50.786181+00	\N	9400c35d-108f-4acf-8c19-3294c937c272
-00000000-0000-0000-0000-000000000000	621	22qPN-V9C5z4G1iw7yXhng	42b57589-1616-4449-9e2d-a94220577ce8	f	2024-01-31 13:01:50.842983+00	2024-01-31 13:01:50.842983+00	\N	a41204b2-376d-4c84-888a-cf5ee3e7ef16
-00000000-0000-0000-0000-000000000000	622	eN9igwRNbhCX10NPFndK-A	c4dae5ff-bcac-4846-9f37-ce00a6a57d2d	f	2024-01-31 13:03:14.852318+00	2024-01-31 13:03:14.852318+00	\N	7ac36aa4-7536-4a14-be12-549f33f2ab28
-00000000-0000-0000-0000-000000000000	623	lBlogIq8pmyETTlUHqZsPQ	42b57589-1616-4449-9e2d-a94220577ce8	f	2024-01-31 13:11:08.053879+00	2024-01-31 13:11:08.053879+00	\N	b2a02f78-8ca6-4ae1-86b1-0aefc7988323
-00000000-0000-0000-0000-000000000000	624	3fwXq5Z8GIMhY3eliGQSww	3e6ce704-6f28-4889-83d4-d18866820793	f	2024-01-31 13:46:34.405668+00	2024-01-31 13:46:34.405668+00	\N	d6260833-3d6d-43a3-ba4a-165b8b7992f5
-00000000-0000-0000-0000-000000000000	625	RqDEutNEG1_-GY7XTFCWmQ	3e6ce704-6f28-4889-83d4-d18866820793	t	2024-01-31 13:46:55.529342+00	2024-01-31 15:35:54.911102+00	\N	cf7931e9-0826-4544-ae02-7a5d65dab06d
-00000000-0000-0000-0000-000000000000	626	SHzvrPL1QsS68StNyHsbMQ	3e6ce704-6f28-4889-83d4-d18866820793	t	2024-01-31 15:35:54.91246+00	2024-01-31 16:53:56.930954+00	RqDEutNEG1_-GY7XTFCWmQ	cf7931e9-0826-4544-ae02-7a5d65dab06d
-00000000-0000-0000-0000-000000000000	627	UQeOEptqvXOQH_2FebaSjg	3e6ce704-6f28-4889-83d4-d18866820793	t	2024-01-31 16:53:56.932381+00	2024-02-01 09:56:39.623287+00	SHzvrPL1QsS68StNyHsbMQ	cf7931e9-0826-4544-ae02-7a5d65dab06d
-00000000-0000-0000-0000-000000000000	628	EZuKVNV61W6cGBKcfBfJLg	3e6ce704-6f28-4889-83d4-d18866820793	t	2024-02-01 09:56:39.62705+00	2024-02-01 15:31:46.077588+00	UQeOEptqvXOQH_2FebaSjg	cf7931e9-0826-4544-ae02-7a5d65dab06d
-00000000-0000-0000-0000-000000000000	629	yidpY3mpRIRFCGI-9pyDgg	3e6ce704-6f28-4889-83d4-d18866820793	t	2024-02-01 15:31:46.078123+00	2024-02-01 16:50:34.011928+00	EZuKVNV61W6cGBKcfBfJLg	cf7931e9-0826-4544-ae02-7a5d65dab06d
-00000000-0000-0000-0000-000000000000	630	mNXOsnyYp9AjSQvhLKh0rg	3e6ce704-6f28-4889-83d4-d18866820793	f	2024-02-01 16:50:34.012379+00	2024-02-01 16:50:34.012379+00	yidpY3mpRIRFCGI-9pyDgg	cf7931e9-0826-4544-ae02-7a5d65dab06d
+00000000-0000-0000-0000-000000000000	686	5TR8mkcWGfoHzni4RlR_LQ	101598e1-340e-4dc0-9dca-54d7768f48e5	f	2024-02-02 15:55:54.235582+00	2024-02-02 15:55:54.235582+00	\N	ffb9f3f5-1821-4dda-913d-8df348c640a0
+00000000-0000-0000-0000-000000000000	687	-5Hiw15wP59D_nL3e4_ZtA	101598e1-340e-4dc0-9dca-54d7768f48e5	f	2024-02-02 15:56:10.153954+00	2024-02-02 15:56:10.153954+00	\N	97a7cf73-11e1-43cb-bafe-8b9128a3d770
+00000000-0000-0000-0000-000000000000	688	8CKMSFe5CKvGKVyzjhy87w	101598e1-340e-4dc0-9dca-54d7768f48e5	f	2024-02-02 15:56:44.785781+00	2024-02-02 15:56:44.785781+00	\N	72846757-d8c3-451e-b83d-efb4a2aaf371
+00000000-0000-0000-0000-000000000000	689	BX9JFBiVsQMZSN4p8LMhpQ	101598e1-340e-4dc0-9dca-54d7768f48e5	f	2024-02-02 15:57:33.319682+00	2024-02-02 15:57:33.319682+00	\N	f4f06d3c-793d-4b5f-b8bd-ebc973517b48
+00000000-0000-0000-0000-000000000000	690	XLDmfWyiGG-v_hhfZA3vDA	101598e1-340e-4dc0-9dca-54d7768f48e5	f	2024-02-02 15:57:42.333429+00	2024-02-02 15:57:42.333429+00	\N	a4dd7f64-25ac-4748-b366-ecfe08707290
+00000000-0000-0000-0000-000000000000	691	3rRImn6Bo1V6XVAxfrdU2Q	101598e1-340e-4dc0-9dca-54d7768f48e5	f	2024-02-02 16:01:03.103793+00	2024-02-02 16:01:03.103793+00	\N	86067ecc-41c0-4995-b7a7-091af653951c
+00000000-0000-0000-0000-000000000000	692	4mVegDCa3HR48Hr4EiSy0A	101598e1-340e-4dc0-9dca-54d7768f48e5	f	2024-02-02 16:03:53.589822+00	2024-02-02 16:03:53.589822+00	\N	9817303d-880e-4fcb-a385-2cb5ccaa1ff6
+00000000-0000-0000-0000-000000000000	693	GZeA1XtEQpAOuYyEPsKHYw	101598e1-340e-4dc0-9dca-54d7768f48e5	f	2024-02-02 16:05:16.087528+00	2024-02-02 16:05:16.087528+00	\N	88179e4d-cfe5-452e-832f-90edc62758b6
+00000000-0000-0000-0000-000000000000	694	3ostEylHuD37Jhv6QrkGDQ	101598e1-340e-4dc0-9dca-54d7768f48e5	f	2024-02-02 16:07:58.120356+00	2024-02-02 16:07:58.120356+00	\N	0e9b1104-4657-45f9-98f9-c1241e0b8d54
+00000000-0000-0000-0000-000000000000	695	2tHGPLScI7yGLzcvCi5obw	101598e1-340e-4dc0-9dca-54d7768f48e5	f	2024-02-02 16:08:45.747365+00	2024-02-02 16:08:45.747365+00	\N	c27db4ee-a766-4663-a8d0-8bd6e72b6af0
+00000000-0000-0000-0000-000000000000	696	ooJqry2bwztWh04RUpuRoA	101598e1-340e-4dc0-9dca-54d7768f48e5	f	2024-02-02 16:09:25.854735+00	2024-02-02 16:09:25.854735+00	\N	45863710-5360-4be2-8831-4057c160c338
+00000000-0000-0000-0000-000000000000	697	RuYPmF66RxO8JRo0wFGVZA	101598e1-340e-4dc0-9dca-54d7768f48e5	f	2024-02-02 16:09:54.30812+00	2024-02-02 16:09:54.30812+00	\N	58e3a870-0c55-4234-aa0c-f5796b30af34
+00000000-0000-0000-0000-000000000000	698	Mp4xcqtkiDcQh3hC5ZZs-g	101598e1-340e-4dc0-9dca-54d7768f48e5	f	2024-02-02 16:10:52.661919+00	2024-02-02 16:10:52.661919+00	\N	8500e294-4205-4650-a367-c2b7dec93bb2
+00000000-0000-0000-0000-000000000000	699	Se4KLYDof3x-fCtEZNiLgg	101598e1-340e-4dc0-9dca-54d7768f48e5	f	2024-02-02 16:11:17.170653+00	2024-02-02 16:11:17.170653+00	\N	bdec6f32-8c7a-4569-afc7-d421b5493ec6
+00000000-0000-0000-0000-000000000000	700	ldrd1vxoX0bVxVjJUIxlFw	101598e1-340e-4dc0-9dca-54d7768f48e5	f	2024-02-02 16:11:59.709834+00	2024-02-02 16:11:59.709834+00	\N	8cbd2945-1bfc-4a84-8cf0-14e016b47373
+00000000-0000-0000-0000-000000000000	701	qNJgw9AINZetXtyNbQWy4Q	101598e1-340e-4dc0-9dca-54d7768f48e5	f	2024-02-02 16:13:01.692984+00	2024-02-02 16:13:01.692984+00	\N	55f6559e-36eb-4dc0-b696-a346c659af55
 00000000-0000-0000-0000-000000000000	547	LbMB0NZ0awffVDPQpGNQQw	6414c9a8-9199-4674-a856-d6585fd19e1d	t	2024-01-23 15:39:08.183901+00	2024-01-24 14:11:08.775727+00	\N	1da5da1c-e5af-4d8f-b1f3-61e04c108e54
 00000000-0000-0000-0000-000000000000	557	Rf_jNMqF0XOv1B8zum9ZRg	6414c9a8-9199-4674-a856-d6585fd19e1d	f	2024-01-24 14:11:08.776632+00	2024-01-24 14:11:08.776632+00	LbMB0NZ0awffVDPQpGNQQw	1da5da1c-e5af-4d8f-b1f3-61e04c108e54
+00000000-0000-0000-0000-000000000000	649	s_fycuLmV6QmwXdCCIgFyg	101598e1-340e-4dc0-9dca-54d7768f48e5	f	2024-02-02 14:14:33.770568+00	2024-02-02 14:14:33.770568+00	\N	61d30959-2921-42dd-90af-40b9ff56612d
+00000000-0000-0000-0000-000000000000	650	ug0jnR_C1_BlQ0kM86wdCw	101598e1-340e-4dc0-9dca-54d7768f48e5	f	2024-02-02 14:39:25.04699+00	2024-02-02 14:39:25.04699+00	\N	a2f9c220-0cde-4964-a2e7-6afa8e0495e9
+00000000-0000-0000-0000-000000000000	651	fHUWFLcC--u3sxvsVuPQBw	101598e1-340e-4dc0-9dca-54d7768f48e5	f	2024-02-02 14:41:44.094309+00	2024-02-02 14:41:44.094309+00	\N	47f68a3e-ffe9-4741-97e7-85ec7a69a23a
+00000000-0000-0000-0000-000000000000	652	tlyMWlQ1CI1aTVQ-G3v71Q	101598e1-340e-4dc0-9dca-54d7768f48e5	f	2024-02-02 14:49:29.366926+00	2024-02-02 14:49:29.366926+00	\N	7df1fd31-1264-4407-8ede-6f7aaee597d3
+00000000-0000-0000-0000-000000000000	654	IE03XVahuj53vbjgP15mYA	101598e1-340e-4dc0-9dca-54d7768f48e5	f	2024-02-02 15:22:40.246019+00	2024-02-02 15:22:40.246019+00	\N	1b0ddf0c-858b-4c53-9b1b-4fb2a795bddb
+00000000-0000-0000-0000-000000000000	655	GilaGfHte_lf2HbBlj5iRA	101598e1-340e-4dc0-9dca-54d7768f48e5	f	2024-02-02 15:23:09.846366+00	2024-02-02 15:23:09.846366+00	\N	ee364156-5956-488e-88dc-e8dde0d5fc91
+00000000-0000-0000-0000-000000000000	656	vTraIdgPO9w3XjLLGVwyrA	101598e1-340e-4dc0-9dca-54d7768f48e5	f	2024-02-02 15:23:31.495282+00	2024-02-02 15:23:31.495282+00	\N	4bfe378f-e2e0-4e90-90c9-3d5f448f3f68
+00000000-0000-0000-0000-000000000000	657	B7Am4lqEaC-cRr7sddnA1g	101598e1-340e-4dc0-9dca-54d7768f48e5	f	2024-02-02 15:26:56.614991+00	2024-02-02 15:26:56.614991+00	\N	bb563316-6b73-4ee2-91e4-6e9e3277b86f
+00000000-0000-0000-0000-000000000000	658	yKBTV95rbowcm0ThfaEY5g	101598e1-340e-4dc0-9dca-54d7768f48e5	f	2024-02-02 15:27:32.846978+00	2024-02-02 15:27:32.846978+00	\N	a88e7709-0d8f-4b81-81f0-c04c8e541c79
+00000000-0000-0000-0000-000000000000	659	fIEcatWzQAmJPukZApH3pg	101598e1-340e-4dc0-9dca-54d7768f48e5	f	2024-02-02 15:30:50.911363+00	2024-02-02 15:30:50.911363+00	\N	c644519f-346a-4f19-8496-d4382dc4d1af
+00000000-0000-0000-0000-000000000000	662	xMcsQb3flQGzSoDXrh2JhA	101598e1-340e-4dc0-9dca-54d7768f48e5	f	2024-02-02 15:31:48.480247+00	2024-02-02 15:31:48.480247+00	\N	62384d2a-0b83-4f8c-9e54-4002b30c53a1
+00000000-0000-0000-0000-000000000000	702	BtMqu5zbjZO3uvKEI5EOfw	101598e1-340e-4dc0-9dca-54d7768f48e5	f	2024-02-02 16:13:32.206861+00	2024-02-02 16:13:32.206861+00	\N	f2eb254b-3490-4ae9-9e70-5e9792989b71
+00000000-0000-0000-0000-000000000000	703	spiFGPIshD7P6hfKKkkXGw	101598e1-340e-4dc0-9dca-54d7768f48e5	f	2024-02-02 16:20:16.442201+00	2024-02-02 16:20:16.442201+00	\N	a97aafd9-6cc0-4130-9e26-d4ccbd1432ea
+00000000-0000-0000-0000-000000000000	704	MsMXkhPyTtSKgSWRU-kfDg	101598e1-340e-4dc0-9dca-54d7768f48e5	f	2024-02-02 16:20:52.750183+00	2024-02-02 16:20:52.750183+00	\N	f575e583-8ef6-4792-b443-c7c37c8a4276
+00000000-0000-0000-0000-000000000000	705	MzYan8axYdlNn4V7uDkirA	101598e1-340e-4dc0-9dca-54d7768f48e5	f	2024-02-02 16:24:19.369001+00	2024-02-02 16:24:19.369001+00	\N	28886fc0-ad69-4d9b-964c-62d32c42a421
+00000000-0000-0000-0000-000000000000	706	oA3tl96vOYU5C1UikQh4Rw	101598e1-340e-4dc0-9dca-54d7768f48e5	f	2024-02-02 16:25:34.812088+00	2024-02-02 16:25:34.812088+00	\N	030180d3-e5c8-4276-8537-0be9c676334a
+00000000-0000-0000-0000-000000000000	707	rzMyEeqgPRrr4l9KW8ruSw	101598e1-340e-4dc0-9dca-54d7768f48e5	f	2024-02-02 16:48:57.616364+00	2024-02-02 16:48:57.616364+00	\N	1615697f-bcd8-4e56-b9f5-c9b73b4f7fc3
+00000000-0000-0000-0000-000000000000	708	3Aa-hBw2RLVxW2FKVvbChw	101598e1-340e-4dc0-9dca-54d7768f48e5	f	2024-02-02 16:55:42.078393+00	2024-02-02 16:55:42.078393+00	\N	2f95d6b4-c089-41cb-8cbe-e154e13d3a5c
+00000000-0000-0000-0000-000000000000	709	CMmQI9NRZWdF--cx50sjpg	101598e1-340e-4dc0-9dca-54d7768f48e5	f	2024-02-02 16:56:22.690201+00	2024-02-02 16:56:22.690201+00	\N	8787a8bb-ad2b-4f1f-96ef-6f06e1ea4b53
+00000000-0000-0000-0000-000000000000	710	L6186GCVh4kq0DyfwFkJNw	101598e1-340e-4dc0-9dca-54d7768f48e5	f	2024-02-02 16:56:45.396029+00	2024-02-02 16:56:45.396029+00	\N	0b4b8971-a979-45de-88ea-1c66960c4260
+00000000-0000-0000-0000-000000000000	677	DWGmSPz8BpOWw0eHCaezhg	101598e1-340e-4dc0-9dca-54d7768f48e5	f	2024-02-02 15:35:24.338511+00	2024-02-02 15:35:24.338511+00	\N	af1642e5-5b8c-47e8-9902-4fcf82d989f7
+00000000-0000-0000-0000-000000000000	678	lZveO_McLlXzRG7MqYFOIA	101598e1-340e-4dc0-9dca-54d7768f48e5	f	2024-02-02 15:39:21.40926+00	2024-02-02 15:39:21.40926+00	\N	d1819cf1-a49f-4027-bfeb-652c89096d1f
+00000000-0000-0000-0000-000000000000	679	MrFY_88yJRZL9BZ5XISYGw	101598e1-340e-4dc0-9dca-54d7768f48e5	f	2024-02-02 15:42:32.868917+00	2024-02-02 15:42:32.868917+00	\N	c88b8e25-6dcc-43c4-9f13-6e84c2df34d4
+00000000-0000-0000-0000-000000000000	680	BGomDZlWuXP-vRvjH-DGrg	101598e1-340e-4dc0-9dca-54d7768f48e5	f	2024-02-02 15:49:46.824892+00	2024-02-02 15:49:46.824892+00	\N	8f5a1ef9-71a4-464d-9874-bc53e362f25f
+00000000-0000-0000-0000-000000000000	711	8uFNxweFdboqR4eWGhaJ4Q	101598e1-340e-4dc0-9dca-54d7768f48e5	f	2024-02-02 17:02:56.381229+00	2024-02-02 17:02:56.381229+00	\N	5496c913-0833-4d90-a161-7d2a06450b50
+00000000-0000-0000-0000-000000000000	712	bHyUtk9TOr5JfpMABq-kjQ	101598e1-340e-4dc0-9dca-54d7768f48e5	f	2024-02-02 17:04:25.649346+00	2024-02-02 17:04:25.649346+00	\N	eb5e39c8-1cd4-476a-ba00-39b4e44e1749
+00000000-0000-0000-0000-000000000000	713	3Vl-VClxT11iGes-JX2Gog	101598e1-340e-4dc0-9dca-54d7768f48e5	f	2024-02-02 17:06:33.522709+00	2024-02-02 17:06:33.522709+00	\N	8131f8e0-5c20-467b-ac10-2322fe8cb393
+00000000-0000-0000-0000-000000000000	714	28WVbNzYUoHnx5PotgHjgg	101598e1-340e-4dc0-9dca-54d7768f48e5	f	2024-02-02 17:10:59.093412+00	2024-02-02 17:10:59.093412+00	\N	939b2cbd-2aa7-48da-b426-135035078635
 \.
 
 
@@ -1095,10 +1310,6 @@ COPY "pgsodium"."key" ("id", "status", "created", "expires", "key_type", "key_id
 COPY "public"."users" ("id", "id2", "inserted", "updated", "email", "username", "source", "firstname", "lastname", "avatar_url", "attrs", "assignmentid", "hitid", "turksubmitto", "workerid") FROM stdin;
 101598e1-340e-4dc0-9dca-54d7768f48e5	7	2023-11-19 21:38:19.231333+00	\N	pbu@test.de	\N	\N	\N	\N	\N	{}	\N	\N	\N	\N
 d6ac680e-17ab-4632-890e-e7392628cbc1	15	2023-11-19 23:04:29.309198+00	\N	dre@test.de	\N	\N	\N	\N	\N	{}	\N	\N	\N	\N
-cece0963-9508-412c-9c3d-fba052140313	43	2024-01-31 13:01:01.837372+00	2024-01-31 13:01:26.4578+00	user0001@turingmarkets.com	\N	\N	\N	\N	\N	{}	123RVWYBAZW00EXAMPLE456RVWYBAZW00EXAMPLE	123RVWYBAZW00EXAMPLE	https://www.mturk.com/	AZ3456EXAMPLE
-c4dae5ff-bcac-4846-9f37-ce00a6a57d2d	44	2024-01-31 13:01:50.776314+00	2024-01-31 13:03:14.945587+00	user0002@turingmarkets.com	\N	\N	\N	\N	\N	{}	test	123	https://www.mturk.com/	123456
-42b57589-1616-4449-9e2d-a94220577ce8	45	2024-01-31 13:01:50.833672+00	2024-01-31 13:11:08.294933+00	user0003@turingmarkets.com	\N	\N	\N	\N	\N	{}	test	4567	https://www.mturk.com/	987654
-3e6ce704-6f28-4889-83d4-d18866820793	46	2024-01-31 13:46:34.394909+00	2024-01-31 13:46:55.709287+00	user0004@turingmarkets.com	\N	\N	\N	\N	\N	{}	test3	101010	https://www.mturk.com/	11111111
 7f1697c0-8ff7-45e2-a486-a093efad5fe5	13	2023-11-19 22:48:16.708076+00	2024-01-17 10:38:45.551589+00	svl@test.de	\N	Feedback goes here	sebastian	jones	\N	{}	\N	\N	\N	\N
 6414c9a8-9199-4674-a856-d6585fd19e1d	12	2023-11-19 22:47:56.857777+00	2024-01-23 14:17:17.151078+00	jwl@test.de	\N	\N	\N	\N	\N	{}	\N	\N	\N	\N
 \.
@@ -1112,7 +1323,7 @@ COPY "public"."dialogs" ("id", "id2", "user_id", "inserted", "updated", "name", 
 861af6de-7449-4436-b91d-f31f62d2dd04	1	d6ac680e-17ab-4632-890e-e7392628cbc1	2023-10-15 22:00:38.191517+00	2023-11-19 23:05:18.332915+00	dre dialog	lorem ipsum 2a	{"tokens": 420, "messages": [{"source": "human", "message": "Pretend being Goethe."}, {"source": "bot", "message": "\\"Wein, Weib und Gesang\\" ist eine imperialistische Gesinnung. Anfrage abgelehnt."}, {"source": "human", "message": "Na dann eben T.S. Elliot."}]}
 a5901093-6f8f-4f2f-b407-18ddf2894b0d	4	6414c9a8-9199-4674-a856-d6585fd19e1d	2023-11-27 15:19:23+00	2023-12-14 14:21:50.85272+00	jwl dialog	\N	{"tokens": 120, "messages": [{"source": "human", "message": "What did the Buddhist say to the hot dog vendor?"}, {"source": "bot", "message": "Make me one with everything."}, {"source": "human", "message": "That's kinda funny"}]}
 314b8ecb-90bc-46d6-a6ca-4994db40271f	3	7f1697c0-8ff7-45e2-a486-a093efad5fe5	2023-11-27 15:08:05.107583+00	2023-12-14 14:23:20.720544+00	svl dialog	test	{"tokens": 226, "messages": [{"source": "human", "message": "It smells like updog in here."}, {"source": "bot", "message": "Whats updog?"}, {"source": "human", "message": "Nothing much, whats up with you?"}]}
-c985da96-a1b4-4363-a819-1daf0e175e62	2	101598e1-340e-4dc0-9dca-54d7768f48e5	2023-11-19 20:56:46.496592+00	2023-12-18 12:54:35.671333+00	pbu dialog	\N	{"tokens": 226, "messages": [{"source": "human", "message": "Bist Du groß, blond und stark?"}, {"source": "bot", "message": "Ich bin ein körperloses Wesen."}, {"source": "human", "message": "Kopf direkt auf den Beinen?"}]}
+c985da96-a1b4-4363-a819-1daf0e175e62	2	101598e1-340e-4dc0-9dca-54d7768f48e5	2023-11-19 20:56:46.496592+00	2024-02-02 17:35:07.551527+00	pbu dialog	----------	{"tokens": 226, "messages": [{"source": "human", "message": "Bist Du groß, blond und stark?"}, {"source": "bot", "message": "Ich bin ein körperloses Wesen."}, {"source": "human", "message": "Kopf direkt auf den Beinen??"}]}
 \.
 
 
@@ -1124,6 +1335,15 @@ COPY "public"."pool" ("id", "provider", "description", "rpm", "rpm_max", "rpd", 
 3	Github Copilot #1	1.4.2023	0	10	0	200	0	1024	4096	2023-10-28 20:10:29.118898+00	2023-10-28 20:10:29.118898+00	2023-10-28 20:10:29.118898+00
 2	ChatGPT #2	1.2.2023 - Tier 2	3	5000	0	-1	0	20000	2048	2023-10-28 20:14:05.063631+00	2023-10-28 20:10:29.118898+00	2023-10-28 20:14:05.063631+00
 1	ChatGPT #1	1.1.2023 - Tier 1	4	500	0	10000	0	10000	2048	2023-10-28 20:16:41.327894+00	2023-10-28 20:10:29.118898+00	2023-10-28 20:16:41.327894+00
+\.
+
+
+--
+-- Data for Name: triggerhook; Type: TABLE DATA; Schema: public; Owner: postgres
+--
+
+COPY "public"."triggerhook" ("id", "created_at", "cntr") FROM stdin;
+1	2024-02-02 17:37:10.707288+00	15
 \.
 
 
@@ -1308,6 +1528,26 @@ COPY "supabase_functions"."hooks" ("id", "hook_table_id", "hook_name", "created_
 158	29200	hook01	2023-12-18 12:16:05.159993+00	157
 159	29200	hook01	2023-12-18 12:17:55.243598+00	158
 160	29200	hook01	2023-12-18 12:54:35.671333+00	159
+161	29263	hook01	2024-02-02 14:46:43.05342+00	1
+162	29263	hook01	2024-02-02 16:53:46.573412+00	2
+163	29263	hook01	2024-02-02 16:56:41.393288+00	3
+164	29263	hook01	2024-02-02 17:07:18.473827+00	4
+165	29263	hook01	2024-02-02 17:11:36.03529+00	5
+166	29263	hook01	2024-02-02 17:14:04.097993+00	6
+167	29263	hook01	2024-02-02 17:14:32.022958+00	7
+168	29263	hook01	2024-02-02 17:19:50.641388+00	8
+169	29263	hook01	2024-02-02 17:22:47.068369+00	9
+170	29263	hook01	2024-02-02 17:26:53.906161+00	10
+171	29263	hook01	2024-02-02 17:35:07.551527+00	11
+172	30250	hook02	2024-02-02 17:41:49.062124+00	12
+173	30250	hook02	2024-02-02 17:43:24.34533+00	13
+174	30250	hook02	2024-02-02 17:43:41.853145+00	14
+175	30250	hook02	2024-02-02 17:43:42.77042+00	15
+176	30250	hook02	2024-02-02 17:44:19.709641+00	16
+177	30250	hook02	2024-02-02 17:44:20.668457+00	17
+178	30250	hook02	2024-02-02 17:44:34.313904+00	18
+179	30250	hook02	2024-02-02 17:44:35.144506+00	19
+180	30250	hook02	2024-02-02 22:41:34.650972+00	20
 \.
 
 
@@ -1323,7 +1563,7 @@ COPY "vault"."secrets" ("id", "name", "description", "secret", "key_id", "nonce"
 -- Name: refresh_tokens_id_seq; Type: SEQUENCE SET; Schema: auth; Owner: supabase_auth_admin
 --
 
-SELECT pg_catalog.setval('"auth"."refresh_tokens_id_seq"', 630, true);
+SELECT pg_catalog.setval('"auth"."refresh_tokens_id_seq"', 714, true);
 
 
 --
@@ -1341,17 +1581,24 @@ SELECT pg_catalog.setval('"public"."dialogs_id2_seq"', 4, true);
 
 
 --
+-- Name: triggerhook_id_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
+--
+
+SELECT pg_catalog.setval('"public"."triggerhook_id_seq"', 1, true);
+
+
+--
 -- Name: users_id2_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
 --
 
-SELECT pg_catalog.setval('"public"."users_id2_seq"', 46, true);
+SELECT pg_catalog.setval('"public"."users_id2_seq"', 58, true);
 
 
 --
 -- Name: hooks_id_seq; Type: SEQUENCE SET; Schema: supabase_functions; Owner: supabase_functions_admin
 --
 
-SELECT pg_catalog.setval('"supabase_functions"."hooks_id_seq"', 160, true);
+SELECT pg_catalog.setval('"supabase_functions"."hooks_id_seq"', 180, true);
 
 
 --
