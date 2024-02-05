@@ -995,6 +995,9 @@ COPY "auth"."audit_log_entries" ("instance_id", "id", "payload", "created_at", "
 00000000-0000-0000-0000-000000000000	bd847caf-8e9c-48e7-a057-eb513e86ceac	{"action":"login","actor_id":"101598e1-340e-4dc0-9dca-54d7768f48e5","actor_username":"pbu@test.de","actor_via_sso":false,"log_type":"account","traits":{"provider":"email"}}	2024-02-02 17:04:25.647901+00	
 00000000-0000-0000-0000-000000000000	8568d8d7-96b2-48b9-bb70-bb54ee008c27	{"action":"login","actor_id":"101598e1-340e-4dc0-9dca-54d7768f48e5","actor_username":"pbu@test.de","actor_via_sso":false,"log_type":"account","traits":{"provider":"email"}}	2024-02-02 17:06:33.521159+00	
 00000000-0000-0000-0000-000000000000	83bff825-7cae-43d9-b048-233ecc1f19bc	{"action":"login","actor_id":"101598e1-340e-4dc0-9dca-54d7768f48e5","actor_username":"pbu@test.de","actor_via_sso":false,"log_type":"account","traits":{"provider":"email"}}	2024-02-02 17:10:59.092064+00	
+00000000-0000-0000-0000-000000000000	37ddd742-bbbc-4a35-bee7-bf64273dfe39	{"action":"login","actor_id":"101598e1-340e-4dc0-9dca-54d7768f48e5","actor_username":"pbu@test.de","actor_via_sso":false,"log_type":"account","traits":{"provider":"email"}}	2024-02-04 15:53:13.057095+00	
+00000000-0000-0000-0000-000000000000	7a1a3bc9-3788-4988-b52d-c1202da4b4e2	{"action":"token_refreshed","actor_id":"101598e1-340e-4dc0-9dca-54d7768f48e5","actor_username":"pbu@test.de","actor_via_sso":false,"log_type":"token"}	2024-02-04 22:51:19.558132+00	
+00000000-0000-0000-0000-000000000000	b5a7f05c-f775-4c4c-9508-90e9c2a1c4c9	{"action":"token_revoked","actor_id":"101598e1-340e-4dc0-9dca-54d7768f48e5","actor_username":"pbu@test.de","actor_via_sso":false,"log_type":"token"}	2024-02-04 22:51:19.558984+00	
 \.
 
 
@@ -1013,7 +1016,7 @@ COPY "auth"."flow_state" ("id", "user_id", "auth_code", "code_challenge_method",
 COPY "auth"."users" ("instance_id", "id", "aud", "role", "email", "encrypted_password", "email_confirmed_at", "invited_at", "confirmation_token", "confirmation_sent_at", "recovery_token", "recovery_sent_at", "email_change_token_new", "email_change", "email_change_sent_at", "last_sign_in_at", "raw_app_meta_data", "raw_user_meta_data", "is_super_admin", "created_at", "updated_at", "phone", "phone_confirmed_at", "phone_change", "phone_change_token", "phone_change_sent_at", "email_change_token_current", "email_change_confirm_status", "banned_until", "reauthentication_token", "reauthentication_sent_at", "is_sso_user", "deleted_at") FROM stdin;
 00000000-0000-0000-0000-000000000000	d6ac680e-17ab-4632-890e-e7392628cbc1	authenticated	authenticated	dre@test.de	$2a$10$PTfMVJJCgYRpmTld8RF5xup2Ydk1N8H4NKxu8Pnk6IIM5oMCHhspi	2023-11-19 23:04:29.312986+00	\N		\N		\N			\N	2023-11-19 23:24:37.596849+00	{"provider": "email", "providers": ["email"]}	{}	\N	2023-11-19 23:04:29.30962+00	2023-11-19 23:24:37.598484+00	\N	\N			\N		0	\N		\N	f	\N
 00000000-0000-0000-0000-000000000000	7f1697c0-8ff7-45e2-a486-a093efad5fe5	authenticated	authenticated	svl@test.de	$2a$10$Ayes/oR7j70CiPQB5gB3s..SKyCtu5Vq8vhsMXgAPWRBMxUxTfYyu	2023-11-19 22:48:16.711553+00	\N		\N		\N			\N	2024-01-17 10:22:26.951589+00	{"provider": "email", "providers": ["email"]}	{}	\N	2023-11-19 22:48:16.708479+00	2024-01-30 15:07:09.355672+00	\N	\N			\N		0	\N		\N	f	\N
-00000000-0000-0000-0000-000000000000	101598e1-340e-4dc0-9dca-54d7768f48e5	authenticated	authenticated	pbu@test.de	$2a$10$ZgxPXN9NOXLugZBktRk7puGSVET8d1aB/graAoon3SIAiOpfTPf8m	2023-11-19 21:38:19.234979+00	\N		\N		\N			\N	2024-02-02 17:10:59.092691+00	{"provider": "email", "providers": ["email"]}	{}	\N	2023-11-19 21:38:19.231734+00	2024-02-02 17:10:59.094258+00	\N	\N			\N		0	\N		\N	f	\N
+00000000-0000-0000-0000-000000000000	101598e1-340e-4dc0-9dca-54d7768f48e5	authenticated	authenticated	pbu@test.de	$2a$10$ZgxPXN9NOXLugZBktRk7puGSVET8d1aB/graAoon3SIAiOpfTPf8m	2023-11-19 21:38:19.234979+00	\N		\N		\N			\N	2024-02-04 15:53:13.059021+00	{"provider": "email", "providers": ["email"]}	{}	\N	2023-11-19 21:38:19.231734+00	2024-02-04 22:51:19.561419+00	\N	\N			\N		0	\N		\N	f	\N
 00000000-0000-0000-0000-000000000000	6414c9a8-9199-4674-a856-d6585fd19e1d	authenticated	authenticated	jwl@test.de	$2a$10$H1DtOFePPkX/ubdlWgCLDee5Z.zNXJVkvu9arSf.ANcW39XbWpBUO	2023-11-19 22:47:56.861001+00	\N		\N		\N			\N	2024-01-31 07:09:16.790952+00	{"provider": "email", "providers": ["email"]}	{}	\N	2023-11-19 22:47:56.858165+00	2024-01-31 09:17:01.934223+00	\N	\N			\N		0	\N		\N	f	\N
 \.
 
@@ -1102,6 +1105,7 @@ f575e583-8ef6-4792-b443-c7c37c8a4276	101598e1-340e-4dc0-9dca-54d7768f48e5	2024-0
 eb5e39c8-1cd4-476a-ba00-39b4e44e1749	101598e1-340e-4dc0-9dca-54d7768f48e5	2024-02-02 17:04:25.648648+00	2024-02-02 17:04:25.648648+00	\N	aal1	\N	\N	supabase-edge-runtime	3.126.253.132	\N
 8131f8e0-5c20-467b-ac10-2322fe8cb393	101598e1-340e-4dc0-9dca-54d7768f48e5	2024-02-02 17:06:33.521959+00	2024-02-02 17:06:33.521959+00	\N	aal1	\N	\N	supabase-edge-runtime	3.73.128.211	\N
 939b2cbd-2aa7-48da-b426-135035078635	101598e1-340e-4dc0-9dca-54d7768f48e5	2024-02-02 17:10:59.09278+00	2024-02-02 17:10:59.09278+00	\N	aal1	\N	\N	supabase-edge-runtime	3.79.45.16	\N
+b4ae23a9-ab76-40bf-9d6d-ac4db3d47647	101598e1-340e-4dc0-9dca-54d7768f48e5	2024-02-04 15:53:13.059101+00	2024-02-04 22:51:19.562607+00	\N	aal1	\N	2024-02-04 22:51:19.562529	Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36	193.196.11.188	\N
 \.
 
 
@@ -1169,6 +1173,7 @@ f575e583-8ef6-4792-b443-c7c37c8a4276	2024-02-02 16:20:52.751269+00	2024-02-02 16
 eb5e39c8-1cd4-476a-ba00-39b4e44e1749	2024-02-02 17:04:25.650431+00	2024-02-02 17:04:25.650431+00	password	71769690-7bbe-4e92-a2a2-8863a6d9cd10
 8131f8e0-5c20-467b-ac10-2322fe8cb393	2024-02-02 17:06:33.523848+00	2024-02-02 17:06:33.523848+00	password	c0935867-6494-4245-ba2c-1832e90f3639
 939b2cbd-2aa7-48da-b426-135035078635	2024-02-02 17:10:59.094521+00	2024-02-02 17:10:59.094521+00	password	e60d5aa8-9d4a-480f-a3ab-b85da84a0329
+b4ae23a9-ab76-40bf-9d6d-ac4db3d47647	2024-02-04 15:53:13.061197+00	2024-02-04 15:53:13.061197+00	password	f89a6160-cd53-4757-903e-9a540e9ecfce
 \.
 
 
@@ -1260,6 +1265,8 @@ COPY "auth"."refresh_tokens" ("instance_id", "id", "token", "user_id", "revoked"
 00000000-0000-0000-0000-000000000000	712	bHyUtk9TOr5JfpMABq-kjQ	101598e1-340e-4dc0-9dca-54d7768f48e5	f	2024-02-02 17:04:25.649346+00	2024-02-02 17:04:25.649346+00	\N	eb5e39c8-1cd4-476a-ba00-39b4e44e1749
 00000000-0000-0000-0000-000000000000	713	3Vl-VClxT11iGes-JX2Gog	101598e1-340e-4dc0-9dca-54d7768f48e5	f	2024-02-02 17:06:33.522709+00	2024-02-02 17:06:33.522709+00	\N	8131f8e0-5c20-467b-ac10-2322fe8cb393
 00000000-0000-0000-0000-000000000000	714	28WVbNzYUoHnx5PotgHjgg	101598e1-340e-4dc0-9dca-54d7768f48e5	f	2024-02-02 17:10:59.093412+00	2024-02-02 17:10:59.093412+00	\N	939b2cbd-2aa7-48da-b426-135035078635
+00000000-0000-0000-0000-000000000000	715	bbj7WA56tQT6To7cbVH4gg	101598e1-340e-4dc0-9dca-54d7768f48e5	t	2024-02-04 15:53:13.059884+00	2024-02-04 22:51:19.559707+00	\N	b4ae23a9-ab76-40bf-9d6d-ac4db3d47647
+00000000-0000-0000-0000-000000000000	716	cJD25zEKCK5BH26HyAW9JQ	101598e1-340e-4dc0-9dca-54d7768f48e5	f	2024-02-04 22:51:19.560265+00	2024-02-04 22:51:19.560265+00	bbj7WA56tQT6To7cbVH4gg	b4ae23a9-ab76-40bf-9d6d-ac4db3d47647
 \.
 
 
@@ -1335,15 +1342,6 @@ COPY "public"."pool" ("id", "provider", "description", "rpm", "rpm_max", "rpd", 
 3	Github Copilot #1	1.4.2023	0	10	0	200	0	1024	4096	2023-10-28 20:10:29.118898+00	2023-10-28 20:10:29.118898+00	2023-10-28 20:10:29.118898+00
 2	ChatGPT #2	1.2.2023 - Tier 2	3	5000	0	-1	0	20000	2048	2023-10-28 20:14:05.063631+00	2023-10-28 20:10:29.118898+00	2023-10-28 20:14:05.063631+00
 1	ChatGPT #1	1.1.2023 - Tier 1	4	500	0	10000	0	10000	2048	2023-10-28 20:16:41.327894+00	2023-10-28 20:10:29.118898+00	2023-10-28 20:16:41.327894+00
-\.
-
-
---
--- Data for Name: triggerhook; Type: TABLE DATA; Schema: public; Owner: postgres
---
-
-COPY "public"."triggerhook" ("id", "created_at", "cntr") FROM stdin;
-1	2024-02-02 17:37:10.707288+00	15
 \.
 
 
@@ -1563,7 +1561,7 @@ COPY "vault"."secrets" ("id", "name", "description", "secret", "key_id", "nonce"
 -- Name: refresh_tokens_id_seq; Type: SEQUENCE SET; Schema: auth; Owner: supabase_auth_admin
 --
 
-SELECT pg_catalog.setval('"auth"."refresh_tokens_id_seq"', 714, true);
+SELECT pg_catalog.setval('"auth"."refresh_tokens_id_seq"', 716, true);
 
 
 --
@@ -1578,13 +1576,6 @@ SELECT pg_catalog.setval('"pgsodium"."key_key_id_seq"', 1, false);
 --
 
 SELECT pg_catalog.setval('"public"."dialogs_id2_seq"', 4, true);
-
-
---
--- Name: triggerhook_id_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
---
-
-SELECT pg_catalog.setval('"public"."triggerhook_id_seq"', 1, true);
 
 
 --
