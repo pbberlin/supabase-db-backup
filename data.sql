@@ -998,6 +998,13 @@ COPY "auth"."audit_log_entries" ("instance_id", "id", "payload", "created_at", "
 00000000-0000-0000-0000-000000000000	37ddd742-bbbc-4a35-bee7-bf64273dfe39	{"action":"login","actor_id":"101598e1-340e-4dc0-9dca-54d7768f48e5","actor_username":"pbu@test.de","actor_via_sso":false,"log_type":"account","traits":{"provider":"email"}}	2024-02-04 15:53:13.057095+00	
 00000000-0000-0000-0000-000000000000	7a1a3bc9-3788-4988-b52d-c1202da4b4e2	{"action":"token_refreshed","actor_id":"101598e1-340e-4dc0-9dca-54d7768f48e5","actor_username":"pbu@test.de","actor_via_sso":false,"log_type":"token"}	2024-02-04 22:51:19.558132+00	
 00000000-0000-0000-0000-000000000000	b5a7f05c-f775-4c4c-9508-90e9c2a1c4c9	{"action":"token_revoked","actor_id":"101598e1-340e-4dc0-9dca-54d7768f48e5","actor_username":"pbu@test.de","actor_via_sso":false,"log_type":"token"}	2024-02-04 22:51:19.558984+00	
+00000000-0000-0000-0000-000000000000	4ca5a0da-9c5d-4d7a-ab0a-b67702baaafd	{"action":"login","actor_id":"101598e1-340e-4dc0-9dca-54d7768f48e5","actor_username":"pbu@test.de","actor_via_sso":false,"log_type":"account","traits":{"provider":"email"}}	2024-02-05 10:32:39.438807+00	
+00000000-0000-0000-0000-000000000000	823cf65e-7b68-4b2a-a799-d1833b69aa13	{"action":"token_refreshed","actor_id":"101598e1-340e-4dc0-9dca-54d7768f48e5","actor_username":"pbu@test.de","actor_via_sso":false,"log_type":"token"}	2024-02-05 12:12:10.331297+00	
+00000000-0000-0000-0000-000000000000	75a0b804-11bf-4215-a591-678c5778a7e9	{"action":"token_revoked","actor_id":"101598e1-340e-4dc0-9dca-54d7768f48e5","actor_username":"pbu@test.de","actor_via_sso":false,"log_type":"token"}	2024-02-05 12:12:10.331946+00	
+00000000-0000-0000-0000-000000000000	b6c1c869-5be1-497c-9010-dd0e1459da18	{"action":"token_refreshed","actor_id":"101598e1-340e-4dc0-9dca-54d7768f48e5","actor_username":"pbu@test.de","actor_via_sso":false,"log_type":"token"}	2024-02-05 13:12:16.971204+00	
+00000000-0000-0000-0000-000000000000	85f3b8d1-df98-4210-8745-e69d5a7727de	{"action":"token_revoked","actor_id":"101598e1-340e-4dc0-9dca-54d7768f48e5","actor_username":"pbu@test.de","actor_via_sso":false,"log_type":"token"}	2024-02-05 13:12:16.97192+00	
+00000000-0000-0000-0000-000000000000	3ef93254-9a45-40e6-b33e-97cdb7f01488	{"action":"token_refreshed","actor_id":"101598e1-340e-4dc0-9dca-54d7768f48e5","actor_username":"pbu@test.de","actor_via_sso":false,"log_type":"token"}	2024-02-05 14:12:43.624095+00	
+00000000-0000-0000-0000-000000000000	2c158f1d-851d-4b23-a218-3060db9b2026	{"action":"token_revoked","actor_id":"101598e1-340e-4dc0-9dca-54d7768f48e5","actor_username":"pbu@test.de","actor_via_sso":false,"log_type":"token"}	2024-02-05 14:12:43.624753+00	
 \.
 
 
@@ -1016,7 +1023,7 @@ COPY "auth"."flow_state" ("id", "user_id", "auth_code", "code_challenge_method",
 COPY "auth"."users" ("instance_id", "id", "aud", "role", "email", "encrypted_password", "email_confirmed_at", "invited_at", "confirmation_token", "confirmation_sent_at", "recovery_token", "recovery_sent_at", "email_change_token_new", "email_change", "email_change_sent_at", "last_sign_in_at", "raw_app_meta_data", "raw_user_meta_data", "is_super_admin", "created_at", "updated_at", "phone", "phone_confirmed_at", "phone_change", "phone_change_token", "phone_change_sent_at", "email_change_token_current", "email_change_confirm_status", "banned_until", "reauthentication_token", "reauthentication_sent_at", "is_sso_user", "deleted_at") FROM stdin;
 00000000-0000-0000-0000-000000000000	d6ac680e-17ab-4632-890e-e7392628cbc1	authenticated	authenticated	dre@test.de	$2a$10$PTfMVJJCgYRpmTld8RF5xup2Ydk1N8H4NKxu8Pnk6IIM5oMCHhspi	2023-11-19 23:04:29.312986+00	\N		\N		\N			\N	2023-11-19 23:24:37.596849+00	{"provider": "email", "providers": ["email"]}	{}	\N	2023-11-19 23:04:29.30962+00	2023-11-19 23:24:37.598484+00	\N	\N			\N		0	\N		\N	f	\N
 00000000-0000-0000-0000-000000000000	7f1697c0-8ff7-45e2-a486-a093efad5fe5	authenticated	authenticated	svl@test.de	$2a$10$Ayes/oR7j70CiPQB5gB3s..SKyCtu5Vq8vhsMXgAPWRBMxUxTfYyu	2023-11-19 22:48:16.711553+00	\N		\N		\N			\N	2024-01-17 10:22:26.951589+00	{"provider": "email", "providers": ["email"]}	{}	\N	2023-11-19 22:48:16.708479+00	2024-01-30 15:07:09.355672+00	\N	\N			\N		0	\N		\N	f	\N
-00000000-0000-0000-0000-000000000000	101598e1-340e-4dc0-9dca-54d7768f48e5	authenticated	authenticated	pbu@test.de	$2a$10$ZgxPXN9NOXLugZBktRk7puGSVET8d1aB/graAoon3SIAiOpfTPf8m	2023-11-19 21:38:19.234979+00	\N		\N		\N			\N	2024-02-04 15:53:13.059021+00	{"provider": "email", "providers": ["email"]}	{}	\N	2023-11-19 21:38:19.231734+00	2024-02-04 22:51:19.561419+00	\N	\N			\N		0	\N		\N	f	\N
+00000000-0000-0000-0000-000000000000	101598e1-340e-4dc0-9dca-54d7768f48e5	authenticated	authenticated	pbu@test.de	$2a$10$ZgxPXN9NOXLugZBktRk7puGSVET8d1aB/graAoon3SIAiOpfTPf8m	2023-11-19 21:38:19.234979+00	\N		\N		\N			\N	2024-02-05 10:32:39.439577+00	{"provider": "email", "providers": ["email"]}	{}	\N	2023-11-19 21:38:19.231734+00	2024-02-05 14:12:43.626563+00	\N	\N			\N		0	\N		\N	f	\N
 00000000-0000-0000-0000-000000000000	6414c9a8-9199-4674-a856-d6585fd19e1d	authenticated	authenticated	jwl@test.de	$2a$10$H1DtOFePPkX/ubdlWgCLDee5Z.zNXJVkvu9arSf.ANcW39XbWpBUO	2023-11-19 22:47:56.861001+00	\N		\N		\N			\N	2024-01-31 07:09:16.790952+00	{"provider": "email", "providers": ["email"]}	{}	\N	2023-11-19 22:47:56.858165+00	2024-01-31 09:17:01.934223+00	\N	\N			\N		0	\N		\N	f	\N
 \.
 
@@ -1106,6 +1113,7 @@ eb5e39c8-1cd4-476a-ba00-39b4e44e1749	101598e1-340e-4dc0-9dca-54d7768f48e5	2024-0
 8131f8e0-5c20-467b-ac10-2322fe8cb393	101598e1-340e-4dc0-9dca-54d7768f48e5	2024-02-02 17:06:33.521959+00	2024-02-02 17:06:33.521959+00	\N	aal1	\N	\N	supabase-edge-runtime	3.73.128.211	\N
 939b2cbd-2aa7-48da-b426-135035078635	101598e1-340e-4dc0-9dca-54d7768f48e5	2024-02-02 17:10:59.09278+00	2024-02-02 17:10:59.09278+00	\N	aal1	\N	\N	supabase-edge-runtime	3.79.45.16	\N
 b4ae23a9-ab76-40bf-9d6d-ac4db3d47647	101598e1-340e-4dc0-9dca-54d7768f48e5	2024-02-04 15:53:13.059101+00	2024-02-04 22:51:19.562607+00	\N	aal1	\N	2024-02-04 22:51:19.562529	Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36	193.196.11.188	\N
+a7cca1bb-bdd2-4fba-8e42-d3906193c024	101598e1-340e-4dc0-9dca-54d7768f48e5	2024-02-05 10:32:39.439658+00	2024-02-05 14:12:43.627428+00	\N	aal1	\N	2024-02-05 14:12:43.627355	Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:122.0) Gecko/20100101 Firefox/122.0	5.146.192.127	\N
 \.
 
 
@@ -1174,6 +1182,7 @@ eb5e39c8-1cd4-476a-ba00-39b4e44e1749	2024-02-02 17:04:25.650431+00	2024-02-02 17
 8131f8e0-5c20-467b-ac10-2322fe8cb393	2024-02-02 17:06:33.523848+00	2024-02-02 17:06:33.523848+00	password	c0935867-6494-4245-ba2c-1832e90f3639
 939b2cbd-2aa7-48da-b426-135035078635	2024-02-02 17:10:59.094521+00	2024-02-02 17:10:59.094521+00	password	e60d5aa8-9d4a-480f-a3ab-b85da84a0329
 b4ae23a9-ab76-40bf-9d6d-ac4db3d47647	2024-02-04 15:53:13.061197+00	2024-02-04 15:53:13.061197+00	password	f89a6160-cd53-4757-903e-9a540e9ecfce
+a7cca1bb-bdd2-4fba-8e42-d3906193c024	2024-02-05 10:32:39.441901+00	2024-02-05 10:32:39.441901+00	password	f62b8c9f-cc80-4eab-bf72-d7e30c061e84
 \.
 
 
@@ -1267,6 +1276,10 @@ COPY "auth"."refresh_tokens" ("instance_id", "id", "token", "user_id", "revoked"
 00000000-0000-0000-0000-000000000000	714	28WVbNzYUoHnx5PotgHjgg	101598e1-340e-4dc0-9dca-54d7768f48e5	f	2024-02-02 17:10:59.093412+00	2024-02-02 17:10:59.093412+00	\N	939b2cbd-2aa7-48da-b426-135035078635
 00000000-0000-0000-0000-000000000000	715	bbj7WA56tQT6To7cbVH4gg	101598e1-340e-4dc0-9dca-54d7768f48e5	t	2024-02-04 15:53:13.059884+00	2024-02-04 22:51:19.559707+00	\N	b4ae23a9-ab76-40bf-9d6d-ac4db3d47647
 00000000-0000-0000-0000-000000000000	716	cJD25zEKCK5BH26HyAW9JQ	101598e1-340e-4dc0-9dca-54d7768f48e5	f	2024-02-04 22:51:19.560265+00	2024-02-04 22:51:19.560265+00	bbj7WA56tQT6To7cbVH4gg	b4ae23a9-ab76-40bf-9d6d-ac4db3d47647
+00000000-0000-0000-0000-000000000000	717	rWgx_EkzIw1aLxaB2LpC8g	101598e1-340e-4dc0-9dca-54d7768f48e5	t	2024-02-05 10:32:39.440571+00	2024-02-05 12:12:10.332486+00	\N	a7cca1bb-bdd2-4fba-8e42-d3906193c024
+00000000-0000-0000-0000-000000000000	718	TFLZSwACZTpI-fHrli5Yrg	101598e1-340e-4dc0-9dca-54d7768f48e5	t	2024-02-05 12:12:10.332864+00	2024-02-05 13:12:16.97248+00	rWgx_EkzIw1aLxaB2LpC8g	a7cca1bb-bdd2-4fba-8e42-d3906193c024
+00000000-0000-0000-0000-000000000000	719	dmQDdEdgzASyqX0nQfWlSw	101598e1-340e-4dc0-9dca-54d7768f48e5	t	2024-02-05 13:12:16.972791+00	2024-02-05 14:12:43.625317+00	TFLZSwACZTpI-fHrli5Yrg	a7cca1bb-bdd2-4fba-8e42-d3906193c024
+00000000-0000-0000-0000-000000000000	720	lWTSuQ-cmNhHXqTqXznMpw	101598e1-340e-4dc0-9dca-54d7768f48e5	f	2024-02-05 14:12:43.625604+00	2024-02-05 14:12:43.625604+00	dmQDdEdgzASyqX0nQfWlSw	a7cca1bb-bdd2-4fba-8e42-d3906193c024
 \.
 
 
@@ -1315,10 +1328,10 @@ COPY "pgsodium"."key" ("id", "status", "created", "expires", "key_type", "key_id
 --
 
 COPY "public"."users" ("id", "id2", "inserted", "updated", "email", "username", "source", "firstname", "lastname", "avatar_url", "attrs", "assignmentid", "hitid", "turksubmitto", "workerid") FROM stdin;
-101598e1-340e-4dc0-9dca-54d7768f48e5	7	2023-11-19 21:38:19.231333+00	\N	pbu@test.de	\N	\N	\N	\N	\N	{}	\N	\N	\N	\N
 d6ac680e-17ab-4632-890e-e7392628cbc1	15	2023-11-19 23:04:29.309198+00	\N	dre@test.de	\N	\N	\N	\N	\N	{}	\N	\N	\N	\N
 7f1697c0-8ff7-45e2-a486-a093efad5fe5	13	2023-11-19 22:48:16.708076+00	2024-01-17 10:38:45.551589+00	svl@test.de	\N	Feedback goes here	sebastian	jones	\N	{}	\N	\N	\N	\N
 6414c9a8-9199-4674-a856-d6585fd19e1d	12	2023-11-19 22:47:56.857777+00	2024-01-23 14:17:17.151078+00	jwl@test.de	\N	\N	\N	\N	\N	{}	\N	\N	\N	\N
+101598e1-340e-4dc0-9dca-54d7768f48e5	7	2023-11-19 21:38:19.231333+00	2024-02-05 13:46:32.405714+00	pbu@test.de	\N	\N	female	\N	\N	{}	\N	\N	\N	\N
 \.
 
 
@@ -1561,7 +1574,7 @@ COPY "vault"."secrets" ("id", "name", "description", "secret", "key_id", "nonce"
 -- Name: refresh_tokens_id_seq; Type: SEQUENCE SET; Schema: auth; Owner: supabase_auth_admin
 --
 
-SELECT pg_catalog.setval('"auth"."refresh_tokens_id_seq"', 716, true);
+SELECT pg_catalog.setval('"auth"."refresh_tokens_id_seq"', 720, true);
 
 
 --
