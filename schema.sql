@@ -10,29 +10,9 @@ SET xmloption = content;
 SET client_min_messages = warning;
 SET row_security = off;
 
-CREATE EXTENSION IF NOT EXISTS "pg_net" WITH SCHEMA "extensions";
+CREATE SCHEMA IF NOT EXISTS "public";
 
-CREATE EXTENSION IF NOT EXISTS "pgsodium" WITH SCHEMA "pgsodium";
-
-CREATE SCHEMA IF NOT EXISTS "supabase_migrations";
-
-ALTER SCHEMA "supabase_migrations" OWNER TO "postgres";
-
-CREATE EXTENSION IF NOT EXISTS "plv8" WITH SCHEMA "pg_catalog";
-
-CREATE EXTENSION IF NOT EXISTS "moddatetime" WITH SCHEMA "extensions";
-
-CREATE EXTENSION IF NOT EXISTS "pg_graphql" WITH SCHEMA "graphql";
-
-CREATE EXTENSION IF NOT EXISTS "pg_stat_statements" WITH SCHEMA "extensions";
-
-CREATE EXTENSION IF NOT EXISTS "pgcrypto" WITH SCHEMA "extensions";
-
-CREATE EXTENSION IF NOT EXISTS "pgjwt" WITH SCHEMA "extensions";
-
-CREATE EXTENSION IF NOT EXISTS "supabase_vault" WITH SCHEMA "vault";
-
-CREATE EXTENSION IF NOT EXISTS "uuid-ossp" WITH SCHEMA "extensions";
+ALTER SCHEMA "public" OWNER TO "pg_database_owner";
 
 CREATE TYPE "public"."rec" AS (
 	"i" integer,
@@ -191,14 +171,6 @@ ALTER TABLE "public"."users" ALTER COLUMN "id2" ADD GENERATED ALWAYS AS IDENTITY
     CACHE 1
 );
 
-CREATE TABLE IF NOT EXISTS "supabase_migrations"."schema_migrations" (
-    "version" text NOT NULL,
-    "statements" text[],
-    "name" text
-);
-
-ALTER TABLE "supabase_migrations"."schema_migrations" OWNER TO "postgres";
-
 ALTER TABLE ONLY "public"."dialogs"
     ADD CONSTRAINT "dialogs_pkey" PRIMARY KEY ("id");
 
@@ -210,9 +182,6 @@ ALTER TABLE ONLY "public"."users"
 
 ALTER TABLE ONLY "public"."users"
     ADD CONSTRAINT "users_pkey" PRIMARY KEY ("id");
-
-ALTER TABLE ONLY "supabase_migrations"."schema_migrations"
-    ADD CONSTRAINT "schema_migrations_pkey" PRIMARY KEY ("version");
 
 CREATE INDEX idx_fk_user_id ON public.dialogs USING btree (user_id);
 
