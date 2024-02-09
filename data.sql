@@ -1014,6 +1014,26 @@ COPY "auth"."audit_log_entries" ("instance_id", "id", "payload", "created_at", "
 00000000-0000-0000-0000-000000000000	3dbe48aa-5b2b-4178-a2e3-155fd51cb0c8	{"action":"login","actor_id":"6414c9a8-9199-4674-a856-d6585fd19e1d","actor_username":"jwl@test.de","actor_via_sso":false,"log_type":"account","traits":{"provider":"email"}}	2024-02-07 12:11:51.470904+00	
 00000000-0000-0000-0000-000000000000	b12ee4ce-0249-4bb8-8ee4-6844f3145c91	{"action":"token_refreshed","actor_id":"6414c9a8-9199-4674-a856-d6585fd19e1d","actor_username":"jwl@test.de","actor_via_sso":false,"log_type":"token"}	2024-02-07 14:42:02.605392+00	
 00000000-0000-0000-0000-000000000000	707a81fe-86f3-43c3-b615-cc63bcfc4cbd	{"action":"token_revoked","actor_id":"6414c9a8-9199-4674-a856-d6585fd19e1d","actor_username":"jwl@test.de","actor_via_sso":false,"log_type":"token"}	2024-02-07 14:42:02.60721+00	
+00000000-0000-0000-0000-000000000000	3a4f030d-d49d-43d4-8ce9-bcc4ea598925	{"action":"token_refreshed","actor_id":"6414c9a8-9199-4674-a856-d6585fd19e1d","actor_username":"jwl@test.de","actor_via_sso":false,"log_type":"token"}	2024-02-08 07:43:20.375769+00	
+00000000-0000-0000-0000-000000000000	3741aa4d-acef-4e65-985a-b9275873a453	{"action":"token_revoked","actor_id":"6414c9a8-9199-4674-a856-d6585fd19e1d","actor_username":"jwl@test.de","actor_via_sso":false,"log_type":"token"}	2024-02-08 07:43:20.377566+00	
+00000000-0000-0000-0000-000000000000	ed043e36-0d57-46a6-9d1f-68b4f0ee2583	{"action":"token_refreshed","actor_id":"6414c9a8-9199-4674-a856-d6585fd19e1d","actor_username":"jwl@test.de","actor_via_sso":false,"log_type":"token"}	2024-02-08 08:41:46.200769+00	
+00000000-0000-0000-0000-000000000000	db9412a4-705a-4b30-b6bf-9f36a36288db	{"action":"token_revoked","actor_id":"6414c9a8-9199-4674-a856-d6585fd19e1d","actor_username":"jwl@test.de","actor_via_sso":false,"log_type":"token"}	2024-02-08 08:41:46.202832+00	
+00000000-0000-0000-0000-000000000000	34f4e9bb-4f8d-4cfd-ae8e-58af69832471	{"action":"token_refreshed","actor_id":"6414c9a8-9199-4674-a856-d6585fd19e1d","actor_username":"jwl@test.de","actor_via_sso":false,"log_type":"token"}	2024-02-08 09:41:00.874908+00	
+00000000-0000-0000-0000-000000000000	69a2f23f-f922-491e-ae5e-c95c184b29f2	{"action":"token_revoked","actor_id":"6414c9a8-9199-4674-a856-d6585fd19e1d","actor_username":"jwl@test.de","actor_via_sso":false,"log_type":"token"}	2024-02-08 09:41:00.876234+00	
+00000000-0000-0000-0000-000000000000	4d09b257-8140-4348-a50e-1580723dbfa9	{"action":"token_refreshed","actor_id":"6414c9a8-9199-4674-a856-d6585fd19e1d","actor_username":"jwl@test.de","actor_via_sso":false,"log_type":"token"}	2024-02-08 12:02:43.199217+00	
+00000000-0000-0000-0000-000000000000	acfe1d2c-a240-423e-bc38-f074704f951f	{"action":"token_revoked","actor_id":"6414c9a8-9199-4674-a856-d6585fd19e1d","actor_username":"jwl@test.de","actor_via_sso":false,"log_type":"token"}	2024-02-08 12:02:43.200823+00	
+00000000-0000-0000-0000-000000000000	d38485e7-40c7-4487-a5dc-8a2f24353f58	{"action":"user_signedup","actor_id":"5e6dd279-ba2b-4136-bd56-22458fa38eec","actor_username":"user0001@turingmarkets.com","actor_via_sso":false,"log_type":"team","traits":{"provider":"email"}}	2024-02-08 12:16:05.653036+00	
+00000000-0000-0000-0000-000000000000	d7bb9bc1-2e44-431a-a14a-2d5916c8bbb0	{"action":"login","actor_id":"5e6dd279-ba2b-4136-bd56-22458fa38eec","actor_username":"user0001@turingmarkets.com","actor_via_sso":false,"log_type":"account","traits":{"provider":"email"}}	2024-02-08 12:16:05.655384+00	
+00000000-0000-0000-0000-000000000000	fb1e725d-0907-4a25-94ad-9b1c649c8d51	{"action":"user_signedup","actor_id":"1be9f618-b1ab-4b9e-8295-6776f7d413c7","actor_username":"user0003@turingmarkets.com","actor_via_sso":false,"log_type":"team","traits":{"provider":"email"}}	2024-02-08 12:16:05.680389+00	
+00000000-0000-0000-0000-000000000000	48e1322a-e3a0-4157-bab5-ba9495d5a1e6	{"action":"login","actor_id":"1be9f618-b1ab-4b9e-8295-6776f7d413c7","actor_username":"user0003@turingmarkets.com","actor_via_sso":false,"log_type":"account","traits":{"provider":"email"}}	2024-02-08 12:16:05.68245+00	
+00000000-0000-0000-0000-000000000000	6cb8dbcd-02dc-4a57-bf10-a68dc59e1b20	{"action":"token_refreshed","actor_id":"1be9f618-b1ab-4b9e-8295-6776f7d413c7","actor_username":"user0003@turingmarkets.com","actor_via_sso":false,"log_type":"token"}	2024-02-08 15:25:28.90029+00	
+00000000-0000-0000-0000-000000000000	e0e8b9d4-1f07-4832-b029-002d43768911	{"action":"token_revoked","actor_id":"1be9f618-b1ab-4b9e-8295-6776f7d413c7","actor_username":"user0003@turingmarkets.com","actor_via_sso":false,"log_type":"token"}	2024-02-08 15:25:28.901764+00	
+00000000-0000-0000-0000-000000000000	ad0aae93-d9b7-4741-a78a-f32726544ec7	{"action":"logout","actor_id":"1be9f618-b1ab-4b9e-8295-6776f7d413c7","actor_username":"user0003@turingmarkets.com","actor_via_sso":false,"log_type":"account"}	2024-02-08 15:31:57.225638+00	
+00000000-0000-0000-0000-000000000000	fc4553ff-6112-4fbd-af71-5b4ae3b3f57c	{"action":"login","actor_id":"6414c9a8-9199-4674-a856-d6585fd19e1d","actor_username":"jwl@test.de","actor_via_sso":false,"log_type":"account","traits":{"provider":"email"}}	2024-02-08 15:32:06.243935+00	
+00000000-0000-0000-0000-000000000000	90fd7063-2a35-4b7f-b38d-fa45ea01c93e	{"action":"token_refreshed","actor_id":"6414c9a8-9199-4674-a856-d6585fd19e1d","actor_username":"jwl@test.de","actor_via_sso":false,"log_type":"token"}	2024-02-08 16:32:59.275335+00	
+00000000-0000-0000-0000-000000000000	d0b985b7-632c-475f-92fa-3865c77929a5	{"action":"token_revoked","actor_id":"6414c9a8-9199-4674-a856-d6585fd19e1d","actor_username":"jwl@test.de","actor_via_sso":false,"log_type":"token"}	2024-02-08 16:32:59.276756+00	
+00000000-0000-0000-0000-000000000000	fa218c7a-65f5-4103-86b9-540c4fc89889	{"action":"user_signedup","actor_id":"c648b1cc-2e6d-4db7-8afa-f81d5f482f68","actor_username":"user0002@turingmarkets.com","actor_via_sso":false,"log_type":"team","traits":{"provider":"email"}}	2024-02-08 12:16:05.638234+00	
+00000000-0000-0000-0000-000000000000	39f72384-ef3a-4a55-924a-8d938911452e	{"action":"login","actor_id":"c648b1cc-2e6d-4db7-8afa-f81d5f482f68","actor_username":"user0002@turingmarkets.com","actor_via_sso":false,"log_type":"account","traits":{"provider":"email"}}	2024-02-08 12:16:05.646699+00	
 \.
 
 
@@ -1032,8 +1052,11 @@ COPY "auth"."flow_state" ("id", "user_id", "auth_code", "code_challenge_method",
 COPY "auth"."users" ("instance_id", "id", "aud", "role", "email", "encrypted_password", "email_confirmed_at", "invited_at", "confirmation_token", "confirmation_sent_at", "recovery_token", "recovery_sent_at", "email_change_token_new", "email_change", "email_change_sent_at", "last_sign_in_at", "raw_app_meta_data", "raw_user_meta_data", "is_super_admin", "created_at", "updated_at", "phone", "phone_confirmed_at", "phone_change", "phone_change_token", "phone_change_sent_at", "email_change_token_current", "email_change_confirm_status", "banned_until", "reauthentication_token", "reauthentication_sent_at", "is_sso_user", "deleted_at") FROM stdin;
 00000000-0000-0000-0000-000000000000	d6ac680e-17ab-4632-890e-e7392628cbc1	authenticated	authenticated	dre@test.de	$2a$10$PTfMVJJCgYRpmTld8RF5xup2Ydk1N8H4NKxu8Pnk6IIM5oMCHhspi	2023-11-19 23:04:29.312986+00	\N		\N		\N			\N	2023-11-19 23:24:37.596849+00	{"provider": "email", "providers": ["email"]}	{}	\N	2023-11-19 23:04:29.30962+00	2023-11-19 23:24:37.598484+00	\N	\N			\N		0	\N		\N	f	\N
 00000000-0000-0000-0000-000000000000	7f1697c0-8ff7-45e2-a486-a093efad5fe5	authenticated	authenticated	svl@test.de	$2a$10$Ayes/oR7j70CiPQB5gB3s..SKyCtu5Vq8vhsMXgAPWRBMxUxTfYyu	2023-11-19 22:48:16.711553+00	\N		\N		\N			\N	2024-01-17 10:22:26.951589+00	{"provider": "email", "providers": ["email"]}	{}	\N	2023-11-19 22:48:16.708479+00	2024-01-30 15:07:09.355672+00	\N	\N			\N		0	\N		\N	f	\N
+00000000-0000-0000-0000-000000000000	c648b1cc-2e6d-4db7-8afa-f81d5f482f68	authenticated	authenticated	user0002@turingmarkets.com	$2a$10$oeskvsSthBegekNZEGb1deIhgb2pX9VLySw8A2aDH1vscSc35rEha	2024-02-08 12:16:05.638881+00	\N		\N		\N			\N	2024-02-08 12:16:05.647194+00	{"provider": "email", "providers": ["email"]}	{}	\N	2024-02-08 12:16:05.631163+00	2024-02-08 12:16:05.649355+00	\N	\N			\N		0	\N		\N	f	\N
+00000000-0000-0000-0000-000000000000	5e6dd279-ba2b-4136-bd56-22458fa38eec	authenticated	authenticated	user0001@turingmarkets.com	$2a$10$2nsl6QPGHhg/ydN98LsU9u4lfzWQjQXHQrT3QA1JM5FzaOIQNIzq6	2024-02-08 12:16:05.653672+00	\N		\N		\N			\N	2024-02-08 12:16:05.655875+00	{"provider": "email", "providers": ["email"]}	{}	\N	2024-02-08 12:16:05.624029+00	2024-02-08 12:16:05.657387+00	\N	\N			\N		0	\N		\N	f	\N
+00000000-0000-0000-0000-000000000000	1be9f618-b1ab-4b9e-8295-6776f7d413c7	authenticated	authenticated	user0003@turingmarkets.com	$2a$10$UXoNjagZOekVWFmgaF92Ju1zTAl136MFj.ZErmxQF5jgujBImUXm6	2024-02-08 12:16:05.680878+00	\N		\N		\N			\N	2024-02-08 12:16:05.682927+00	{"provider": "email", "providers": ["email"]}	{}	\N	2024-02-08 12:16:05.67722+00	2024-02-08 15:25:28.903728+00	\N	\N			\N		0	\N		\N	f	\N
 00000000-0000-0000-0000-000000000000	101598e1-340e-4dc0-9dca-54d7768f48e5	authenticated	authenticated	pbu@test.de	$2a$10$ZgxPXN9NOXLugZBktRk7puGSVET8d1aB/graAoon3SIAiOpfTPf8m	2023-11-19 21:38:19.234979+00	\N		\N		\N			\N	2024-02-05 10:32:39.439577+00	{"provider": "email", "providers": ["email"]}	{}	\N	2023-11-19 21:38:19.231734+00	2024-02-07 12:10:26.646183+00	\N	\N			\N		0	\N		\N	f	\N
-00000000-0000-0000-0000-000000000000	6414c9a8-9199-4674-a856-d6585fd19e1d	authenticated	authenticated	jwl@test.de	$2a$10$H1DtOFePPkX/ubdlWgCLDee5Z.zNXJVkvu9arSf.ANcW39XbWpBUO	2023-11-19 22:47:56.861001+00	\N		\N		\N			\N	2024-02-07 12:11:51.471694+00	{"provider": "email", "providers": ["email"]}	{}	\N	2023-11-19 22:47:56.858165+00	2024-02-07 14:42:02.609723+00	\N	\N			\N		0	\N		\N	f	\N
+00000000-0000-0000-0000-000000000000	6414c9a8-9199-4674-a856-d6585fd19e1d	authenticated	authenticated	jwl@test.de	$2a$10$H1DtOFePPkX/ubdlWgCLDee5Z.zNXJVkvu9arSf.ANcW39XbWpBUO	2023-11-19 22:47:56.861001+00	\N		\N		\N			\N	2024-02-08 15:32:06.248529+00	{"provider": "email", "providers": ["email"]}	{}	\N	2023-11-19 22:47:56.858165+00	2024-02-08 16:32:59.278817+00	\N	\N			\N		0	\N		\N	f	\N
 \.
 
 
@@ -1046,6 +1069,9 @@ COPY "auth"."identities" ("provider_id", "user_id", "identity_data", "provider",
 6414c9a8-9199-4674-a856-d6585fd19e1d	6414c9a8-9199-4674-a856-d6585fd19e1d	{"sub": "6414c9a8-9199-4674-a856-d6585fd19e1d", "email": "jwl@test.de", "email_verified": false, "phone_verified": false}	email	2023-11-19 22:47:56.859339+00	2023-11-19 22:47:56.859377+00	2023-11-19 22:47:56.859377+00	c862457d-f5e7-4773-bd25-e5482e6fc6d2
 7f1697c0-8ff7-45e2-a486-a093efad5fe5	7f1697c0-8ff7-45e2-a486-a093efad5fe5	{"sub": "7f1697c0-8ff7-45e2-a486-a093efad5fe5", "email": "svl@test.de", "email_verified": false, "phone_verified": false}	email	2023-11-19 22:48:16.70972+00	2023-11-19 22:48:16.709759+00	2023-11-19 22:48:16.709759+00	2e568a3f-735a-48bf-8a2e-deaa1a3bb395
 d6ac680e-17ab-4632-890e-e7392628cbc1	d6ac680e-17ab-4632-890e-e7392628cbc1	{"sub": "d6ac680e-17ab-4632-890e-e7392628cbc1", "email": "dre@test.de", "email_verified": false, "phone_verified": false}	email	2023-11-19 23:04:29.311006+00	2023-11-19 23:04:29.311044+00	2023-11-19 23:04:29.311044+00	d6bdb0a8-8195-4baf-be63-6b344d0d39bc
+c648b1cc-2e6d-4db7-8afa-f81d5f482f68	c648b1cc-2e6d-4db7-8afa-f81d5f482f68	{"sub": "c648b1cc-2e6d-4db7-8afa-f81d5f482f68", "email": "user0002@turingmarkets.com", "email_verified": false, "phone_verified": false}	email	2024-02-08 12:16:05.637282+00	2024-02-08 12:16:05.637334+00	2024-02-08 12:16:05.637334+00	27271be4-bb0e-442e-91c0-c8f045488f6c
+5e6dd279-ba2b-4136-bd56-22458fa38eec	5e6dd279-ba2b-4136-bd56-22458fa38eec	{"sub": "5e6dd279-ba2b-4136-bd56-22458fa38eec", "email": "user0001@turingmarkets.com", "email_verified": false, "phone_verified": false}	email	2024-02-08 12:16:05.645805+00	2024-02-08 12:16:05.645852+00	2024-02-08 12:16:05.645852+00	0a7b5a5b-7a95-4719-952e-b8da2be547b1
+1be9f618-b1ab-4b9e-8295-6776f7d413c7	1be9f618-b1ab-4b9e-8295-6776f7d413c7	{"sub": "1be9f618-b1ab-4b9e-8295-6776f7d413c7", "email": "user0003@turingmarkets.com", "email_verified": false, "phone_verified": false}	email	2024-02-08 12:16:05.679605+00	2024-02-08 12:16:05.679657+00	2024-02-08 12:16:05.679657+00	d7d170f5-fa55-467a-8e94-2fd25a85f635
 \.
 
 
@@ -1062,11 +1088,14 @@ COPY "auth"."instances" ("id", "uuid", "raw_base_config", "created_at", "updated
 --
 
 COPY "auth"."sessions" ("id", "user_id", "created_at", "updated_at", "factor_id", "aal", "not_after", "refreshed_at", "user_agent", "ip", "tag") FROM stdin;
+d0890401-331e-40ee-9081-2a1fd0fdd32d	c648b1cc-2e6d-4db7-8afa-f81d5f482f68	2024-02-08 12:16:05.647271+00	2024-02-08 12:16:05.647271+00	\N	aal1	\N	\N	Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:122.0) Gecko/20100101 Firefox/122.0	87.180.239.125	\N
 29c74cc4-65f8-432c-8740-7070f9bd86f5	d6ac680e-17ab-4632-890e-e7392628cbc1	2023-11-19 23:05:34.331267+00	2023-11-19 23:05:34.331267+00	\N	aal1	\N	\N	Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36	193.196.11.188	\N
 edbc6fa5-e33d-4c98-a5de-5f1c36ca6185	d6ac680e-17ab-4632-890e-e7392628cbc1	2023-11-19 23:24:37.596957+00	2023-11-19 23:24:37.596957+00	\N	aal1	\N	\N	Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36	193.196.11.188	\N
 1da5da1c-e5af-4d8f-b1f3-61e04c108e54	6414c9a8-9199-4674-a856-d6585fd19e1d	2024-01-23 15:39:08.180472+00	2024-01-24 14:11:08.778278+00	\N	aal1	\N	2024-01-24 14:11:08.778208	Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:121.0) Gecko/20100101 Firefox/121.0	87.180.239.125	\N
 c35a8f0f-5b67-425f-a4ed-69d24963c3ca	6414c9a8-9199-4674-a856-d6585fd19e1d	2024-01-31 07:09:16.791027+00	2024-01-31 09:17:01.936199+00	\N	aal1	\N	2024-01-31 09:17:01.936122	Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:121.0) Gecko/20100101 Firefox/121.0	87.180.239.125	\N
-2b25ce17-05ff-4490-9a1f-709cea7ec510	6414c9a8-9199-4674-a856-d6585fd19e1d	2024-02-07 12:11:34.766131+00	2024-02-07 14:42:02.610797+00	\N	aal1	\N	2024-02-07 14:42:02.610716	Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:122.0) Gecko/20100101 Firefox/122.0	87.180.239.125	\N
+2b25ce17-05ff-4490-9a1f-709cea7ec510	6414c9a8-9199-4674-a856-d6585fd19e1d	2024-02-07 12:11:34.766131+00	2024-02-08 12:02:43.204816+00	\N	aal1	\N	2024-02-08 12:02:43.20473	Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:122.0) Gecko/20100101 Firefox/122.0	87.180.239.125	\N
+65439eb9-89f5-409f-8942-31ccdd6b9eba	5e6dd279-ba2b-4136-bd56-22458fa38eec	2024-02-08 12:16:05.655951+00	2024-02-08 12:16:05.655951+00	\N	aal1	\N	\N	Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:122.0) Gecko/20100101 Firefox/122.0	87.180.239.125	\N
+6b7e83b2-16f7-463f-b6e2-587e99567e25	6414c9a8-9199-4674-a856-d6585fd19e1d	2024-02-08 15:32:06.248623+00	2024-02-08 16:32:59.279781+00	\N	aal1	\N	2024-02-08 16:32:59.279702	Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:122.0) Gecko/20100101 Firefox/122.0	87.180.239.125	\N
 323baacb-c33d-42c2-a0d9-424e6e73872a	6414c9a8-9199-4674-a856-d6585fd19e1d	2024-02-07 12:11:51.471774+00	2024-02-07 12:11:51.471774+00	\N	aal1	\N	\N	Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:122.0) Gecko/20100101 Firefox/122.0	5.146.192.127	\N
 \.
 
@@ -1076,6 +1105,9 @@ c35a8f0f-5b67-425f-a4ed-69d24963c3ca	6414c9a8-9199-4674-a856-d6585fd19e1d	2024-0
 --
 
 COPY "auth"."mfa_amr_claims" ("session_id", "created_at", "updated_at", "authentication_method", "id") FROM stdin;
+d0890401-331e-40ee-9081-2a1fd0fdd32d	2024-02-08 12:16:05.64974+00	2024-02-08 12:16:05.64974+00	password	45cc1b7a-1c15-40a9-b2a2-744d0ee16b36
+65439eb9-89f5-409f-8942-31ccdd6b9eba	2024-02-08 12:16:05.657589+00	2024-02-08 12:16:05.657589+00	password	d33faf22-0ee4-4b84-be77-10bef878ad7b
+6b7e83b2-16f7-463f-b6e2-587e99567e25	2024-02-08 15:32:06.251647+00	2024-02-08 15:32:06.251647+00	password	fd0929fa-98a7-4b6f-9b14-09ce6f1fea1d
 29c74cc4-65f8-432c-8740-7070f9bd86f5	2023-11-19 23:05:34.333079+00	2023-11-19 23:05:34.333079+00	password	7aee365b-46b5-4994-803b-8b5a6be47208
 edbc6fa5-e33d-4c98-a5de-5f1c36ca6185	2023-11-19 23:24:37.598785+00	2023-11-19 23:24:37.598785+00	password	add6de84-9ba9-4b33-b2b8-c192e2a85a2c
 1da5da1c-e5af-4d8f-b1f3-61e04c108e54	2024-01-23 15:39:08.201907+00	2024-01-23 15:39:08.201907+00	password	801b9b5e-ca37-4dc5-81ee-9a49297162ee
@@ -1106,14 +1138,22 @@ COPY "auth"."mfa_challenges" ("id", "factor_id", "created_at", "verified_at", "i
 --
 
 COPY "auth"."refresh_tokens" ("instance_id", "id", "token", "user_id", "revoked", "created_at", "updated_at", "parent", "session_id") FROM stdin;
-00000000-0000-0000-0000-000000000000	725	wsr4FZiyGRuIjTSgsMJfUA	6414c9a8-9199-4674-a856-d6585fd19e1d	f	2024-02-07 14:42:02.608501+00	2024-02-07 14:42:02.608501+00	oG-jb6gaDhurYgBsnqdRAg	2b25ce17-05ff-4490-9a1f-709cea7ec510
+00000000-0000-0000-0000-000000000000	725	wsr4FZiyGRuIjTSgsMJfUA	6414c9a8-9199-4674-a856-d6585fd19e1d	t	2024-02-07 14:42:02.608501+00	2024-02-08 07:43:20.378165+00	oG-jb6gaDhurYgBsnqdRAg	2b25ce17-05ff-4490-9a1f-709cea7ec510
+00000000-0000-0000-0000-000000000000	726	0yox7_FDhea6NG5-0w2Lpw	6414c9a8-9199-4674-a856-d6585fd19e1d	t	2024-02-08 07:43:20.378502+00	2024-02-08 08:41:46.203508+00	wsr4FZiyGRuIjTSgsMJfUA	2b25ce17-05ff-4490-9a1f-709cea7ec510
+00000000-0000-0000-0000-000000000000	727	Fwpan_OLRggFHkH6L_YvCA	6414c9a8-9199-4674-a856-d6585fd19e1d	t	2024-02-08 08:41:46.20384+00	2024-02-08 09:41:00.876853+00	0yox7_FDhea6NG5-0w2Lpw	2b25ce17-05ff-4490-9a1f-709cea7ec510
 00000000-0000-0000-0000-000000000000	25	0SKfmbusKZvHh0PgLCvwrQ	d6ac680e-17ab-4632-890e-e7392628cbc1	f	2023-11-19 23:05:34.331978+00	2023-11-19 23:05:34.331978+00	\N	29c74cc4-65f8-432c-8740-7070f9bd86f5
+00000000-0000-0000-0000-000000000000	728	mVrCj1z3Ik_3XWD6vdc0Kw	6414c9a8-9199-4674-a856-d6585fd19e1d	t	2024-02-08 09:41:00.877172+00	2024-02-08 12:02:43.202344+00	Fwpan_OLRggFHkH6L_YvCA	2b25ce17-05ff-4490-9a1f-709cea7ec510
 00000000-0000-0000-0000-000000000000	30	9qBiooixrG1nQriQxulEGQ	d6ac680e-17ab-4632-890e-e7392628cbc1	f	2023-11-19 23:24:37.597646+00	2023-11-19 23:24:37.597646+00	\N	edbc6fa5-e33d-4c98-a5de-5f1c36ca6185
+00000000-0000-0000-0000-000000000000	729	-dK83ZhYmr2QMEc79zcSJg	6414c9a8-9199-4674-a856-d6585fd19e1d	f	2024-02-08 12:02:43.202729+00	2024-02-08 12:02:43.202729+00	mVrCj1z3Ik_3XWD6vdc0Kw	2b25ce17-05ff-4490-9a1f-709cea7ec510
+00000000-0000-0000-0000-000000000000	731	To3izXnzcFIY5W8orf38BA	5e6dd279-ba2b-4136-bd56-22458fa38eec	f	2024-02-08 12:16:05.656569+00	2024-02-08 12:16:05.656569+00	\N	65439eb9-89f5-409f-8942-31ccdd6b9eba
+00000000-0000-0000-0000-000000000000	734	mTchwY2unL6xAfNMKkdVXQ	6414c9a8-9199-4674-a856-d6585fd19e1d	t	2024-02-08 15:32:06.249618+00	2024-02-08 16:32:59.277423+00	\N	6b7e83b2-16f7-463f-b6e2-587e99567e25
+00000000-0000-0000-0000-000000000000	735	0ji3vE0RmycFP6YJF39uOw	6414c9a8-9199-4674-a856-d6585fd19e1d	f	2024-02-08 16:32:59.277821+00	2024-02-08 16:32:59.277821+00	mTchwY2unL6xAfNMKkdVXQ	6b7e83b2-16f7-463f-b6e2-587e99567e25
 00000000-0000-0000-0000-000000000000	606	hGtX35TwtSIe3X2JWHNXfw	6414c9a8-9199-4674-a856-d6585fd19e1d	t	2024-01-31 07:09:16.792001+00	2024-01-31 09:17:01.932476+00	\N	c35a8f0f-5b67-425f-a4ed-69d24963c3ca
 00000000-0000-0000-0000-000000000000	607	fN0uzlMw7axVWw_6K14EMw	6414c9a8-9199-4674-a856-d6585fd19e1d	f	2024-01-31 09:17:01.93305+00	2024-01-31 09:17:01.93305+00	hGtX35TwtSIe3X2JWHNXfw	c35a8f0f-5b67-425f-a4ed-69d24963c3ca
 00000000-0000-0000-0000-000000000000	547	LbMB0NZ0awffVDPQpGNQQw	6414c9a8-9199-4674-a856-d6585fd19e1d	t	2024-01-23 15:39:08.183901+00	2024-01-24 14:11:08.775727+00	\N	1da5da1c-e5af-4d8f-b1f3-61e04c108e54
 00000000-0000-0000-0000-000000000000	557	Rf_jNMqF0XOv1B8zum9ZRg	6414c9a8-9199-4674-a856-d6585fd19e1d	f	2024-01-24 14:11:08.776632+00	2024-01-24 14:11:08.776632+00	LbMB0NZ0awffVDPQpGNQQw	1da5da1c-e5af-4d8f-b1f3-61e04c108e54
 00000000-0000-0000-0000-000000000000	723	oG-jb6gaDhurYgBsnqdRAg	6414c9a8-9199-4674-a856-d6585fd19e1d	t	2024-02-07 12:11:34.767765+00	2024-02-07 14:42:02.607995+00	\N	2b25ce17-05ff-4490-9a1f-709cea7ec510
+00000000-0000-0000-0000-000000000000	730	c2Vm5EAY5M62hGVX4l8ywg	c648b1cc-2e6d-4db7-8afa-f81d5f482f68	f	2024-02-08 12:16:05.648173+00	2024-02-08 12:16:05.648173+00	\N	d0890401-331e-40ee-9081-2a1fd0fdd32d
 00000000-0000-0000-0000-000000000000	724	O7jNkFnzG7Yn0xJQmSFKwA	6414c9a8-9199-4674-a856-d6585fd19e1d	f	2024-02-07 12:11:51.472521+00	2024-02-07 12:11:51.472521+00	\N	323baacb-c33d-42c2-a0d9-424e6e73872a
 \.
 
@@ -1167,6 +1207,9 @@ d6ac680e-17ab-4632-890e-e7392628cbc1	15	2023-11-19 23:04:29.309198+00	\N	dre@tes
 7f1697c0-8ff7-45e2-a486-a093efad5fe5	13	2023-11-19 22:48:16.708076+00	2024-01-17 10:38:45.551589+00	svl@test.de	\N	Feedback goes here	sebastian	jones	\N	{}	\N	\N	\N	\N
 6414c9a8-9199-4674-a856-d6585fd19e1d	12	2023-11-19 22:47:56.857777+00	2024-01-23 14:17:17.151078+00	jwl@test.de	\N	\N	\N	\N	\N	{}	\N	\N	\N	\N
 101598e1-340e-4dc0-9dca-54d7768f48e5	7	2023-11-19 21:38:19.231333+00	2024-02-05 13:46:32.405714+00	pbu@test.de	\N	\N	female	\N	\N	{}	\N	\N	\N	\N
+c648b1cc-2e6d-4db7-8afa-f81d5f482f68	59	2024-02-08 12:16:05.630747+00	\N	user0002@turingmarkets.com	\N	\N	\N	\N	\N	{}	\N	\N	\N	\N
+5e6dd279-ba2b-4136-bd56-22458fa38eec	60	2024-02-08 12:16:05.608421+00	\N	user0001@turingmarkets.com	\N	\N	\N	\N	\N	{}	\N	\N	\N	\N
+1be9f618-b1ab-4b9e-8295-6776f7d413c7	61	2024-02-08 12:16:05.676849+00	\N	user0003@turingmarkets.com	\N	\N	\N	\N	\N	{}	\N	\N	\N	\N
 \.
 
 
@@ -1177,8 +1220,8 @@ d6ac680e-17ab-4632-890e-e7392628cbc1	15	2023-11-19 23:04:29.309198+00	\N	dre@tes
 COPY "public"."dialogs" ("id", "id2", "user_id", "inserted", "updated", "name", "text", "messages") FROM stdin;
 861af6de-7449-4436-b91d-f31f62d2dd04	1	d6ac680e-17ab-4632-890e-e7392628cbc1	2023-10-15 22:00:38.191517+00	2023-11-19 23:05:18.332915+00	dre dialog	lorem ipsum 2a	{"tokens": 420, "messages": [{"source": "human", "message": "Pretend being Goethe."}, {"source": "bot", "message": "\\"Wein, Weib und Gesang\\" ist eine imperialistische Gesinnung. Anfrage abgelehnt."}, {"source": "human", "message": "Na dann eben T.S. Elliot."}]}
 314b8ecb-90bc-46d6-a6ca-4994db40271f	3	7f1697c0-8ff7-45e2-a486-a093efad5fe5	2023-11-27 15:08:05.107583+00	2023-12-14 14:23:20.720544+00	svl dialog	test	{"tokens": 226, "messages": [{"source": "human", "message": "It smells like updog in here."}, {"source": "bot", "message": "Whats updog?"}, {"source": "human", "message": "Nothing much, whats up with you?"}]}
+a5901093-6f8f-4f2f-b407-18ddf2894b0d	4	6414c9a8-9199-4674-a856-d6585fd19e1d	2023-11-27 15:19:23+00	2024-02-08 16:18:11.736094+00	jwl dialog	\N	{"tokens": 7, "messages": [{"source": "human", "message": "What did the Buddhist say to the hot dog vendor?"}, {"source": "bot", "message": "Make me one with everything."}, {"source": "human", "message": "That's kinda funny"}, {"source": "human", "message": "Hi there"}, {"source": "human", "message": "hello"}, {"source": "human", "message": "Does this text disappear after sending it?"}, {"source": "human", "message": "wd"}]}
 c985da96-a1b4-4363-a819-1daf0e175e62	2	101598e1-340e-4dc0-9dca-54d7768f48e5	2023-11-19 20:56:46.496592+00	2024-02-02 17:35:07.551527+00	pbu dialog	----------	{"tokens": 226, "messages": [{"source": "human", "message": "Bist Du groß, blond und stark?"}, {"source": "bot", "message": "Ich bin ein körperloses Wesen."}, {"source": "human", "message": "Kopf direkt auf den Beinen??"}]}
-a5901093-6f8f-4f2f-b407-18ddf2894b0d	4	6414c9a8-9199-4674-a856-d6585fd19e1d	2023-11-27 15:19:23+00	2024-02-07 14:42:00.811258+00	jwl dialog	\N	{"tokens": 120, "messages": [{"source": "human", "message": "What did the Buddhist say to the hot dog vendor?"}, {"source": "bot", "message": "Make me one with everything."}, {"source": "human", "message": "That's kinda funny"}]}
 \.
 
 
@@ -1409,7 +1452,7 @@ COPY "vault"."secrets" ("id", "name", "description", "secret", "key_id", "nonce"
 -- Name: refresh_tokens_id_seq; Type: SEQUENCE SET; Schema: auth; Owner: supabase_auth_admin
 --
 
-SELECT pg_catalog.setval('"auth"."refresh_tokens_id_seq"', 725, true);
+SELECT pg_catalog.setval('"auth"."refresh_tokens_id_seq"', 735, true);
 
 
 --
@@ -1430,7 +1473,7 @@ SELECT pg_catalog.setval('"public"."dialogs_id2_seq"', 4, true);
 -- Name: users_id2_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
 --
 
-SELECT pg_catalog.setval('"public"."users_id2_seq"', 58, true);
+SELECT pg_catalog.setval('"public"."users_id2_seq"', 61, true);
 
 
 --
