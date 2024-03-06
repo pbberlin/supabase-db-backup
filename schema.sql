@@ -10,9 +10,29 @@ SET xmloption = content;
 SET client_min_messages = warning;
 SET row_security = off;
 
+CREATE EXTENSION IF NOT EXISTS "pg_net" WITH SCHEMA "extensions";
+
+CREATE EXTENSION IF NOT EXISTS "pgsodium" WITH SCHEMA "pgsodium";
+
 CREATE SCHEMA IF NOT EXISTS "public";
 
 ALTER SCHEMA "public" OWNER TO "pg_database_owner";
+
+CREATE EXTENSION IF NOT EXISTS "plv8" WITH SCHEMA "pg_catalog";
+
+CREATE EXTENSION IF NOT EXISTS "moddatetime" WITH SCHEMA "extensions";
+
+CREATE EXTENSION IF NOT EXISTS "pg_graphql" WITH SCHEMA "graphql";
+
+CREATE EXTENSION IF NOT EXISTS "pg_stat_statements" WITH SCHEMA "extensions";
+
+CREATE EXTENSION IF NOT EXISTS "pgcrypto" WITH SCHEMA "extensions";
+
+CREATE EXTENSION IF NOT EXISTS "pgjwt" WITH SCHEMA "extensions";
+
+CREATE EXTENSION IF NOT EXISTS "supabase_vault" WITH SCHEMA "vault";
+
+CREATE EXTENSION IF NOT EXISTS "uuid-ossp" WITH SCHEMA "extensions";
 
 CREATE TYPE "public"."rec" AS (
 	"i" integer,
@@ -59,6 +79,34 @@ CREATE UNLOGGED TABLE "public"."pool" (
 );
 
 ALTER TABLE "public"."pool" OWNER TO "postgres";
+
+COMMENT ON TABLE "public"."pool" IS 'accounts with ChatGPT and other providers. Keeping rate limits';
+
+COMMENT ON COLUMN "public"."pool"."id" IS 'primay';
+
+COMMENT ON COLUMN "public"."pool"."provider" IS 'for instance: ChatGPT #1';
+
+COMMENT ON COLUMN "public"."pool"."description" IS 'start date 01.06.2023 - one year';
+
+COMMENT ON COLUMN "public"."pool"."rpm" IS 'requests per minute';
+
+COMMENT ON COLUMN "public"."pool"."rpm_max" IS 'requests per minute - allowed';
+
+COMMENT ON COLUMN "public"."pool"."rpd" IS 'requests per day';
+
+COMMENT ON COLUMN "public"."pool"."rpd_max" IS 'requests per day - allowed';
+
+COMMENT ON COLUMN "public"."pool"."tpm" IS 'tokens   per minute';
+
+COMMENT ON COLUMN "public"."pool"."tpm_max" IS 'tokens   per minute - allowed';
+
+COMMENT ON COLUMN "public"."pool"."tpr_max" IS 'max_tokens per request - for instance 2048';
+
+COMMENT ON COLUMN "public"."pool"."updated_m" IS 'last reset of the *minutely* limit';
+
+COMMENT ON COLUMN "public"."pool"."updated_d" IS 'last reset of the *daily*    limit';
+
+COMMENT ON COLUMN "public"."pool"."updated" IS 'last update of any column';
 
 CREATE OR REPLACE FUNCTION "public"."pool_upate"("arg_id" integer, "decr" boolean) RETURNS SETOF "public"."pool"
     LANGUAGE "plpgsql"
@@ -132,6 +180,14 @@ CREATE TABLE IF NOT EXISTS "public"."dialogs" (
 
 ALTER TABLE "public"."dialogs" OWNER TO "postgres";
 
+COMMENT ON TABLE "public"."dialogs" IS 'a single chatGPT dialog - with reference to a user';
+
+COMMENT ON COLUMN "public"."dialogs"."id2" IS 'an auto increment for convenience';
+
+COMMENT ON COLUMN "public"."dialogs"."user_id" IS 'foreign key ref to users.id';
+
+COMMENT ON COLUMN "public"."dialogs"."messages" IS 'messages in jsonb';
+
 ALTER TABLE "public"."dialogs" ALTER COLUMN "id2" ADD GENERATED ALWAYS AS IDENTITY (
     SEQUENCE NAME "public"."dialogs_id2_seq"
     START WITH 1
@@ -161,6 +217,16 @@ CREATE TABLE IF NOT EXISTS "public"."users" (
 );
 
 ALTER TABLE "public"."users" OWNER TO "postgres";
+
+COMMENT ON TABLE "public"."users" IS 'extended columns for table auth.users';
+
+COMMENT ON COLUMN "public"."users"."id" IS 'copy of auth.users.id';
+
+COMMENT ON COLUMN "public"."users"."id2" IS 'an auto increment for convenience';
+
+COMMENT ON COLUMN "public"."users"."username" IS 'should be unique - but cant because of insert trigger from auth.users';
+
+COMMENT ON COLUMN "public"."users"."source" IS 'mechanial turk or company name of expert';
 
 ALTER TABLE "public"."users" ALTER COLUMN "id2" ADD GENERATED ALWAYS AS IDENTITY (
     SEQUENCE NAME "public"."users_id2_seq"
