@@ -1073,14 +1073,14 @@ COPY "auth"."flow_state" ("id", "user_id", "auth_code", "code_challenge_method",
 -- Data for Name: users; Type: TABLE DATA; Schema: auth; Owner: supabase_auth_admin
 --
 
-COPY "auth"."users" ("instance_id", "id", "aud", "role", "email", "encrypted_password", "email_confirmed_at", "invited_at", "confirmation_token", "confirmation_sent_at", "recovery_token", "recovery_sent_at", "email_change_token_new", "email_change", "email_change_sent_at", "last_sign_in_at", "raw_app_meta_data", "raw_user_meta_data", "is_super_admin", "created_at", "updated_at", "phone", "phone_confirmed_at", "phone_change", "phone_change_token", "phone_change_sent_at", "email_change_token_current", "email_change_confirm_status", "banned_until", "reauthentication_token", "reauthentication_sent_at", "is_sso_user", "deleted_at") FROM stdin;
-00000000-0000-0000-0000-000000000000	d6ac680e-17ab-4632-890e-e7392628cbc1	authenticated	authenticated	dre@test.de	$2a$10$PTfMVJJCgYRpmTld8RF5xup2Ydk1N8H4NKxu8Pnk6IIM5oMCHhspi	2023-11-19 23:04:29.312986+00	\N		\N		\N			\N	2023-11-19 23:24:37.596849+00	{"provider": "email", "providers": ["email"]}	{}	\N	2023-11-19 23:04:29.30962+00	2023-11-19 23:24:37.598484+00	\N	\N			\N		0	\N		\N	f	\N
-00000000-0000-0000-0000-000000000000	7f1697c0-8ff7-45e2-a486-a093efad5fe5	authenticated	authenticated	svl@test.de	$2a$10$Ayes/oR7j70CiPQB5gB3s..SKyCtu5Vq8vhsMXgAPWRBMxUxTfYyu	2023-11-19 22:48:16.711553+00	\N		\N		\N			\N	2024-01-17 10:22:26.951589+00	{"provider": "email", "providers": ["email"]}	{}	\N	2023-11-19 22:48:16.708479+00	2024-01-30 15:07:09.355672+00	\N	\N			\N		0	\N		\N	f	\N
-00000000-0000-0000-0000-000000000000	c648b1cc-2e6d-4db7-8afa-f81d5f482f68	authenticated	authenticated	user0002@turingmarkets.com	$2a$10$oeskvsSthBegekNZEGb1deIhgb2pX9VLySw8A2aDH1vscSc35rEha	2024-02-08 12:16:05.638881+00	\N		\N		\N			\N	2024-02-08 12:16:05.647194+00	{"provider": "email", "providers": ["email"]}	{}	\N	2024-02-08 12:16:05.631163+00	2024-02-08 12:16:05.649355+00	\N	\N			\N		0	\N		\N	f	\N
-00000000-0000-0000-0000-000000000000	5e6dd279-ba2b-4136-bd56-22458fa38eec	authenticated	authenticated	user0001@turingmarkets.com	$2a$10$2nsl6QPGHhg/ydN98LsU9u4lfzWQjQXHQrT3QA1JM5FzaOIQNIzq6	2024-02-08 12:16:05.653672+00	\N		\N		\N			\N	2024-02-08 12:16:05.655875+00	{"provider": "email", "providers": ["email"]}	{}	\N	2024-02-08 12:16:05.624029+00	2024-02-08 12:16:05.657387+00	\N	\N			\N		0	\N		\N	f	\N
-00000000-0000-0000-0000-000000000000	6414c9a8-9199-4674-a856-d6585fd19e1d	authenticated	authenticated	jwl@test.de	$2a$10$H1DtOFePPkX/ubdlWgCLDee5Z.zNXJVkvu9arSf.ANcW39XbWpBUO	2023-11-19 22:47:56.861001+00	\N		\N		\N			\N	2024-02-08 15:32:06.248529+00	{"provider": "email", "providers": ["email"]}	{}	\N	2023-11-19 22:47:56.858165+00	2024-02-12 12:52:13.720292+00	\N	\N			\N		0	\N		\N	f	\N
-00000000-0000-0000-0000-000000000000	1be9f618-b1ab-4b9e-8295-6776f7d413c7	authenticated	authenticated	user0003@turingmarkets.com	$2a$10$UXoNjagZOekVWFmgaF92Ju1zTAl136MFj.ZErmxQF5jgujBImUXm6	2024-02-08 12:16:05.680878+00	\N		\N		\N			\N	2024-02-08 12:16:05.682927+00	{"provider": "email", "providers": ["email"]}	{}	\N	2024-02-08 12:16:05.67722+00	2024-02-08 15:25:28.903728+00	\N	\N			\N		0	\N		\N	f	\N
-00000000-0000-0000-0000-000000000000	101598e1-340e-4dc0-9dca-54d7768f48e5	authenticated	authenticated	pbu@test.de	$2a$10$ZgxPXN9NOXLugZBktRk7puGSVET8d1aB/graAoon3SIAiOpfTPf8m	2023-11-19 21:38:19.234979+00	\N		\N		\N			\N	2024-02-09 05:36:51.726878+00	{"provider": "email", "providers": ["email"]}	{}	\N	2023-11-19 21:38:19.231734+00	2024-02-09 05:36:51.729507+00	\N	\N			\N		0	\N		\N	f	\N
+COPY "auth"."users" ("instance_id", "id", "aud", "role", "email", "encrypted_password", "email_confirmed_at", "invited_at", "confirmation_token", "confirmation_sent_at", "recovery_token", "recovery_sent_at", "email_change_token_new", "email_change", "email_change_sent_at", "last_sign_in_at", "raw_app_meta_data", "raw_user_meta_data", "is_super_admin", "created_at", "updated_at", "phone", "phone_confirmed_at", "phone_change", "phone_change_token", "phone_change_sent_at", "email_change_token_current", "email_change_confirm_status", "banned_until", "reauthentication_token", "reauthentication_sent_at", "is_sso_user", "deleted_at", "is_anonymous") FROM stdin;
+00000000-0000-0000-0000-000000000000	d6ac680e-17ab-4632-890e-e7392628cbc1	authenticated	authenticated	dre@test.de	$2a$10$PTfMVJJCgYRpmTld8RF5xup2Ydk1N8H4NKxu8Pnk6IIM5oMCHhspi	2023-11-19 23:04:29.312986+00	\N		\N		\N			\N	2023-11-19 23:24:37.596849+00	{"provider": "email", "providers": ["email"]}	{}	\N	2023-11-19 23:04:29.30962+00	2023-11-19 23:24:37.598484+00	\N	\N			\N		0	\N		\N	f	\N	f
+00000000-0000-0000-0000-000000000000	7f1697c0-8ff7-45e2-a486-a093efad5fe5	authenticated	authenticated	svl@test.de	$2a$10$Ayes/oR7j70CiPQB5gB3s..SKyCtu5Vq8vhsMXgAPWRBMxUxTfYyu	2023-11-19 22:48:16.711553+00	\N		\N		\N			\N	2024-01-17 10:22:26.951589+00	{"provider": "email", "providers": ["email"]}	{}	\N	2023-11-19 22:48:16.708479+00	2024-01-30 15:07:09.355672+00	\N	\N			\N		0	\N		\N	f	\N	f
+00000000-0000-0000-0000-000000000000	c648b1cc-2e6d-4db7-8afa-f81d5f482f68	authenticated	authenticated	user0002@turingmarkets.com	$2a$10$oeskvsSthBegekNZEGb1deIhgb2pX9VLySw8A2aDH1vscSc35rEha	2024-02-08 12:16:05.638881+00	\N		\N		\N			\N	2024-02-08 12:16:05.647194+00	{"provider": "email", "providers": ["email"]}	{}	\N	2024-02-08 12:16:05.631163+00	2024-02-08 12:16:05.649355+00	\N	\N			\N		0	\N		\N	f	\N	f
+00000000-0000-0000-0000-000000000000	5e6dd279-ba2b-4136-bd56-22458fa38eec	authenticated	authenticated	user0001@turingmarkets.com	$2a$10$2nsl6QPGHhg/ydN98LsU9u4lfzWQjQXHQrT3QA1JM5FzaOIQNIzq6	2024-02-08 12:16:05.653672+00	\N		\N		\N			\N	2024-02-08 12:16:05.655875+00	{"provider": "email", "providers": ["email"]}	{}	\N	2024-02-08 12:16:05.624029+00	2024-02-08 12:16:05.657387+00	\N	\N			\N		0	\N		\N	f	\N	f
+00000000-0000-0000-0000-000000000000	6414c9a8-9199-4674-a856-d6585fd19e1d	authenticated	authenticated	jwl@test.de	$2a$10$H1DtOFePPkX/ubdlWgCLDee5Z.zNXJVkvu9arSf.ANcW39XbWpBUO	2023-11-19 22:47:56.861001+00	\N		\N		\N			\N	2024-02-08 15:32:06.248529+00	{"provider": "email", "providers": ["email"]}	{}	\N	2023-11-19 22:47:56.858165+00	2024-02-12 12:52:13.720292+00	\N	\N			\N		0	\N		\N	f	\N	f
+00000000-0000-0000-0000-000000000000	1be9f618-b1ab-4b9e-8295-6776f7d413c7	authenticated	authenticated	user0003@turingmarkets.com	$2a$10$UXoNjagZOekVWFmgaF92Ju1zTAl136MFj.ZErmxQF5jgujBImUXm6	2024-02-08 12:16:05.680878+00	\N		\N		\N			\N	2024-02-08 12:16:05.682927+00	{"provider": "email", "providers": ["email"]}	{}	\N	2024-02-08 12:16:05.67722+00	2024-02-08 15:25:28.903728+00	\N	\N			\N		0	\N		\N	f	\N	f
+00000000-0000-0000-0000-000000000000	101598e1-340e-4dc0-9dca-54d7768f48e5	authenticated	authenticated	pbu@test.de	$2a$10$ZgxPXN9NOXLugZBktRk7puGSVET8d1aB/graAoon3SIAiOpfTPf8m	2023-11-19 21:38:19.234979+00	\N		\N		\N			\N	2024-02-09 05:36:51.726878+00	{"provider": "email", "providers": ["email"]}	{}	\N	2023-11-19 21:38:19.231734+00	2024-02-09 05:36:51.729507+00	\N	\N			\N		0	\N		\N	f	\N	f
 \.
 
 
@@ -1211,7 +1211,7 @@ COPY "auth"."sso_providers" ("id", "resource_id", "created_at", "updated_at") FR
 -- Data for Name: saml_providers; Type: TABLE DATA; Schema: auth; Owner: supabase_auth_admin
 --
 
-COPY "auth"."saml_providers" ("id", "sso_provider_id", "entity_id", "metadata_xml", "metadata_url", "attribute_mapping", "created_at", "updated_at") FROM stdin;
+COPY "auth"."saml_providers" ("id", "sso_provider_id", "entity_id", "metadata_xml", "metadata_url", "attribute_mapping", "created_at", "updated_at", "name_id_format") FROM stdin;
 \.
 
 
@@ -1219,7 +1219,7 @@ COPY "auth"."saml_providers" ("id", "sso_provider_id", "entity_id", "metadata_xm
 -- Data for Name: saml_relay_states; Type: TABLE DATA; Schema: auth; Owner: supabase_auth_admin
 --
 
-COPY "auth"."saml_relay_states" ("id", "sso_provider_id", "request_id", "for_email", "redirect_to", "from_ip_address", "created_at", "updated_at", "flow_state_id") FROM stdin;
+COPY "auth"."saml_relay_states" ("id", "sso_provider_id", "request_id", "for_email", "redirect_to", "created_at", "updated_at", "flow_state_id") FROM stdin;
 \.
 
 
