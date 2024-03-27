@@ -14,10 +14,6 @@ CREATE EXTENSION IF NOT EXISTS "pg_net" WITH SCHEMA "extensions";
 
 CREATE EXTENSION IF NOT EXISTS "pgsodium" WITH SCHEMA "pgsodium";
 
-CREATE SCHEMA IF NOT EXISTS "public";
-
-ALTER SCHEMA "public" OWNER TO "pg_database_owner";
-
 CREATE EXTENSION IF NOT EXISTS "plv8" WITH SCHEMA "pg_catalog";
 
 CREATE EXTENSION IF NOT EXISTS "moddatetime" WITH SCHEMA "extensions";
@@ -272,6 +268,10 @@ CREATE POLICY "public.dialogs-insert" ON "public"."dialogs" FOR INSERT WITH CHEC
 CREATE POLICY "public.dialogs-select" ON "public"."dialogs" FOR SELECT USING (("auth"."uid"() = "user_id"));
 
 CREATE POLICY "public.dialogs-update" ON "public"."dialogs" FOR UPDATE USING (("auth"."uid"() = "user_id"));
+
+ALTER PUBLICATION "supabase_realtime" OWNER TO "postgres";
+
+ALTER PUBLICATION "supabase_realtime" ADD TABLE ONLY "public"."dialogs";
 
 REVOKE USAGE ON SCHEMA "public" FROM PUBLIC;
 GRANT USAGE ON SCHEMA "public" TO "postgres";
