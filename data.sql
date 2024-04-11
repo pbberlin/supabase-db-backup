@@ -1068,6 +1068,8 @@ COPY "auth"."audit_log_entries" ("instance_id", "id", "payload", "created_at", "
 00000000-0000-0000-0000-000000000000	c9fe71bc-3f16-4d14-a015-8ee36d0d3375	{"action":"token_revoked","actor_id":"6414c9a8-9199-4674-a856-d6585fd19e1d","actor_username":"jwl@test.de","actor_via_sso":false,"log_type":"token"}	2024-04-09 16:01:55.178112+00	
 00000000-0000-0000-0000-000000000000	761ee933-d5f4-4456-91b3-f66f5ebaef9e	{"action":"token_refreshed","actor_id":"6414c9a8-9199-4674-a856-d6585fd19e1d","actor_username":"jwl@test.de","actor_via_sso":false,"log_type":"token"}	2024-04-09 17:03:16.239509+00	
 00000000-0000-0000-0000-000000000000	3f2e7fa8-b616-4691-9eab-dba1c3adb0ce	{"action":"token_revoked","actor_id":"6414c9a8-9199-4674-a856-d6585fd19e1d","actor_username":"jwl@test.de","actor_via_sso":false,"log_type":"token"}	2024-04-09 17:03:16.242425+00	
+00000000-0000-0000-0000-000000000000	1999c907-1fc0-483a-b817-a7cbf8a36396	{"action":"token_refreshed","actor_id":"6414c9a8-9199-4674-a856-d6585fd19e1d","actor_username":"jwl@test.de","actor_via_sso":false,"log_type":"token"}	2024-04-10 09:05:02.556844+00	
+00000000-0000-0000-0000-000000000000	5d37d4ac-b054-45d3-a8bd-0dca4d564e72	{"action":"token_revoked","actor_id":"6414c9a8-9199-4674-a856-d6585fd19e1d","actor_username":"jwl@test.de","actor_via_sso":false,"log_type":"token"}	2024-04-10 09:05:02.558425+00	
 \.
 
 
@@ -1090,7 +1092,7 @@ COPY "auth"."users" ("instance_id", "id", "aud", "role", "email", "encrypted_pas
 00000000-0000-0000-0000-000000000000	5e6dd279-ba2b-4136-bd56-22458fa38eec	authenticated	authenticated	user0001@turingmarkets.com	$2a$10$2nsl6QPGHhg/ydN98LsU9u4lfzWQjQXHQrT3QA1JM5FzaOIQNIzq6	2024-02-08 12:16:05.653672+00	\N		\N		\N			\N	2024-02-08 12:16:05.655875+00	{"provider": "email", "providers": ["email"]}	{}	\N	2024-02-08 12:16:05.624029+00	2024-02-08 12:16:05.657387+00	\N	\N			\N		0	\N		\N	f	\N	f
 00000000-0000-0000-0000-000000000000	1be9f618-b1ab-4b9e-8295-6776f7d413c7	authenticated	authenticated	user0003@turingmarkets.com	$2a$10$UXoNjagZOekVWFmgaF92Ju1zTAl136MFj.ZErmxQF5jgujBImUXm6	2024-02-08 12:16:05.680878+00	\N		\N		\N			\N	2024-02-08 12:16:05.682927+00	{"provider": "email", "providers": ["email"]}	{}	\N	2024-02-08 12:16:05.67722+00	2024-02-08 15:25:28.903728+00	\N	\N			\N		0	\N		\N	f	\N	f
 00000000-0000-0000-0000-000000000000	101598e1-340e-4dc0-9dca-54d7768f48e5	authenticated	authenticated	pbu@test.de	$2a$10$ZgxPXN9NOXLugZBktRk7puGSVET8d1aB/graAoon3SIAiOpfTPf8m	2023-11-19 21:38:19.234979+00	\N		\N		\N			\N	2024-02-09 05:36:51.726878+00	{"provider": "email", "providers": ["email"]}	{}	\N	2023-11-19 21:38:19.231734+00	2024-02-09 05:36:51.729507+00	\N	\N			\N		0	\N		\N	f	\N	f
-00000000-0000-0000-0000-000000000000	6414c9a8-9199-4674-a856-d6585fd19e1d	authenticated	authenticated	jwl@test.de	$2a$10$H1DtOFePPkX/ubdlWgCLDee5Z.zNXJVkvu9arSf.ANcW39XbWpBUO	2023-11-19 22:47:56.861001+00	\N		\N		\N			\N	2024-02-08 15:32:06.248529+00	{"provider": "email", "providers": ["email"]}	{}	\N	2023-11-19 22:47:56.858165+00	2024-04-09 17:03:16.245282+00	\N	\N			\N		0	\N		\N	f	\N	f
+00000000-0000-0000-0000-000000000000	6414c9a8-9199-4674-a856-d6585fd19e1d	authenticated	authenticated	jwl@test.de	$2a$10$H1DtOFePPkX/ubdlWgCLDee5Z.zNXJVkvu9arSf.ANcW39XbWpBUO	2023-11-19 22:47:56.861001+00	\N		\N		\N			\N	2024-02-08 15:32:06.248529+00	{"provider": "email", "providers": ["email"]}	{}	\N	2023-11-19 22:47:56.858165+00	2024-04-10 09:05:02.561909+00	\N	\N			\N		0	\N		\N	f	\N	f
 \.
 
 
@@ -1132,7 +1134,7 @@ c35a8f0f-5b67-425f-a4ed-69d24963c3ca	6414c9a8-9199-4674-a856-d6585fd19e1d	2024-0
 3cea6ad7-adc1-4770-86ca-b2f43afa3f59	101598e1-340e-4dc0-9dca-54d7768f48e5	2024-02-09 05:36:20.701667+00	2024-02-09 05:36:20.701667+00	\N	aal1	\N	\N	Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:122.0) Gecko/20100101 Firefox/122.0	93.212.253.122	\N
 cc7daf63-a62b-44d3-9208-e38f08d9b5e7	101598e1-340e-4dc0-9dca-54d7768f48e5	2024-02-09 05:36:51.726976+00	2024-02-09 05:36:51.726976+00	\N	aal1	\N	\N	Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:122.0) Gecko/20100101 Firefox/122.0	93.212.253.122	\N
 6b7e83b2-16f7-463f-b6e2-587e99567e25	6414c9a8-9199-4674-a856-d6585fd19e1d	2024-02-08 15:32:06.248623+00	2024-02-12 12:52:13.721562+00	\N	aal1	\N	2024-02-12 12:52:13.721443	Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:122.0) Gecko/20100101 Firefox/122.0	87.180.239.125	\N
-323baacb-c33d-42c2-a0d9-424e6e73872a	6414c9a8-9199-4674-a856-d6585fd19e1d	2024-02-07 12:11:51.471774+00	2024-04-09 17:03:16.246842+00	\N	aal1	\N	2024-04-09 17:03:16.246765	Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:124.0) Gecko/20100101 Firefox/124.0	88.152.184.131	\N
+323baacb-c33d-42c2-a0d9-424e6e73872a	6414c9a8-9199-4674-a856-d6585fd19e1d	2024-02-07 12:11:51.471774+00	2024-04-10 09:05:02.562919+00	\N	aal1	\N	2024-04-10 09:05:02.562844	Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:124.0) Gecko/20100101 Firefox/124.0	88.152.184.131	\N
 \.
 
 
@@ -1210,7 +1212,8 @@ COPY "auth"."refresh_tokens" ("instance_id", "id", "token", "user_id", "revoked"
 00000000-0000-0000-0000-000000000000	730	c2Vm5EAY5M62hGVX4l8ywg	c648b1cc-2e6d-4db7-8afa-f81d5f482f68	f	2024-02-08 12:16:05.648173+00	2024-02-08 12:16:05.648173+00	\N	d0890401-331e-40ee-9081-2a1fd0fdd32d
 00000000-0000-0000-0000-000000000000	724	O7jNkFnzG7Yn0xJQmSFKwA	6414c9a8-9199-4674-a856-d6585fd19e1d	t	2024-02-07 12:11:51.472521+00	2024-02-09 10:55:36.035074+00	\N	323baacb-c33d-42c2-a0d9-424e6e73872a
 00000000-0000-0000-0000-000000000000	752	3tra9V0fsbIi4MAVGJXqZg	6414c9a8-9199-4674-a856-d6585fd19e1d	t	2024-04-09 16:01:55.180861+00	2024-04-09 17:03:16.243129+00	E9kGojoROsHmT9H1-m75hA	323baacb-c33d-42c2-a0d9-424e6e73872a
-00000000-0000-0000-0000-000000000000	753	uhTPsbcKSY5kcg_VrZFHNA	6414c9a8-9199-4674-a856-d6585fd19e1d	f	2024-04-09 17:03:16.244313+00	2024-04-09 17:03:16.244313+00	3tra9V0fsbIi4MAVGJXqZg	323baacb-c33d-42c2-a0d9-424e6e73872a
+00000000-0000-0000-0000-000000000000	753	uhTPsbcKSY5kcg_VrZFHNA	6414c9a8-9199-4674-a856-d6585fd19e1d	t	2024-04-09 17:03:16.244313+00	2024-04-10 09:05:02.559799+00	3tra9V0fsbIi4MAVGJXqZg	323baacb-c33d-42c2-a0d9-424e6e73872a
+00000000-0000-0000-0000-000000000000	754	JBMTaE8otmRu657JRLNVVA	6414c9a8-9199-4674-a856-d6585fd19e1d	f	2024-04-10 09:05:02.560883+00	2024-04-10 09:05:02.560883+00	uhTPsbcKSY5kcg_VrZFHNA	323baacb-c33d-42c2-a0d9-424e6e73872a
 \.
 
 
@@ -1276,8 +1279,8 @@ c648b1cc-2e6d-4db7-8afa-f81d5f482f68	59	2024-02-08 12:16:05.630747+00	\N	user000
 COPY "public"."dialogs" ("id", "id2", "user_id", "inserted", "updated", "name", "text", "messages") FROM stdin;
 861af6de-7449-4436-b91d-f31f62d2dd04	1	d6ac680e-17ab-4632-890e-e7392628cbc1	2023-10-15 22:00:38.191517+00	2023-11-19 23:05:18.332915+00	dre dialog	lorem ipsum 2a	{"tokens": 420, "messages": [{"source": "human", "message": "Pretend being Goethe."}, {"source": "bot", "message": "\\"Wein, Weib und Gesang\\" ist eine imperialistische Gesinnung. Anfrage abgelehnt."}, {"source": "human", "message": "Na dann eben T.S. Elliot."}]}
 314b8ecb-90bc-46d6-a6ca-4994db40271f	3	7f1697c0-8ff7-45e2-a486-a093efad5fe5	2023-11-27 15:08:05.107583+00	2023-12-14 14:23:20.720544+00	svl dialog	test	{"tokens": 226, "messages": [{"source": "human", "message": "It smells like updog in here."}, {"source": "bot", "message": "Whats updog?"}, {"source": "human", "message": "Nothing much, whats up with you?"}]}
-a5901093-6f8f-4f2f-b407-18ddf2894b0d	4	6414c9a8-9199-4674-a856-d6585fd19e1d	2023-11-27 15:19:23+00	2024-02-12 10:40:00.809948+00	jwl dialog	\N	{"tokens": 11, "messages": [{"source": "human", "message": "What did the Buddhist say to the hot dog vendor?"}, {"source": "bot", "message": "Make me one with everything."}, {"source": "human", "message": "That's kinda funny"}, {"source": "human", "message": "hello"}, {"source": "human", "message": "hello"}, {"source": "human", "message": "hefed"}, {"source": "human", "message": "efef"}, {"source": "human", "message": "wdw"}, {"source": "human", "message": "wdw"}, {"source": "human", "message": "dwd"}, {"source": "human", "message": "eeeee"}]}
 c985da96-a1b4-4363-a819-1daf0e175e62	2	101598e1-340e-4dc0-9dca-54d7768f48e5	2023-11-19 20:56:46.496592+00	2024-02-09 05:36:52.25908+00	pbu dialog	----------	{"tokens": 226, "messages": [{"source": "human", "message": "Bist Du groß, blond und stark?"}, {"source": "bot", "message": "Ich bin ein körperloses Wesen."}, {"source": "human", "message": "Kopf direkt auf den Beinen??"}, {"source": "bot", "message": "Ich weiß nicht, was soll es bedeuten."}]}
+a5901093-6f8f-4f2f-b407-18ddf2894b0d	4	6414c9a8-9199-4674-a856-d6585fd19e1d	2023-11-27 15:19:23+00	2024-04-10 09:28:57.659181+00	jwl dialog	\N	{"tokens": 13, "messages": [{"source": "human", "message": "What did the Buddhist say to the hot dog vendor?"}, {"source": "bot", "message": "Make me one with everything."}, {"source": "human", "message": "That's kinda funny"}, {"source": "human", "message": "hello"}, {"source": "human", "message": "hello"}, {"source": "human", "message": "hefed"}, {"source": "human", "message": "efef"}, {"source": "human", "message": "wdw"}, {"source": "human", "message": "wdw"}, {"source": "human", "message": "dwd"}, {"source": "human", "message": "eeeee"}, {"source": "human", "message": "asdfsdaf"}, {"source": "human", "message": "asdfsadf"}]}
 \.
 
 
@@ -1508,7 +1511,7 @@ COPY "vault"."secrets" ("id", "name", "description", "secret", "key_id", "nonce"
 -- Name: refresh_tokens_id_seq; Type: SEQUENCE SET; Schema: auth; Owner: supabase_auth_admin
 --
 
-SELECT pg_catalog.setval('"auth"."refresh_tokens_id_seq"', 753, true);
+SELECT pg_catalog.setval('"auth"."refresh_tokens_id_seq"', 754, true);
 
 
 --
