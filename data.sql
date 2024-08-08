@@ -1173,7 +1173,7 @@ c35a8f0f-5b67-425f-a4ed-69d24963c3ca	2024-01-31 07:09:16.793423+00	2024-01-31 07
 -- Data for Name: mfa_factors; Type: TABLE DATA; Schema: auth; Owner: supabase_auth_admin
 --
 
-COPY "auth"."mfa_factors" ("id", "user_id", "friendly_name", "factor_type", "status", "created_at", "updated_at", "secret") FROM stdin;
+COPY "auth"."mfa_factors" ("id", "user_id", "friendly_name", "factor_type", "status", "created_at", "updated_at", "secret", "phone", "last_challenged_at") FROM stdin;
 \.
 
 
@@ -1181,7 +1181,7 @@ COPY "auth"."mfa_factors" ("id", "user_id", "friendly_name", "factor_type", "sta
 -- Data for Name: mfa_challenges; Type: TABLE DATA; Schema: auth; Owner: supabase_auth_admin
 --
 
-COPY "auth"."mfa_challenges" ("id", "factor_id", "created_at", "verified_at", "ip_address") FROM stdin;
+COPY "auth"."mfa_challenges" ("id", "factor_id", "created_at", "verified_at", "ip_address", "otp_code") FROM stdin;
 \.
 
 
