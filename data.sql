@@ -4,7 +4,7 @@ SET session_replication_role = replica;
 -- PostgreSQL database dump
 --
 
--- \restrict IjB13SDu78wkXfs7GTz593dGWEfMrz4NTCbhI6dBz4isnsjfKhGPGyrNziwFpho
+-- \restrict Nfmq8NhwP2AnYHSc7TYVFulCJJRXZwD1Fre0g0gKJqag7ovjX2Z4b6jBobLDAJt
 
 -- Dumped from database version 15.1 (Ubuntu 15.1-1.pgdg20.04+1)
 -- Dumped by pg_dump version 17.6
@@ -1146,18 +1146,18 @@ COPY "auth"."oauth_clients" ("id", "client_secret_hash", "registration_type", "r
 -- Data for Name: sessions; Type: TABLE DATA; Schema: auth; Owner: supabase_auth_admin
 --
 
-COPY "auth"."sessions" ("id", "user_id", "created_at", "updated_at", "factor_id", "aal", "not_after", "refreshed_at", "user_agent", "ip", "tag", "oauth_client_id") FROM stdin;
-d0890401-331e-40ee-9081-2a1fd0fdd32d	c648b1cc-2e6d-4db7-8afa-f81d5f482f68	2024-02-08 12:16:05.647271+00	2024-02-08 12:16:05.647271+00	\N	aal1	\N	\N	Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:122.0) Gecko/20100101 Firefox/122.0	87.180.239.125	\N	\N
-29c74cc4-65f8-432c-8740-7070f9bd86f5	d6ac680e-17ab-4632-890e-e7392628cbc1	2023-11-19 23:05:34.331267+00	2023-11-19 23:05:34.331267+00	\N	aal1	\N	\N	Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36	193.196.11.188	\N	\N
-edbc6fa5-e33d-4c98-a5de-5f1c36ca6185	d6ac680e-17ab-4632-890e-e7392628cbc1	2023-11-19 23:24:37.596957+00	2023-11-19 23:24:37.596957+00	\N	aal1	\N	\N	Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36	193.196.11.188	\N	\N
-1da5da1c-e5af-4d8f-b1f3-61e04c108e54	6414c9a8-9199-4674-a856-d6585fd19e1d	2024-01-23 15:39:08.180472+00	2024-01-24 14:11:08.778278+00	\N	aal1	\N	2024-01-24 14:11:08.778208	Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:121.0) Gecko/20100101 Firefox/121.0	87.180.239.125	\N	\N
-c35a8f0f-5b67-425f-a4ed-69d24963c3ca	6414c9a8-9199-4674-a856-d6585fd19e1d	2024-01-31 07:09:16.791027+00	2024-01-31 09:17:01.936199+00	\N	aal1	\N	2024-01-31 09:17:01.936122	Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:121.0) Gecko/20100101 Firefox/121.0	87.180.239.125	\N	\N
-2b25ce17-05ff-4490-9a1f-709cea7ec510	6414c9a8-9199-4674-a856-d6585fd19e1d	2024-02-07 12:11:34.766131+00	2024-02-08 12:02:43.204816+00	\N	aal1	\N	2024-02-08 12:02:43.20473	Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:122.0) Gecko/20100101 Firefox/122.0	87.180.239.125	\N	\N
-65439eb9-89f5-409f-8942-31ccdd6b9eba	5e6dd279-ba2b-4136-bd56-22458fa38eec	2024-02-08 12:16:05.655951+00	2024-02-08 12:16:05.655951+00	\N	aal1	\N	\N	Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:122.0) Gecko/20100101 Firefox/122.0	87.180.239.125	\N	\N
-3cea6ad7-adc1-4770-86ca-b2f43afa3f59	101598e1-340e-4dc0-9dca-54d7768f48e5	2024-02-09 05:36:20.701667+00	2024-02-09 05:36:20.701667+00	\N	aal1	\N	\N	Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:122.0) Gecko/20100101 Firefox/122.0	93.212.253.122	\N	\N
-cc7daf63-a62b-44d3-9208-e38f08d9b5e7	101598e1-340e-4dc0-9dca-54d7768f48e5	2024-02-09 05:36:51.726976+00	2024-02-09 05:36:51.726976+00	\N	aal1	\N	\N	Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:122.0) Gecko/20100101 Firefox/122.0	93.212.253.122	\N	\N
-6b7e83b2-16f7-463f-b6e2-587e99567e25	6414c9a8-9199-4674-a856-d6585fd19e1d	2024-02-08 15:32:06.248623+00	2024-02-12 12:52:13.721562+00	\N	aal1	\N	2024-02-12 12:52:13.721443	Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:122.0) Gecko/20100101 Firefox/122.0	87.180.239.125	\N	\N
-323baacb-c33d-42c2-a0d9-424e6e73872a	6414c9a8-9199-4674-a856-d6585fd19e1d	2024-02-07 12:11:51.471774+00	2024-04-12 06:26:01.865011+00	\N	aal1	\N	2024-04-12 06:26:01.864936	Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:124.0) Gecko/20100101 Firefox/124.0	88.152.184.131	\N	\N
+COPY "auth"."sessions" ("id", "user_id", "created_at", "updated_at", "factor_id", "aal", "not_after", "refreshed_at", "user_agent", "ip", "tag", "oauth_client_id", "refresh_token_hmac_key", "refresh_token_counter") FROM stdin;
+d0890401-331e-40ee-9081-2a1fd0fdd32d	c648b1cc-2e6d-4db7-8afa-f81d5f482f68	2024-02-08 12:16:05.647271+00	2024-02-08 12:16:05.647271+00	\N	aal1	\N	\N	Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:122.0) Gecko/20100101 Firefox/122.0	87.180.239.125	\N	\N	\N	\N
+29c74cc4-65f8-432c-8740-7070f9bd86f5	d6ac680e-17ab-4632-890e-e7392628cbc1	2023-11-19 23:05:34.331267+00	2023-11-19 23:05:34.331267+00	\N	aal1	\N	\N	Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36	193.196.11.188	\N	\N	\N	\N
+edbc6fa5-e33d-4c98-a5de-5f1c36ca6185	d6ac680e-17ab-4632-890e-e7392628cbc1	2023-11-19 23:24:37.596957+00	2023-11-19 23:24:37.596957+00	\N	aal1	\N	\N	Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36	193.196.11.188	\N	\N	\N	\N
+1da5da1c-e5af-4d8f-b1f3-61e04c108e54	6414c9a8-9199-4674-a856-d6585fd19e1d	2024-01-23 15:39:08.180472+00	2024-01-24 14:11:08.778278+00	\N	aal1	\N	2024-01-24 14:11:08.778208	Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:121.0) Gecko/20100101 Firefox/121.0	87.180.239.125	\N	\N	\N	\N
+c35a8f0f-5b67-425f-a4ed-69d24963c3ca	6414c9a8-9199-4674-a856-d6585fd19e1d	2024-01-31 07:09:16.791027+00	2024-01-31 09:17:01.936199+00	\N	aal1	\N	2024-01-31 09:17:01.936122	Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:121.0) Gecko/20100101 Firefox/121.0	87.180.239.125	\N	\N	\N	\N
+2b25ce17-05ff-4490-9a1f-709cea7ec510	6414c9a8-9199-4674-a856-d6585fd19e1d	2024-02-07 12:11:34.766131+00	2024-02-08 12:02:43.204816+00	\N	aal1	\N	2024-02-08 12:02:43.20473	Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:122.0) Gecko/20100101 Firefox/122.0	87.180.239.125	\N	\N	\N	\N
+65439eb9-89f5-409f-8942-31ccdd6b9eba	5e6dd279-ba2b-4136-bd56-22458fa38eec	2024-02-08 12:16:05.655951+00	2024-02-08 12:16:05.655951+00	\N	aal1	\N	\N	Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:122.0) Gecko/20100101 Firefox/122.0	87.180.239.125	\N	\N	\N	\N
+3cea6ad7-adc1-4770-86ca-b2f43afa3f59	101598e1-340e-4dc0-9dca-54d7768f48e5	2024-02-09 05:36:20.701667+00	2024-02-09 05:36:20.701667+00	\N	aal1	\N	\N	Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:122.0) Gecko/20100101 Firefox/122.0	93.212.253.122	\N	\N	\N	\N
+cc7daf63-a62b-44d3-9208-e38f08d9b5e7	101598e1-340e-4dc0-9dca-54d7768f48e5	2024-02-09 05:36:51.726976+00	2024-02-09 05:36:51.726976+00	\N	aal1	\N	\N	Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:122.0) Gecko/20100101 Firefox/122.0	93.212.253.122	\N	\N	\N	\N
+6b7e83b2-16f7-463f-b6e2-587e99567e25	6414c9a8-9199-4674-a856-d6585fd19e1d	2024-02-08 15:32:06.248623+00	2024-02-12 12:52:13.721562+00	\N	aal1	\N	2024-02-12 12:52:13.721443	Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:122.0) Gecko/20100101 Firefox/122.0	87.180.239.125	\N	\N	\N	\N
+323baacb-c33d-42c2-a0d9-424e6e73872a	6414c9a8-9199-4674-a856-d6585fd19e1d	2024-02-07 12:11:51.471774+00	2024-04-12 06:26:01.865011+00	\N	aal1	\N	2024-04-12 06:26:01.864936	Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:124.0) Gecko/20100101 Firefox/124.0	88.152.184.131	\N	\N	\N	\N
 \.
 
 
@@ -1184,7 +1184,7 @@ c35a8f0f-5b67-425f-a4ed-69d24963c3ca	2024-01-31 07:09:16.793423+00	2024-01-31 07
 -- Data for Name: mfa_factors; Type: TABLE DATA; Schema: auth; Owner: supabase_auth_admin
 --
 
-COPY "auth"."mfa_factors" ("id", "user_id", "friendly_name", "factor_type", "status", "created_at", "updated_at", "secret", "phone", "last_challenged_at", "web_authn_credential", "web_authn_aaguid") FROM stdin;
+COPY "auth"."mfa_factors" ("id", "user_id", "friendly_name", "factor_type", "status", "created_at", "updated_at", "secret", "phone", "last_challenged_at", "web_authn_credential", "web_authn_aaguid", "last_webauthn_challenge_data") FROM stdin;
 \.
 
 
@@ -1608,6 +1608,6 @@ SELECT pg_catalog.setval('"supabase_functions"."hooks_id_seq"', 180, true);
 -- PostgreSQL database dump complete
 --
 
--- \unrestrict IjB13SDu78wkXfs7GTz593dGWEfMrz4NTCbhI6dBz4isnsjfKhGPGyrNziwFpho
+-- \unrestrict Nfmq8NhwP2AnYHSc7TYVFulCJJRXZwD1Fre0g0gKJqag7ovjX2Z4b6jBobLDAJt
 
 RESET ALL;
