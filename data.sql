@@ -4,7 +4,7 @@ SET session_replication_role = replica;
 -- PostgreSQL database dump
 --
 
--- \restrict oacFs8nB5D8iHHtIWrE2h3IExmBrlsyc9Ue2nsnNn9kjGZlgxN8rXOGLhw3Dc4v
+-- \restrict oOhXmT0eXJQ6hu9dvil0eavDlQxZO1GapyuIcKk7hQnl4hKXTdXtDKebSBIlgBf
 
 -- Dumped from database version 15.1 (Ubuntu 15.1-1.pgdg20.04+1)
 -- Dumped by pg_dump version 17.6
@@ -1205,6 +1205,14 @@ COPY "auth"."oauth_authorizations" ("id", "authorization_id", "client_id", "user
 
 
 --
+-- Data for Name: oauth_client_states; Type: TABLE DATA; Schema: auth; Owner: supabase_auth_admin
+--
+
+COPY "auth"."oauth_client_states" ("id", "provider_type", "code_verifier", "created_at") FROM stdin;
+\.
+
+
+--
 -- Data for Name: oauth_consents; Type: TABLE DATA; Schema: auth; Owner: supabase_auth_admin
 --
 
@@ -1608,6 +1616,6 @@ SELECT pg_catalog.setval('"supabase_functions"."hooks_id_seq"', 180, true);
 -- PostgreSQL database dump complete
 --
 
--- \unrestrict oacFs8nB5D8iHHtIWrE2h3IExmBrlsyc9Ue2nsnNn9kjGZlgxN8rXOGLhw3Dc4v
+-- \unrestrict oOhXmT0eXJQ6hu9dvil0eavDlQxZO1GapyuIcKk7hQnl4hKXTdXtDKebSBIlgBf
 
 RESET ALL;
