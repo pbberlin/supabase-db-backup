@@ -4,7 +4,7 @@ SET session_replication_role = replica;
 -- PostgreSQL database dump
 --
 
--- \restrict YYLWVNj7UyilG6gS1IoXXBWziZdNH4zU6A974M7X6TKpbqndETXba0oKsd2um5B
+-- \restrict rZRllOS4dUTI02v4x5lehlRXBdJsj2kwGXn6ed14aMerWURBGLqcHJspwHnRZsa
 
 -- Dumped from database version 15.1 (Ubuntu 15.1-1.pgdg20.04+1)
 -- Dumped by pg_dump version 17.6
@@ -1089,6 +1089,14 @@ COPY "auth"."audit_log_entries" ("instance_id", "id", "payload", "created_at", "
 
 
 --
+-- Data for Name: custom_oauth_providers; Type: TABLE DATA; Schema: auth; Owner: supabase_auth_admin
+--
+
+COPY "auth"."custom_oauth_providers" ("id", "provider_type", "identifier", "name", "client_id", "client_secret", "acceptable_client_ids", "scopes", "pkce_enabled", "attribute_mapping", "authorization_params", "enabled", "email_optional", "issuer", "discovery_url", "skip_nonce_check", "cached_discovery", "discovery_cached_at", "authorization_url", "token_url", "userinfo_url", "jwks_uri", "created_at", "updated_at") FROM stdin;
+\.
+
+
+--
 -- Data for Name: flow_state; Type: TABLE DATA; Schema: auth; Owner: supabase_auth_admin
 --
 
@@ -1616,6 +1624,6 @@ SELECT pg_catalog.setval('"supabase_functions"."hooks_id_seq"', 180, true);
 -- PostgreSQL database dump complete
 --
 
--- \unrestrict YYLWVNj7UyilG6gS1IoXXBWziZdNH4zU6A974M7X6TKpbqndETXba0oKsd2um5B
+-- \unrestrict rZRllOS4dUTI02v4x5lehlRXBdJsj2kwGXn6ed14aMerWURBGLqcHJspwHnRZsa
 
 RESET ALL;
