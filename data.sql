@@ -4,7 +4,7 @@ SET session_replication_role = replica;
 -- PostgreSQL database dump
 --
 
--- \restrict GGlUIeEeY0xra266LytdbNZRAgX1TocKIpRuOhUGQe6HEJ5dGeQgFeD56IWIoo8
+-- \restrict 1eDxgRkm1Yk7FZhF47OwdhzidVVchtOa8lZWvwdTwi9nWNVhLKHshkjbWFNTnfA
 
 -- Dumped from database version 15.1 (Ubuntu 15.1-1.pgdg20.04+1)
 -- Dumped by pg_dump version 17.6
@@ -1640,6 +1640,6 @@ SELECT pg_catalog.setval('"supabase_functions"."hooks_id_seq"', 180, true);
 -- PostgreSQL database dump complete
 --
 
--- \unrestrict GGlUIeEeY0xra266LytdbNZRAgX1TocKIpRuOhUGQe6HEJ5dGeQgFeD56IWIoo8
+-- \unrestrict 1eDxgRkm1Yk7FZhF47OwdhzidVVchtOa8lZWvwdTwi9nWNVhLKHshkjbWFNTnfA
 
 RESET ALL;
